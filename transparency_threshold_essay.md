@@ -1,3 +1,9 @@
+---
+layout: default
+title: Transparency Threshold Essay
+permalink: /trasparency-treshold-essay/
+---
+
 # The Transparency Threshold
 ## Abstraction, Mediation, and the Limits of Fiction Engine Design
 
