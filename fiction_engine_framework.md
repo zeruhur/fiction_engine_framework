@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home - Fiction Engine
+---
+
 # Fiction Engine: A Design Framework for Tabletop RPGs
 
 *Version 1.0 — May 2026*
