@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saggi e Framework</title>
+    
+    <!-- 1. Framework CSS Classless (Water.css) -->
+    <link rel="stylesheet" href="https://jsdelivr.net">
+
+    <!-- 2. Google Fonts (Lora) -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- 3. Personalizzazione del Font -->
+    <style>
+        body, h1, h2, h3, h4 {
+            font-family: 'Lora', Georgia, serif !important;
+            line-height: 1.6;
+        }
+        nav { margin-bottom: 2rem; }
+        nav a { margin-right: 15px; cursor: pointer; text-decoration: none; }
+        nav a.active { font-weight: bold; text-decoration: underline; }
+    </style>
+
+    <!-- 4. Libreria Marked.js per convertire il Markdown nel browser -->
+    <script src="https://jsdelivr.net"></script>
+</head>
+<body>
+
+    <!-- Navbar Statica -->
+    <nav>
+        <a href="?page=home" id="link-home">Home</a>
+        <a href="?page=essay" id="link-essay">Transparency Threshold Essay</a>
+    </nav>
+
+    <!-- Il contenitore dove verrà iniettato il Markdown convertito -->
+    <main id="content">
+        <p>Caricamento in corso...</p>
+    </main>
+
+    <script>
+        // Mappa i parametri dell'URL ai tuoi file Markdown reali nel repository
+        const pages = {
+            'home': 'fiction_engine_framework.md',
+            'essay': 'trasparency_treshold_essay.md'
+        };
+
+        async function loadMarkdown() {
+            // Legge il parametro "?page=" dall'URL, di default va su "home"
+            const urlParams = new URLSearchParams(window.location.search);
+            const currentPage = urlParams.get('page') || 'home';
+            const fileName = pages[currentPage] || pages['home'];
+
+            // Gestione della classe .active nella navbar
+            document.getElementById('link-home').classList.toggle('active', currentPage === 'home');
+            document.getElementById('link-essay').classList.toggle('active', currentPage === 'essay');
+
+            try {
+                // Recupera il file Markdown grezzo
+                const response = await fetch(fileName);
+                if (!response.ok) throw new Error('File non trovato');
+                
+                let markdownText = await response.text();
+
+                // Opzionale: Rimuove l'eventuale blocco Front Matter (--- ... ---) se presente nei file
+                markdownText = markdownText.replace(/^---[\s\S]+?---/, '');
+
+                // Converte il Markdown in HTML e lo inserisce nella pagina
+                document.getElementById('content').innerHTML = marked.parse(markdownText);
+            } catch (error) {
+                document.getElementById('content').innerHTML = `<h1>Errore</h1><p>Impossibile caricare la pagina richiesto.</p>`;
+            }
+        }
+
+        // Esegue la funzione al caricamento della pagina
+        loadMarkdown();
+    </script>
+
+</body>
+</html>
