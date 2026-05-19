@@ -73,7 +73,7 @@ Do not change legitimate uses: "navigate" as literal travel, "journey" as physic
 | `[X] ensures that [positive outcome]` | Replace with how it actually works |
 | `[X] allows you to [vague empowerment]` | Replace with what the mechanic concretely does |
 
-| `--` (double hyphen) | Replace with a proper em-dash `—` throughout. |
+| `--` (double hyphen) | Evaluate every double hyphen as an em-dash. Where it joins two independent clauses, replace with a period or semicolon. Where it introduces an explanation or list, replace with a colon. Where it sets off a parenthetical aside — like this one — keep it. The test: could you remove the dashed phrase and still have a complete sentence on each side? If yes, consider a period or restructuring. |
 | `—` (em-dash as crutch connector) | Evaluate every em-dash. Where it joins two independent clauses, replace with a period or semicolon. Where it introduces an explanation or list, replace with a colon. Where it sets off a parenthetical aside — like this one — keep it. The test: could you remove the dashed phrase and still have a complete sentence on each side? If yes, consider a period or restructuring. |
 
 Do not touch em-dashes in dialogue to mark interruption ("I was just—") or in genuine parenthetical asides where no other punctuation would work as cleanly.

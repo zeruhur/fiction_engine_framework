@@ -1,80 +1,109 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saggi e Framework</title>
+    <title>Fiction Engine Framework</title>
     
-    <!-- 1. Framework CSS Classless (Water.css) -->
+    <!-- 1. Water.css loaded by cdnjs (avoids jsdelivr timing out) -->
     <link rel="stylesheet" href="https://jsdelivr.net">
 
-    <!-- 2. Google Fonts (Lora) -->
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- 2. Tufte ET-Book font loaded successfully with full CSS file path -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-et-book@0.0.2/et-book/et-book.min.css">
 
-    <!-- 3. Personalizzazione del Font -->
+    <!-- 3. CSS configuration to force ET-Book and refine the layout -->
     <style>
-        body, h1, h2, h3, h4 {
-            font-family: 'Lora', Georgia, serif !important;
-            line-height: 1.6;
+        /* Global rules applied to the body of the site */
+        body {
+            font-family: "et-book", Georgia, serif !important;
+            font-size: 19px;         /*Perfect editorial size for reading */
+            line-height: 1.7;        /*Eye-friendly line spacing */
+            color: #111;           /*Dark ink paper essay style */
+            max-width: 720px;        /*NARROW THE COLUMN: the text no longer runs across the page */
+            margin: 0 auto;          /*CENTER COLUMN on screen */
+            padding: 2rem 1rem;      /*Space from edges on mobile */
         }
-        nav { margin-bottom: 2rem; }
-        nav a { margin-right: 15px; cursor: pointer; text-decoration: none; }
-        nav a.active { font-weight: bold; text-decoration: underline; }
+
+        /* Force the size of the titles proportionate to the body */
+        h1 { font-size: 2.2rem; margin-top: 2rem; }
+        h2 { font-size: 1.6rem; margin-top: 1.8rem; }
+        h3 { font-size: 1.3rem; margin-top: 1.5rem; }
+
+        /* Navbar rules */
+        nav { 
+            margin-bottom: 3rem; 
+            padding-bottom: 1rem;
+            border-bottom: 1px dashed #ccc;
+        }
+        nav a { 
+            margin-right: 25px; 
+            cursor: pointer; 
+            text-decoration: none; 
+            font-style: italic; 
+            color: #333;
+        }
+        nav a:hover { 
+            text-decoration: underline; 
+            background: none; 
+        }
+        nav a.active { 
+            font-weight: bold; 
+            text-decoration: underline; 
+        }
     </style>
 
-    <!-- 4. Libreria Marked.js per convertire il Markdown nel browser -->
-    <script src="https://jsdelivr.net"></script>
+    <!-- 4. Marked.js library to cdnjs -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@18.0.4/lib/marked.umd.min.js"></script>
 </head>
 <body>
 
-    <!-- Navbar Statica -->
+    <!-- Navbar -->
     <nav>
         <a href="?page=home" id="link-home">Home</a>
-        <a href="?page=essay" id="link-essay">Transparency Threshold Essay</a>
+        <a href="?page=transparency-threshold" id="link-essay1">The Transparency Threshold</a>
+        <a href="?page=four-designs" id="link-essay2">Four Designs, One Framework</a>
+        <a href="?page=faction-fiction" id="link-essay3">The Faction and the Fiction</a>
     </nav>
 
-    <!-- Il contenitore dove verrà iniettato il Markdown convertito -->
+    <!-- Text container -->
     <main id="content">
-        <p>Caricamento in corso...</p>
+        <p>Loading...</p>
     </main>
 
     <script>
-        // Mappa i parametri dell'URL ai tuoi file Markdown reali nel repository
         const pages = {
             'home': 'fiction_engine_framework.md',
-            'essay': 'trasparency_treshold_essay.md'
+            'transparency-threshold': 'transparency_threshold_essay.md',
+            'four-designs': 'four_designs_one_framework.md',
+            'faction-fiction': 'faction_and_fiction_essay.md'
         };
 
         async function loadMarkdown() {
-            // Legge il parametro "?page=" dall'URL, di default va su "home"
             const urlParams = new URLSearchParams(window.location.search);
             const currentPage = urlParams.get('page') || 'home';
             const fileName = pages[currentPage] || pages['home'];
 
-            // Gestione della classe .active nella navbar
             document.getElementById('link-home').classList.toggle('active', currentPage === 'home');
-            document.getElementById('link-essay').classList.toggle('active', currentPage === 'essay');
+            document.getElementById('link-essay1').classList.toggle('active', currentPage === 'transparency-threshold');
+            document.getElementById('link-essay2').classList.toggle('active', currentPage === 'four-designs');
+            document.getElementById('link-essay3').classList.toggle('active', currentPage === 'faction-fiction');
 
             try {
-                // Recupera il file Markdown grezzo
                 const response = await fetch(fileName);
-                if (!response.ok) throw new Error('File non trovato');
+                if (!response.ok) throw new Error('File not found');
                 
                 let markdownText = await response.text();
 
-                // Opzionale: Rimuove l'eventuale blocco Front Matter (--- ... ---) se presente nei file
+                // Removes Front Matter if left in .md files
                 markdownText = markdownText.replace(/^---[\s\S]+?---/, '');
 
-                // Converte il Markdown in HTML e lo inserisce nella pagina
+                // Convert and inject the HTML
                 document.getElementById('content').innerHTML = marked.parse(markdownText);
             } catch (error) {
-                document.getElementById('content').innerHTML = `<h1>Errore</h1><p>Impossibile caricare la pagina richiesto.</p>`;
+                document.getElementById('content').innerHTML = `<h1>Error</h1><p>Unable to load the requested essay.</p>`;
             }
         }
 
-        // Esegue la funzione al caricamento della pagina
         loadMarkdown();
     </script>
 
