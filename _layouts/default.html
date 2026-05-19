@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
-    <!-- Tufte CSS Core -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css" crossorigin="anonymous">
+    
+    <!-- 1. Carica il Framework Classless (Sakura CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com" type="text/css">
+
+    <!-- 2. Importa il font preferito da Google Fonts (Es. Lora) -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- 3. Applica il font a tutto il sito -->
     <style>
-        @media screen and (min-width: 760px) {
-            article p, article ul, article ol, article blockquote {
-                width: 55% !important;
-            }
+        body, h1, h2, h3, h4, input, textarea {
+            font-family: 'Lora', Georgia, serif !important;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
-    <article>
-        <!-- Questo inserisce il contenuto convertito dal Markdown -->
+
+    <!-- Una Navbar standard viene riconosciuta e formattata in automatico -->
+    <nav>
+        <a href="{{ '/' | relative_url }}">Home</a> | 
+        <a href="{{ '/trasparency-treshold-essay/' | relative_url }}">Transparency Threshold Essay</a>
+    </nav>
+
+    <main>
         {{ content }}
-    </article>
+    </main>
+
 </body>
 </html>
