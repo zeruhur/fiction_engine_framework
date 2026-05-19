@@ -6,6 +6,13 @@
     <title>{{ page.title | default: site.title }}</title>
     <!-- Tufte CSS Core -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css" crossorigin="anonymous">
+    <style>
+        @media screen and (min-width: 760px) {
+            article p, article ul, article ol, article blockquote {
+                width: 55% !important;
+            }
+        }
+    </style>
 </head>
 <body>
     <article>
