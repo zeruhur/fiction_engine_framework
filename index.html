@@ -4,108 +4,527 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiction Engine Framework</title>
-    
-    <!-- 1. Water.css loaded by cdnjs (avoids jsdelivr timing out) -->
-    <link rel="stylesheet" href="https://jsdelivr.net">
 
-    <!-- 2. Tufte ET-Book font loaded successfully with full CSS file path -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-et-book@0.0.2/et-book/et-book.min.css">
 
-    <!-- 3. CSS configuration to force ET-Book and refine the layout -->
     <style>
-        /* Global rules applied to the body of the site */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --paper:      #f4f0e6;
+            --ink:        #1a1714;
+            --ink-mid:    #4a4540;
+            --ink-soft:   #7a7268;
+            --rule:       #ccc4b4;
+            --accent:     #7a5c3a;
+            --accent-lt:  #c4a87a;
+            --max-w:      720px;
+            --pad:        2rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --paper:     #1c1714;
+                --ink:       #e8e0d0;
+                --ink-mid:   #b0a898;
+                --ink-soft:  #7a7268;
+                --rule:      #3a3530;
+                --accent:    #c4a87a;
+                --accent-lt: #7a5c3a;
+            }
+        }
+
+        html { font-size: 18px; scroll-behavior: smooth; }
+
         body {
-            font-family: "et-book", Georgia, serif !important;
-            font-size: 19px;         /*Perfect editorial size for reading */
-            line-height: 1.7;        /*Eye-friendly line spacing */
-            color: #111;           /*Dark ink paper essay style */
-            max-width: 720px;        /*NARROW THE COLUMN: the text no longer runs across the page */
-            margin: 0 auto;          /*CENTER COLUMN on screen */
-            padding: 2rem 1rem;      /*Space from edges on mobile */
+            font-family: "et-book", Georgia, "Times New Roman", serif;
+            background: var(--paper);
+            color: var(--ink);
+            line-height: 1.72;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
         }
 
-        /* Force the size of the titles proportionate to the body */
-        h1 { font-size: 2.2rem; margin-top: 2rem; }
-        h2 { font-size: 1.6rem; margin-top: 1.8rem; }
-        h3 { font-size: 1.3rem; margin-top: 1.5rem; }
+        /* ── SITE HEADER ─────────────────────────────── */
+        .site-header {
+            border-bottom: 1px solid var(--rule);
+            background: var(--paper);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
 
-        /* Navbar rules */
-        nav { 
-            margin-bottom: 3rem; 
-            padding-bottom: 1rem;
-            border-bottom: 1px dashed #ccc;
+        .site-header-inner {
+            max-width: var(--max-w);
+            margin: 0 auto;
+            padding: 0.9rem var(--pad);
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
         }
-        nav a { 
-            margin-right: 25px; 
-            cursor: pointer; 
-            text-decoration: none; 
-            font-style: italic; 
-            color: #333;
+
+        .site-name {
+            font-size: 0.78rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--ink-mid);
+            text-decoration: none;
+            transition: color 0.15s;
+            white-space: nowrap;
         }
-        nav a:hover { 
-            text-decoration: underline; 
-            background: none; 
+        .site-name:hover { color: var(--ink); }
+
+        .back-link {
+            font-size: 0.85rem;
+            color: var(--ink-soft);
+            text-decoration: none;
+            font-style: italic;
+            transition: color 0.15s;
+            white-space: nowrap;
         }
-        nav a.active { 
-            font-weight: bold; 
-            text-decoration: underline; 
+        .back-link:hover { color: var(--ink); }
+
+        /* ── INDEX PAGE ──────────────────────────────── */
+        .index-wrap {
+            max-width: var(--max-w);
+            margin: 0 auto;
+            padding: 0 var(--pad) 5rem;
+            animation: fadeUp 0.4s ease both;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to   { opacity: 1; transform: translateY(0);   }
+        }
+
+        .masthead {
+            padding: 3.5rem 0 2.8rem;
+            border-bottom: 2px solid var(--ink);
+            margin-bottom: 0;
+        }
+
+        .masthead h1 {
+            font-size: 2.8rem;
+            line-height: 1.1;
+            font-weight: normal;
+            letter-spacing: -0.01em;
+        }
+
+        .masthead .meta {
+            margin-top: 0.55rem;
+            font-size: 0.88rem;
+            color: var(--ink-soft);
+            font-style: italic;
+        }
+
+        .masthead .intro {
+            margin-top: 1.4rem;
+            font-size: 1rem;
+            color: var(--ink-mid);
+            line-height: 1.68;
+            max-width: 530px;
+        }
+
+        /* Arc section headers */
+        .arc-label {
+            display: flex;
+            align-items: center;
+            gap: 0.9rem;
+            margin-top: 3rem;
+            margin-bottom: 0;
+        }
+
+        .arc-label-text {
+            font-size: 0.72rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--accent);
+            white-space: nowrap;
+        }
+
+        .arc-label-rule {
+            flex: 1;
+            height: 1px;
+            background: var(--rule);
+        }
+
+        /* Essay entries */
+        .essay-entry {
+            display: flex;
+            gap: 1.1rem;
+            padding: 1.6rem 0;
+            border-bottom: 1px solid var(--rule);
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.12s;
+            position: relative;
+        }
+
+        .essay-entry::before {
+            content: '';
+            position: absolute;
+            left: -var(--pad);
+            top: 0;
+            bottom: 0;
+            width: 0;
+            background: var(--accent);
+            transition: width 0.15s ease;
+        }
+
+        .essay-entry:hover .entry-title {
+            color: var(--accent);
+        }
+
+        .entry-num {
+            font-size: 0.75rem;
+            color: var(--accent-lt);
+            letter-spacing: 0.06em;
+            padding-top: 0.32rem;
+            min-width: 2.2rem;
+            font-style: normal;
+            line-height: 1;
+        }
+
+        .entry-body { flex: 1; }
+
+        .entry-title {
+            font-size: 1.22rem;
+            line-height: 1.28;
+            font-weight: normal;
+            transition: color 0.15s;
+        }
+
+        .entry-subtitle {
+            font-size: 0.88rem;
+            color: var(--ink-soft);
+            font-style: italic;
+            margin-top: 0.18rem;
+            line-height: 1.45;
+        }
+
+        .entry-desc {
+            font-size: 0.87rem;
+            color: var(--ink-mid);
+            margin-top: 0.55rem;
+            line-height: 1.58;
+        }
+
+        /* ── ESSAY PAGE ──────────────────────────────── */
+        .essay-wrap {
+            max-width: var(--max-w);
+            margin: 0 auto;
+            padding: 2.8rem var(--pad) 5rem;
+            animation: fadeUp 0.35s ease both;
+        }
+
+        .essay-wrap h1 {
+            font-size: 2.2rem;
+            line-height: 1.18;
+            font-weight: normal;
+            letter-spacing: -0.01em;
+            margin-bottom: 0.3rem;
+        }
+
+        .essay-wrap h2 {
+            font-size: 1.32rem;
+            font-weight: normal;
+            margin-top: 2.4rem;
+            margin-bottom: 0.7rem;
+            line-height: 1.3;
+        }
+
+        .essay-wrap h3 {
+            font-size: 1.08rem;
+            font-weight: normal;
+            font-style: italic;
+            margin-top: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .essay-wrap p {
+            margin-bottom: 1.05rem;
+        }
+
+        .essay-wrap p em {
+            font-style: italic;
+        }
+
+        .essay-wrap strong {
+            font-weight: bold;
+        }
+
+        .essay-wrap ul, .essay-wrap ol {
+            margin: 0.2rem 0 1.1rem 1.6rem;
+        }
+
+        .essay-wrap li { margin-bottom: 0.28rem; }
+
+        .essay-wrap blockquote {
+            border-left: 2px solid var(--accent-lt);
+            padding-left: 1.2rem;
+            color: var(--ink-mid);
+            margin: 1.6rem 0;
+            font-style: italic;
+        }
+
+        .essay-wrap hr {
+            border: none;
+            border-top: 1px solid var(--rule);
+            margin: 2.6rem 0;
+        }
+
+        /* Essay nav footer */
+        .essay-footer {
+            margin-top: 4rem;
+            padding-top: 1.4rem;
+            border-top: 1px solid var(--rule);
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
+            font-size: 0.87rem;
+            color: var(--ink-soft);
+        }
+
+        .essay-footer a {
+            color: var(--ink-soft);
+            text-decoration: none;
+            font-style: italic;
+            transition: color 0.15s;
+            line-height: 1.4;
+        }
+        .essay-footer a:hover { color: var(--accent); }
+
+        .footer-prev { text-align: left;  flex: 1; }
+        .footer-next { text-align: right; flex: 1; }
+
+        /* Series tag on essays */
+        .essay-series-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1.4rem;
+        }
+
+        /* ── STATES ──────────────────────────────────── */
+        .loading-msg {
+            color: var(--ink-soft);
+            font-style: italic;
+            padding: 3rem 0;
+        }
+
+        /* ── RESPONSIVE ──────────────────────────────── */
+        @media (max-width: 560px) {
+            html { font-size: 16px; }
+            :root { --pad: 1.2rem; }
+            .masthead h1 { font-size: 2.1rem; }
+            .essay-wrap h1 { font-size: 1.85rem; }
+            .entry-num { display: none; }
         }
     </style>
 
-    <!-- 4. Marked.js library to cdnjs -->
     <script src="https://cdn.jsdelivr.net/npm/marked@18.0.4/lib/marked.umd.min.js"></script>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav>
-        <a href="?page=home" id="link-home">Home</a>
-        <a href="?page=transparency-threshold" id="link-essay1">The Transparency Threshold</a>
-        <a href="?page=four-designs" id="link-essay2">Four Designs, One Framework</a>
-        <a href="?page=faction-fiction" id="link-essay3">The Faction and the Fiction</a>
-    </nav>
+<header class="site-header">
+    <div class="site-header-inner">
+        <a href="?" class="site-name">Fiction Engine Framework</a>
+        <span id="back-slot"></span>
+    </div>
+</header>
 
-    <!-- Text container -->
-    <main id="content">
-        <p>Loading...</p>
-    </main>
+<div id="root"></div>
 
-    <script>
-        const pages = {
-            'home': 'fiction_engine_framework.md',
-            'transparency-threshold': 'transparency_threshold_essay.md',
-            'four-designs': 'four_designs_one_framework.md',
-            'faction-fiction': 'faction_and_fiction_essay.md'
-        };
+<script>
+const ESSAYS = [
+    {
+        id: 'framework',
+        file: 'fiction_engine_framework.md',
+        title: 'Fiction Engine',
+        subtitle: 'A Design Framework for Tabletop RPGs',
+        desc: 'The core document. Defines the paradigm, its structural commitments, failure modes, and design criteria.',
+        num: '—',
+        arc: null
+    },
+    {
+        id: 'transparency-threshold',
+        file: 'transparency_threshold_essay.md',
+        title: 'The Transparency Threshold',
+        subtitle: 'Abstraction, Mediation, and the Limits of Fiction Engine Design',
+        desc: 'Where fiction engine design reaches its edges — and what kinds of abstraction threaten or preserve the fiction.',
+        num: '01',
+        arc: 'analysis'
+    },
+    {
+        id: 'four-designs',
+        file: 'four_designs_one_framework.md',
+        title: 'Four Designs, One Framework',
+        subtitle: 'Applying the Fiction Engine Analysis in Practice',
+        desc: 'Applies the framework as an evaluative lens across four real game designs with different structural choices.',
+        num: '02',
+        arc: 'analysis'
+    },
+    {
+        id: 'faction-fiction',
+        file: 'faction_and_fiction_essay.md',
+        title: 'The Faction and the Fiction',
+        subtitle: 'What Open Strategy Games Reveal at the Fiction Engine\'s Edge',
+        desc: 'Uses faction and open-table play to test where the fiction engine\'s commitments hold and where they strain.',
+        num: '03',
+        arc: 'analysis'
+    },
+    {
+        id: 'fiction-memory',
+        file: 'fiction_and_memory.md',
+        title: 'Fiction and Memory',
+        subtitle: 'The Structural Difference Between Accumulation and Reset',
+        desc: 'Foundation essay for the systems arc. Examines how fiction accumulates or resets across time and what that implies for design.',
+        num: '04',
+        arc: 'systems'
+    },
+    {
+        id: 'emergence-condition',
+        file: 'emergence_condition.md',
+        title: 'The Emergence Condition',
+        subtitle: 'Why Thin Mediation Enables What Thick Procedure Suppresses',
+        desc: 'Argues that the fiction engine\'s structural thinness is the condition for emergence, not a concession to it.',
+        num: '05',
+        arc: 'systems'
+    },
+    {
+        id: 'threshold-trajectory',
+        file: 'threshold_trajectory.md',
+        title: 'The Threshold as Trajectory',
+        subtitle: 'Designing a System That Changes Its Own Properties Through Use',
+        desc: 'Application essay. Asks what it means for a game system to evolve through play itself.',
+        num: '06',
+        arc: 'systems'
+    },
+    {
+        id: 'properties-behaviors',
+        file: 'properties_behaviors.md',
+        title: 'Properties and Behaviors',
+        subtitle: 'What the Fiction Engine Framework Gets Right, and What It Can\'t Say',
+        desc: 'A self-critical examination of the framework\'s explanatory limits — what it captures and what escapes it.',
+        num: '07',
+        arc: 'systems'
+    }
+];
 
-        async function loadMarkdown() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const currentPage = urlParams.get('page') || 'home';
-            const fileName = pages[currentPage] || pages['home'];
+const ARC_LABELS = {
+    analysis: 'Analysis Arc',
+    systems:  'Systems Thinking Arc'
+};
 
-            document.getElementById('link-home').classList.toggle('active', currentPage === 'home');
-            document.getElementById('link-essay1').classList.toggle('active', currentPage === 'transparency-threshold');
-            document.getElementById('link-essay2').classList.toggle('active', currentPage === 'four-designs');
-            document.getElementById('link-essay3').classList.toggle('active', currentPage === 'faction-fiction');
+function byId(id)    { return ESSAYS.find(e => e.id === id) || ESSAYS[0]; }
+function indexOf(id) { return ESSAYS.findIndex(e => e.id === id); }
 
-            try {
-                const response = await fetch(fileName);
-                if (!response.ok) throw new Error('File not found');
-                
-                let markdownText = await response.text();
+// ── INDEX ───────────────────────────────────────────
+function renderIndex() {
+    document.title = 'Fiction Engine Framework';
+    document.getElementById('back-slot').innerHTML = '';
 
-                // Removes Front Matter if left in .md files
-                markdownText = markdownText.replace(/^---[\s\S]+?---/, '');
+    const foundation = ESSAYS.filter(e => !e.arc);
+    const analysis   = ESSAYS.filter(e => e.arc === 'analysis');
+    const systems    = ESSAYS.filter(e => e.arc === 'systems');
 
-                // Convert and inject the HTML
-                document.getElementById('content').innerHTML = marked.parse(markdownText);
-            } catch (error) {
-                document.getElementById('content').innerHTML = `<h1>Error</h1><p>Unable to load the requested essay.</p>`;
-            }
-        }
+    function entryHTML(e) {
+        return `<a class="essay-entry" href="?page=${e.id}">
+            <span class="entry-num">${e.num}</span>
+            <div class="entry-body">
+                <div class="entry-title">${e.title}</div>
+                <div class="entry-subtitle">${e.subtitle}</div>
+                <div class="entry-desc">${e.desc}</div>
+            </div>
+        </a>`;
+    }
 
-        loadMarkdown();
-    </script>
+    function arcSection(label, items) {
+        return `<div class="arc-label">
+            <span class="arc-label-text">${label}</span>
+            <span class="arc-label-rule"></span>
+        </div>
+        ${items.map(entryHTML).join('')}`;
+    }
+
+    document.getElementById('root').innerHTML = `
+        <div class="index-wrap">
+            <div class="masthead">
+                <h1>Fiction Engine<br>Framework</h1>
+                <p class="meta">Version 1.0 &middot; May 2026</p>
+                <p class="intro">A design framework for tabletop RPGs treating play as a system for producing, sustaining, and transforming fiction with minimal friction. One framework document and seven companion essays.</p>
+            </div>
+
+            ${arcSection('Foundation', foundation)}
+            ${arcSection(ARC_LABELS.analysis, analysis)}
+            ${arcSection(ARC_LABELS.systems, systems)}
+        </div>`;
+}
+
+// ── ESSAY ────────────────────────────────────────────
+async function renderEssay(id) {
+    const essay = byId(id);
+    const idx   = indexOf(id);
+    const prev  = idx > 0              ? ESSAYS[idx - 1] : null;
+    const next  = idx < ESSAYS.length - 1 ? ESSAYS[idx + 1] : null;
+
+    document.title = `${essay.title} — Fiction Engine Framework`;
+    document.getElementById('back-slot').innerHTML =
+        `<a href="?" class="back-link">&#8592; All essays</a>`;
+
+    document.getElementById('root').innerHTML =
+        `<div class="essay-wrap"><p class="loading-msg">Loading&hellip;</p></div>`;
+
+    try {
+        const res = await fetch(essay.file);
+        if (!res.ok) throw new Error('not found');
+        let md = await res.text();
+        md = md.replace(/^---[\s\S]+?---/, '');
+
+        const arcTag = essay.arc
+            ? `<span class="essay-series-tag">${ARC_LABELS[essay.arc]}</span>`
+            : '';
+
+        const footerPrev = prev
+            ? `<a class="footer-prev" href="?page=${prev.id}">&#8592; ${prev.title}</a>`
+            : `<a class="footer-prev" href="?">&#8592; All essays</a>`;
+
+        const footerNext = next
+            ? `<a class="footer-next" href="?page=${next.id}">${next.title} &#8594;</a>`
+            : `<span class="footer-next"></span>`;
+
+        document.getElementById('root').innerHTML = `
+            <div class="essay-wrap">
+                ${arcTag}
+                ${marked.parse(md)}
+                <div class="essay-footer">
+                    ${footerPrev}
+                    ${footerNext}
+                </div>
+            </div>`;
+    } catch {
+        document.getElementById('root').innerHTML = `
+            <div class="essay-wrap">
+                <h2>Essay not found</h2>
+                <p>Unable to load the requested file.</p>
+            </div>`;
+    }
+}
+
+// ── ROUTER ───────────────────────────────────────────
+function route() {
+    const page = new URLSearchParams(window.location.search).get('page');
+    if (!page || page === 'home') renderIndex();
+    else renderEssay(page);
+}
+
+window.addEventListener('popstate', route);
+route();
+</script>
 
 </body>
 </html>
