@@ -1,7 +1,7 @@
 brand: _brand.yml
 
 filters:
-  - gfm-callout.lua
+  - _extensions/gfm-callout.lua
 
 format:
   typst:
