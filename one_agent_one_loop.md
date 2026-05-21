@@ -1,16 +1,12 @@
 # One Agent, One Loop
+
+_This essay is part of the Fiction Engine companion essay series, following the systems thinking arc: "Fiction and Memory," "The Emergence Condition," "The Threshold as Trajectory," and "Properties and Behaviors." It is also a companion to "Fiction Engine: A Design Framework for Tabletop RPGs" (v1.0, May 2026)._
+
 ## The Solo Fiction Engine as a Distinct Design Problem
-
-*Part of the Fiction Engine companion essay series.*
-*This essay builds on the systems thinking arc — "Fiction and Memory," "The Emergence Condition," and "The Threshold as Trajectory" — and on the transparency threshold essay. It is also readable as a standalone piece following the framework.*
-
----
 
 The solo dimension has appeared three times in this series without becoming its subject. The transparency threshold essay noted that the threshold is effectively lower for solo design because no facilitation distribution is available. The four-designs essay observed that three of its four designs are solo-capable and that Breathless's tracking load carries different costs in solo play than its group context suggests. The systems thinking arc established the feedback loop conditions that emergent fiction requires and noted, without developing the point, that those conditions change when there is only one player.
 
 What has been deferred is this: solo fiction engine design is not group fiction engine design with one player. The structural conditions are different, not diminished. The feedback network has a different shape. The internalization problem has a different character. The contribution of accumulated fiction has a different source. Each of these differences produces specific design decisions that a theory of group fiction engine design cannot fully anticipate. This essay makes those differences precise.
-
----
 
 ## The Subtraction Error
 
@@ -25,8 +21,6 @@ In solo play, there is one agent. The loop cannot close between agents because n
 The oracle is what changes this. Not as a convenience for replacing the referee, not as a yes/no generator for resolving uncertainty, but as the structural mechanism that introduces outputs the solo player did not generate. It is the second agent in the feedback loop.
 
 Without an oracle, or something functionally equivalent, solo fiction engine design does not have the conditions for emergent play. The player is only ever responding to themselves.
-
----
 
 ## The Oracle as Second Agent
 
@@ -46,8 +40,6 @@ This is the Traceable criterion from the RAT checklist applied to oracle design 
 
 The practical implication for design: oracle systems that produce fictional events are building more useful material than oracle systems that produce binary answers. An oracle that outputs "yes, but the contact has already left the city" is introducing an independent fictional fact with consequences already present in the answer. The player did not generate that fact, and it connects to the accumulated fiction (there is a contact; the city has an established geography; timing exists in the fiction). An oracle that outputs "yes" and leaves the player to generate the complication has resolved the uncertainty while leaving the generation of independent material to the player. Both can work. The first is doing more of the second-agent work.
 
----
-
 ## The Internalization Problem Without Assistance
 
 Essay 3 established that the transparency threshold is player-variable: the same design can sit above or below it depending on who is playing and how long they have been playing it. Internalization is the mechanism that moves a design from one position to the other over time, and internalization requires repetition.
@@ -59,8 +51,6 @@ In solo play, every procedural step is the solo player's sole responsibility. Th
 This produces a specific design priority. Solo designs should front-load fast-internalizing rules: rules tightly coupled to actions the player is already performing, where the mechanical action and the fictional event are the same action or close to it. The 24XX defense mechanic internalizes quickly in solo play for the same reason it internalizes quickly in group play — the player practices it every time a hit occurs, which is throughout play — but the advantage is more significant in solo play because there is no alternative source of procedural support. Rules that require a separate classification step before the fiction can advance, or that activate rarely enough that the player never builds habitual responses to them, remain foregrounded longer in solo play than they would in group play.
 
 Breathless is the case where this cost is most consequential, precisely because the majority of its derivatives are solo designs. The die degradation and reset mechanics internalize quickly: they are coupled to resolution, which is constant, and the reset declaration is a single clear action with an immediate fictional consequence. These elements are as solo-appropriate as any in this design neighborhood. The stress track is the element that does not have this property. It imposes an ongoing tracking obligation separate from the resolution action, and it stays somewhat foregrounded by design — the pressure engine experience depends on the player being aware of the stress count, which means the tracking is not supposed to recede into background infrastructure. That design choice carries a different cost for a solo player learning alone than it does for a group player with facilitation available. It does not make Breathless wrong as a source for solo adaptation. It makes the stress track the element most worth reconsidering, and most worth reconsidering first, when adapting toward a lower-threshold stable state.
-
----
 
 ## Accumulated Fiction with One Generative Agent
 
@@ -74,8 +64,6 @@ The design implication is direct. Solo fiction engines should be built to maximi
 
 This is a different design priority than oracle quality as the framework defines it. The framework's criterion — does the oracle output read as a fictional event rather than a prompt? — addresses what the output does to the moment of play. The accumulated state criterion addresses what the output does to the fiction over time. Both matter. The second is the one solo design specifically needs to build toward.
 
----
-
 ## The Distinct Design Problem
 
 The three structural differences named above — the feedback loop with one agent, the internalization curve without assistance, the accumulated fiction with one generative source — produce a specific design profile for solo fiction engines. Stated plainly:
@@ -88,8 +76,6 @@ A solo fiction engine requires oracles designed to generate accumulated fictiona
 
 None of these is a revision of the fiction engine paradigm's core commitments. All three follow directly from applying the systems thinking arc's arguments to the structural conditions solo play creates. The feedback loop argument explains why the oracle is load-bearing. The internalization argument explains why the entry threshold must be lower. The accumulated state argument explains why oracle generativity is more important than the framework's existing oracle guidance addresses.
 
----
-
 ## What This Means for How the Oracle Is Positioned
 
 The teaching implication from essay 3 was that a game introduced through its fiction — here is the situation, here is what your character might attempt, here is what happened — reaches its stable state faster than one introduced through its resolution procedure. The fiction is where the stable state lives; beginning there establishes the attentional habits the stable state requires.
@@ -99,8 +85,6 @@ In solo play, the fiction is where the oracle is. The oracle is not a procedural
 This suggests that a solo fiction engine introduced through its oracle — here is the situation, here is what you might ask, here is how the fiction responds — reaches its stable state faster than one introduced through its resolution mechanics. The resolution mechanics are infrastructure. The oracle is where the fiction lives in solo play. It should be where the design begins, both in the design document and at the table.
 
 There is a practical consequence for how oracle systems are presented in solo designs. Many solo games present the oracle as one component among several: rules for resolution, rules for advancement, an oracle section, tables for scene generation. This organization treats the oracle as equivalent in weight to the other components. The structural argument suggests a different organization: the oracle is the primary mechanism, the one around which the other components are oriented, because it is the structural source of the conditions the paradigm requires. A designer who understands this can build toward it explicitly — can make the oracle the first thing the player encounters, the thing the design teaches before it teaches anything else.
-
----
 
 ## The Solo Fiction Engine as Its Own Object
 
@@ -115,7 +99,3 @@ Each of these is a design decision, and each requires knowing what it is for. A 
 The fiction engine framework offers a test for every rule: does this rule produce a new fictional state, support the conditions for fictional play, or generate dead overhead? In solo design, the oracle test is a version of this question applied to the mechanism that makes the paradigm's conditions possible for one player. Does this oracle produce independent fictional content that accumulates into the causal tissue? Does it close the feedback loop over material the player did not generate? Does it do this reliably enough to sustain the conditions for emergent play across a session, across sessions, across the arc of a campaign?
 
 A solo oracle that passes those tests is doing what a second agent does. A solo fiction engine built around such an oracle is building the conditions the paradigm requires, under the structural conditions solo play creates. That is the design problem precisely stated. The rest is design.
-
----
-
-*Roberto Bisceglie writes and designs for Zotiquest Games. This essay is part of the Fiction Engine companion essay series, following the systems thinking arc: "Fiction and Memory," "The Emergence Condition," "The Threshold as Trajectory," and "Properties and Behaviors." It is also a companion to "Fiction Engine: A Design Framework for Tabletop RPGs" (v1.0, May 2026).*
