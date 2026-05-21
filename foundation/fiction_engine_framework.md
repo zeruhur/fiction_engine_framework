@@ -180,4 +180,6 @@ A game moves away from this framework when players spend more time talking about
 
 The fiction engine paradigm rests on a single bet: that a system transparent enough to disappear into the fiction produces better play — for the specific aims this paradigm serves — than one that makes its own operation the object of attention. This does not mean that other paradigms are wrong. Some games intentionally foreground procedure because procedure itself creates tension, ritual, thematic pressure, or strategic identity. That is a coherent design choice, and it produces experiences a fiction engine is not designed to produce. Different designs are optimized for different things, and knowing what your design is optimized for is more useful than claiming universality.
 
+The framework is most useful when it clarifies tradeoffs, and least useful when it becomes a badge of identity. Its purpose is to clarify tradeoffs, not to certify purity.
+
 A fiction engine is not an argument that stories can be mechanically controlled. It is a design approach in which the system is light enough, responsive enough, and fiction-facing enough that the story appears to emerge through play rather than being processed through procedure. The rules are infrastructure. The fiction is the point.
