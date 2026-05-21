@@ -26,6 +26,18 @@ version: "1.0"
 
 {{< include system_thinking/one_agent_one_loop.md >}}
 
+{{< include limits/essay_limits_framing.md >}}
+
+{{< include limits/limits_essay1_powerlessness.md >}}
+
+{{< include limits/limits_essay2_the_fixed_answer.md >}}
+
+{{< include limits/limits_essay3_weight_of_system.md >}}
+
+{{< include limits/limits_essay4_above_the_situation.md >}}
+
+{{< include limits/limits_essay5_building_into_nothing.md >}}
+
 # Appendix {.unnumbered}
 
 {{< include foundation/fiction_engine_framework.md >}}

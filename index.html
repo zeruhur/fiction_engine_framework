@@ -471,6 +471,60 @@ const ESSAYS = [
         arc: 'systems'
     },
     {
+        id: 'limits-framing',
+        file: 'limits/essay_limits_framing.md',
+        title: 'What the Engine Is For',
+        subtitle: 'On the Limits of the Fiction Engine Paradigm',
+        desc: 'Opens the limits sub-series. Names the structural logic of the fiction engine and identifies the experiences it reshapes or forecloses.',
+        num: '—',
+        arc: 'limits'
+    },
+    {
+        id: 'limits-powerlessness',
+        file: 'limits/limits_essay1_powerlessness.md',
+        title: 'Powerlessness',
+        subtitle: 'The Experience the Engine Cannot Produce',
+        desc: 'Examines why the fiction engine cannot produce dread — the sensation of narrowing agency — even when running horror content.',
+        num: '09',
+        arc: 'limits'
+    },
+    {
+        id: 'limits-fixed-answer',
+        file: 'limits/limits_essay2_the_fixed_answer.md',
+        title: 'The Fixed Answer',
+        subtitle: 'Convergence, Closure, and What Mystery Requires',
+        desc: 'Examines why the fiction engine cannot produce mystery\'s epistemic structure: convergence toward an answer that exists independently of play.',
+        num: '10',
+        arc: 'limits'
+    },
+    {
+        id: 'limits-weight-system',
+        file: 'limits/limits_essay3_weight_of_system.md',
+        title: 'The Weight of the System',
+        subtitle: 'When Procedure Is the Experience',
+        desc: 'Examines why a fiction engine that succeeds at its own goal makes procedural tension structurally impossible.',
+        num: '11',
+        arc: 'limits'
+    },
+    {
+        id: 'limits-above-situation',
+        file: 'limits/limits_essay4_above_the_situation.md',
+        title: 'Above the Situation',
+        subtitle: 'What Strategic Depth Requires and Why the Engine Refuses It',
+        desc: 'Examines why strategic depth requires a positional relationship to the fiction that the fiction engine structurally refuses.',
+        num: '12',
+        arc: 'limits'
+    },
+    {
+        id: 'limits-building-nothing',
+        file: 'limits/limits_essay5_building_into_nothing.md',
+        title: 'Building Into Nothing',
+        subtitle: 'Character Construction and the Object Thin Procedure Dissolves',
+        desc: 'Examines why the fiction engine dissolves character-as-system, the structural object that character construction as a primary engagement requires.',
+        num: '13',
+        arc: 'limits'
+    },
+    {
         id: 'glossary',
         file: 'foundation/glossary.md',
         title: 'Glossary',
@@ -485,6 +539,7 @@ const ARC_LABELS = {
     analysis:    'Analysis Arc',
     comparative: 'Comparative',
     systems:     'Systems Thinking Arc',
+    limits:      'Limits Arc',
     appendix:    'Appendix'
 };
 
@@ -500,6 +555,7 @@ function renderIndex() {
     const analysis     = ESSAYS.filter(e => e.arc === 'analysis');
     const comparative  = ESSAYS.filter(e => e.arc === 'comparative');
     const systems      = ESSAYS.filter(e => e.arc === 'systems');
+    const limits       = ESSAYS.filter(e => e.arc === 'limits');
     const appendix     = ESSAYS.filter(e => e.arc === 'appendix');
 
     function entryHTML(e) {
@@ -539,6 +595,7 @@ function renderIndex() {
             ${arcSection(ARC_LABELS.analysis, analysis)}
             ${arcSection(ARC_LABELS.comparative, comparative)}
             ${arcSection(ARC_LABELS.systems, systems)}
+            ${arcSection(ARC_LABELS.limits, limits)}
             ${arcSection(ARC_LABELS.appendix, appendix)}
         </div>`;
 }
