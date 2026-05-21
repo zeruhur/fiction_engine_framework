@@ -9,19 +9,10 @@ format:
     toc-depth: 2
     number-sections: false
     fontsize: 11pt
-    # Remove the margin and papersize settings since your template handles this
-    # margin:
-    #   x: 1.5in
-    #   top: 1.2in
-    #   bottom: 1in
-    # papersize: us-trade
     tbl-colwidths: auto
-    
-    # Use include-in-header to inject your custom template
+    template: _extensions/typst-template.typ
     template-partials:
       - _extensions/typst-show.typ
-    include-in-header:
-      - _extensions/typst-template.typ
 
   odt:
     toc: true
