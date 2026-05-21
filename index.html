@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiction Engine Framework</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-et-book@0.0.2/et-book/et-book.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@500;600;700;900&display=swap">
 
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -24,20 +26,20 @@
 
         @media (prefers-color-scheme: dark) {
             :root {
-                --paper:     #1c1714;
-                --ink:       #e8e0d0;
-                --ink-mid:   #b0a898;
-                --ink-soft:  #7a7268;
-                --rule:      #3a3530;
-                --accent:    #c4a87a;
-                --accent-lt: #7a5c3a;
+                --paper:     #1e1d1a;
+                --ink:       #ede8de;
+                --ink-mid:   #c0b8a8;
+                --ink-soft:  #908880;
+                --rule:      #3e3c38;
+                --accent:    #d4b882;
+                --accent-lt: #8a6840;
             }
         }
 
-        html { font-size: 18px; scroll-behavior: smooth; }
+        html { font-size: 20px; scroll-behavior: smooth; }
 
         body {
-            font-family: "et-book", Georgia, "Times New Roman", serif;
+            font-family: "Lora", Georgia, "Times New Roman", serif;
             background: var(--paper);
             color: var(--ink);
             line-height: 1.72;
@@ -65,7 +67,9 @@
         }
 
         .site-name {
+            font-family: "Montserrat", sans-serif;
             font-size: 0.78rem;
+            font-weight: 700;
             letter-spacing: 0.14em;
             text-transform: uppercase;
             color: var(--ink-mid);
@@ -105,10 +109,11 @@
         }
 
         .masthead h1 {
+            font-family: "Montserrat", sans-serif;
             font-size: 2.8rem;
             line-height: 1.1;
-            font-weight: normal;
-            letter-spacing: -0.01em;
+            font-weight: 900;
+            letter-spacing: -0.02em;
         }
 
         .masthead .meta {
@@ -189,9 +194,10 @@
         .entry-body { flex: 1; }
 
         .entry-title {
-            font-size: 1.22rem;
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.1rem;
             line-height: 1.28;
-            font-weight: normal;
+            font-weight: 700;
             transition: color 0.15s;
         }
 
@@ -219,31 +225,35 @@
         }
 
         .essay-wrap h1 {
+            font-family: "Montserrat", sans-serif;
             font-size: 2.2rem;
             line-height: 1.18;
-            font-weight: normal;
-            letter-spacing: -0.01em;
+            font-weight: 700;
+            letter-spacing: -0.02em;
             margin-bottom: 0.3rem;
         }
 
         .essay-wrap h2 {
-            font-size: 1.32rem;
-            font-weight: normal;
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.28rem;
+            font-weight: 600;
             margin-top: 2.4rem;
             margin-bottom: 0.7rem;
             line-height: 1.3;
         }
 
         .essay-wrap h3 {
-            font-size: 1.08rem;
-            font-weight: normal;
-            font-style: italic;
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.05rem;
+            font-weight: 500;
+            font-style: normal;
             margin-top: 1.8rem;
             margin-bottom: 0.5rem;
         }
 
         .essay-wrap p {
             margin-bottom: 1.05rem;
+            text-align: justify;
         }
 
         .essay-wrap p em {
@@ -346,9 +356,35 @@
             padding: 3rem 0;
         }
 
+        /* ── SITE FOOTER ─────────────────────────────── */
+        .site-footer {
+            border-top: 1px solid var(--rule);
+            max-width: var(--max-w);
+            margin: 0 auto;
+            padding: 1.4rem var(--pad) 2.8rem;
+            font-size: 0.8rem;
+            color: var(--ink-soft);
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+
+        .site-footer a {
+            color: var(--ink-soft);
+            text-decoration: none;
+            border-bottom: 1px solid var(--rule);
+            transition: color 0.15s, border-color 0.15s;
+        }
+
+        .site-footer a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
         /* ── RESPONSIVE ──────────────────────────────── */
         @media (max-width: 560px) {
-            html { font-size: 16px; }
+            html { font-size: 17px; }
             :root { --pad: 1.2rem; }
             .masthead h1 { font-size: 2.1rem; }
             .essay-wrap h1 { font-size: 1.85rem; }
@@ -368,6 +404,10 @@
 </header>
 
 <div id="root"></div>
+
+<footer class="site-footer">
+    <a href="https://example.com">Fiction Engine Framework</a> © 2026 by <a href="https://example.com">Roberto Bisceglie</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width:1em;max-height:1em;margin-left:.2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width:1em;max-height:1em;margin-left:.2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width:1em;max-height:1em;margin-left:.2em;">
+</footer>
 
 <script>
 const ESSAYS = [

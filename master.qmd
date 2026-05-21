@@ -43,3 +43,7 @@ version: "1.0"
 {{< include foundation/fiction_engine_framework.md >}}
 
 {{< include foundation/glossary.md >}}
+
+# License
+
+Fiction Engine Framework  © 2026 by Roberto Bisceglie is licensed under Creative Commons Attribution-ShareAlike 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
