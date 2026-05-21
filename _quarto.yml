@@ -2,6 +2,7 @@ brand: _brand.yml
 
 filters:
   - _extensions/gfm-callout.lua
+  - _extensions/typst-pagebreak-h1.lua
 
 format:
   typst:
