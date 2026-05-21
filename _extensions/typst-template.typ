@@ -46,7 +46,7 @@
 
 
 #show heading.where(level: 2): set text(font: font-heading, size: 14pt, hyphenate: false, weight: "semibold")
-#show heading.where(level: 3): set text(font: font-heading, size: 12pt, hyphenate: false, weight: "semibold")
+#show heading.where(level: 3): set text(font: font-heading, size: 12pt, hyphenate: false, weight: "medium")
 
 // Keep list items together with some flexibility
 #show list: it => {
@@ -109,7 +109,7 @@
 //  #image("logo.png", width: 1in)
   #set par(justify: false)
   #v(18em)
-  #text(font: font-title, size: 22pt, weight: "black", hyphenate: false)[
+  #text(font: font-title, size: 22pt, weight: "black", fill: black, hyphenate: false)[
     $title$
   ]
   #v(-0.7em)
