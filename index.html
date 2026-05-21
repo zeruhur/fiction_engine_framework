@@ -309,6 +309,36 @@
             margin-bottom: 1.4rem;
         }
 
+        /* Download links */
+        .downloads {
+            margin-top: 1.3rem;
+            display: flex;
+            gap: 1.4rem;
+            flex-wrap: wrap;
+        }
+
+        .download-link {
+            font-size: 0.82rem;
+            color: var(--ink-soft);
+            text-decoration: none;
+            font-style: italic;
+            border-bottom: 1px solid var(--rule);
+            padding-bottom: 0.1rem;
+            transition: color 0.15s, border-color 0.15s;
+        }
+
+        .download-link:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .dl-fmt {
+            font-style: normal;
+            font-size: 0.72rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
         /* ── STATES ──────────────────────────────────── */
         .loading-msg {
             color: var(--ink-soft);
@@ -498,6 +528,11 @@ function renderIndex() {
                 <h1>Fiction Engine<br>Framework</h1>
                 <p class="meta">Roberto Bisceglie &middot; Version 1.0 &middot; May 2026</p>
                 <p class="intro">A design framework for tabletop RPGs treating play as a system for producing, sustaining, and transforming fiction with minimal friction. One framework document, nine companion essays, and a glossary.</p>
+                <div class="downloads">
+                    <a class="download-link" href="downloads/fiction-engine-framework.pdf" download>Download <span class="dl-fmt">PDF</span></a>
+                    <a class="download-link" href="downloads/fiction-engine-framework.epub" download>Download <span class="dl-fmt">EPUB</span></a>
+                    <a class="download-link" href="downloads/fiction-engine-framework.odt" download>Download <span class="dl-fmt">ODT</span></a>
+                </div>
             </div>
 
             ${arcSection('Foundation', foundation)}

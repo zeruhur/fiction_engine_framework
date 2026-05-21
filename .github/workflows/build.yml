@@ -1,0 +1,69 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.6.1"
+
+      - name: Install fonts
+        run: |
+          mkdir -p ~/.local/share/fonts
+          curl -sL "https://fonts.google.com/download?family=Lora" -o /tmp/lora.zip
+          curl -sL "https://fonts.google.com/download?family=Montserrat" -o /tmp/montserrat.zip
+          unzip -q /tmp/lora.zip -d /tmp/lora
+          unzip -q /tmp/montserrat.zip -d /tmp/montserrat
+          find /tmp/lora /tmp/montserrat -name "*.ttf" -exec cp {} ~/.local/share/fonts/ \;
+          fc-cache -f
+
+      - name: Render PDF
+        run: quarto render master.qmd --to typst
+
+      - name: Render EPUB
+        run: quarto render master.qmd --to epub
+
+      - name: Render ODT
+        run: quarto render master.qmd --to odt
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site/downloads
+          cp index.html _site/
+          cp -r foundation analysis comparative system_thinking _site/
+          cp -r _extensions _site/
+          [ -f master.pdf ]  && cp master.pdf  _site/downloads/fiction-engine-framework.pdf  || true
+          [ -f master.epub ] && cp master.epub _site/downloads/fiction-engine-framework.epub || true
+          [ -f master.odt ]  && cp master.odt  _site/downloads/fiction-engine-framework.odt  || true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
