@@ -35,25 +35,13 @@
   margin: page-dims.margins
 )
 
-// State to track if we've seen the first heading
-#let first-heading-seen = state("first-heading", false)
-
-// Force heading level 1 to always start on right (odd) page
-// Except the very first heading, which should appear where body starts
+// Pagebreaks before H1 are injected by the typst-pagebreak-h1.lua Lua filter
+// as top-level raw blocks (show rules cannot contain pagebreaks in Typst).
 #show heading.where(level: 1): it => {
-  context {
-    if first-heading-seen.get() {
-      // Subsequent headings - do pagebreak to odd
-      pagebreak(weak: false, to: "odd")
-    } else {
-      // First heading - no pagebreak needed, just update state
-      first-heading-seen.update(true)
-    }
-  }
-  v(5em)  // Add space at top of page before heading
+  v(5em)
   set text(font: font-title, size: 16pt, hyphenate: false, weight: "bold")
-  it  
-  v(2em)  // Add space at top of page before heading
+  it
+  v(2em)
 }
 
 
