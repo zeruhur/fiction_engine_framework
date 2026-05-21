@@ -1,8 +1,8 @@
 # Properties and Behaviors
 
-## What the Fiction Engine Framework Gets Right, and What It Can't Say
+*Part of the Fiction Engine companion essay series. This essay concludes the systems thinking arc of the Fiction Engine companion essay series. The preceding essays in the arc are "Fiction and Memory," "The Emergence Condition," and "The Threshold as Trajectory." The full series accompanies "Fiction Engine: A Design Framework for Tabletop RPGs" (v1.0, May 2026).*
 
-*Part of the Fiction Engine companion essay series.*
+## What the Fiction Engine Framework Gets Right, and What It Can't Say
 
 The fiction engine framework is a document about design decisions. It offers a single test for every rule a designer might write: does this rule produce a new fictional state, support the conditions for fictional play, or generate dead overhead? It describes failure modes. It provides a glossary. It closes with a set of criteria that let a reader assess whether a given game belongs more or less fully to the paradigm.
 
@@ -117,7 +117,3 @@ The third showed that a design is a trajectory rather than a fixed object: an en
 This essay showed that the conditions the framework identifies are not design properties but conditions for system behaviors. They are real, achievable, worth designing for precisely. They are properties of the system-in-use — the design, the agents, and the accumulated fiction they produce together — not guarantees inscribed in the document.
 
 The framework correctly identifies the conditions. What the conditions produce is up to the system.
-
----
-
-*Roberto Bisceglie writes and designs for Zotiquest Games. This essay concludes the systems thinking arc of the Fiction Engine companion essay series. The preceding essays in the arc are "Fiction and Memory," "The Emergence Condition," and "The Threshold as Trajectory." The full series accompanies "Fiction Engine: A Design Framework for Tabletop RPGs" (v1.0, May 2026).*

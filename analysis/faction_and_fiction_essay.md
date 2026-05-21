@@ -1,8 +1,8 @@
 # The Faction and the Fiction
 
-## What Open Strategy Games Reveal at the Fiction Engine's Edge
-
 *Part of the Fiction Engine companion essay series.*
+
+## What Open Strategy Games Reveal at the Fiction Engine's Edge
 
 The fiction engine framework describes a player making fictional choices about what their character attempts inside the diegetic layer. The player asks what their character would do, the procedure produces an outcome, the fiction changes, play continues. Everything orbits a subject: a character, a protagonist, a perspective located inside the shared imagined situation.
 
@@ -128,4 +128,7 @@ OSG demonstrates that fiction primacy, the commitment to keeping every procedure
 
 Knowing where the fiction engine paradigm ends and this adjacent territory begins is part of knowing what the fiction engine paradigm is. The edge of the map is not a failure of the map. It is where the map becomes useful as a boundary rather than a guide.
 
-*Roberto Bisceglie writes and designs for Zotiquest Games. Contested Ground and The Open Strategy Game Handbook are his own designs. The OSG format originates with Chris McDowall and Sam Doebler, in the Matrix Game tradition established by Chris Engle and Tom Mouat. This essay is part of the Fiction Engine companion essay series.*
+---
+
+*Contested Ground and The Open Strategy Game Handbook are his own designs. The OSG format originates with Chris McDowall and Sam Doebler, in the Matrix Game tradition established by Chris Engle and Tom Mouat.*
+

@@ -1,18 +1,14 @@
 # Fiction and Memory
+
+*Part of the Fiction Engine companion essay series. This essay is the first in a four-part systems thinking arc and is part of the Fiction Engine companion essay series. It follows "The Faction and the Fiction" and is a companion to "Fiction Engine: A Design Framework for Tabletop RPGs" (v1.0, May 2026).*
+
 ## The Structural Difference Between Accumulation and Reset
-
-*Part of the Fiction Engine companion essay series.*
-*Foundation essay for the systems thinking arc.*
-
----
 
 The fiction engine framework insists that outcomes function as continuations rather than endpoints. The requirement is stated plainly and without qualification: a result that leaves the fiction suspended rather than transformed indicates a design problem. Outcomes should advance or complicate the fiction. The productive question after any resolution is what new fictional state the result creates, not simply whether an action succeeded.
 
 This is correct. What the framework does not do is explain why it must be correct — not as a stylistic preference or a design aesthetic, but as a structural requirement. The Traceable criterion in the OSG essay comes closest to the underlying argument, but operationally: it tells a referee how to check whether a specific outcome is grounded in prior fictional events. It does not explain why that grounding matters in the first place. The structural reason sits one level below where the framework's analysis reaches.
 
 This essay names that reason. The question is: what exactly is the structural difference between a fiction that accumulates and one that resets, and why does that difference matter for design?
-
----
 
 ## Two Kinds of Fiction
 
@@ -23,8 +19,6 @@ Call the first kind episodic. In episodic fiction, each session, each scene, eac
 Call the second kind accumulated. In accumulated fiction, prior events are not merely acknowledged; they constrain. The burned bridge cannot be un-burned. Not as a rule that forbids rebuilding it, but because the fiction now contains a burned bridge, and any action that treats it as intact would require the fiction to contradict itself. The alliance formed under duress carries the weight of that duress: both parties know the terms were extracted rather than freely given, and that fact is now part of every subsequent interaction between them. A character who failed publicly to defend someone who needed defending has established a reputation, and that reputation shapes what other characters will plausibly do. Each outcome narrows the possibility space for what can follow, because each outcome adds to a growing body of fictional fact that must be honored.
 
 Most games contain both types in different proportions. A campaign with strong continuity in its political situation but episodic personal-scale scenes is mostly accumulated with episodic pockets. A one-shot that takes place in a fixed-situation world is almost entirely episodic. Neither structure is inherently superior to the other. The distinction is architectural, not evaluative. What matters is recognizing that they are genuinely different objects and that the difference has consequences.
-
----
 
 ## Why Accumulation Produces Consequence
 
@@ -40,8 +34,6 @@ In episodic fiction, choices can be presented as dramatically significant withou
 
 **Surprise requires established expectation.** The most effective fictional surprises are those that contradict something the fiction has already established — where an outcome arrives that is consistent with what the fiction has made possible but contrary to what participants expected given what they knew. That kind of surprise is only available to accumulated fiction, because it requires the fiction to have stored expectations to violate. When the ally betrays the party, the surprise depends on the alliance having been established as reliable over time. When the safe route turns out to be watched, the surprise depends on the fiction having established it as safe. Resetting fiction cannot produce this kind of surprise, because it has no stored expectations: it can introduce an unexpected element, but the element arrives from outside the fiction rather than emerging from within it. The difference is the difference between a twist and a revelation.
 
----
-
 ## What the Framework's Rules Are Actually Protecting
 
 With the structure of accumulated fiction in view, several of the fiction engine framework's design guidelines read differently than they initially appear.
@@ -56,8 +48,6 @@ The Traceable criterion from the OSG essay — can you point to earlier events t
 
 The framework has been protecting accumulated fiction throughout. Its procedural commitments — continuations over endpoints, fictional states over administrative records, the prohibition on dead overhead, the Traceable check — are all, in significant part, rules for maintaining the causal tissue that accumulated fiction requires. The framework does not name this as the property being protected. The rules are correct; the account of why they must be correct is what is missing.
 
----
-
 ## The Design Implication
 
 A designer building a fiction engine is not simply choosing thin procedures over thick ones. They are making a choice about what kind of fictional object their game will produce.
@@ -67,8 +57,6 @@ Thin procedures that preserve accumulated state produce a fiction in which prior
 The implication for the fiction engine paradigm specifically: every rule that generates dead overhead without producing a fictional state is not merely a cognitive efficiency problem. It is a structural problem. Dead overhead inserts an administrative step between fictional events, and that step is a potential point where the accumulated chain loses coherence. A chain interrupted long enough and often enough stops being a chain. The fiction remains present — the players are still imagining, still describing — but the causal tissue connecting events has thinned to the point where prior events no longer constrain or differentiate what follows. The fiction is running in episodic mode even if the players believe they are accumulating.
 
 This is why the fiction engine framework's central test — does this rule produce a new fictional state? — is not only a procedural efficiency question. It is a question about what kind of fictional object the rule is helping to maintain.
-
----
 
 ## When Reset Is the Point
 
@@ -80,8 +68,6 @@ These are coherent choices, and they produce experiences that accumulated fictio
 
 The argument this essay is making is not that accumulation is superior. It is that accumulation is a structural property with structural consequences, and that the fiction engine framework is implicitly built around it without naming it as such. A designer building a fiction engine for a campaign is building an accumulated fiction engine whether they have named it that or not. The framework's rules make sense as rules for accumulated fiction specifically; they are less mandatory — some of them are actively inappropriate — for designs built around episodic structure. Knowing which kind of fiction your design is producing is knowing what the rules are for.
 
----
-
 ## The Causal Tissue
 
 Accumulated fiction is a causal tissue: a network of established events, conditions, and facts such that each element is both a consequence of what preceded it and a constraint on what can plausibly follow. The tissue is what makes consequences weighty, choices non-equivalent, and surprises possible from within rather than from outside. Without it, the fiction is a sequence of events that follow each other but do not cause each other — a chronicle rather than a situation.
@@ -91,7 +77,3 @@ The fiction engine framework's procedural commitments are, in significant part, 
 The framework is correct that these commitments matter. What it has not yet said is why they matter: because a fiction that loses its causal tissue stops being accumulated fiction, and accumulated fiction is what the paradigm's other structural commitments assume.
 
 The next essay will ask why thin mediation specifically is necessary for that tissue to form. The answer involves agents, the sensitivity between them, and what happens to that sensitivity when procedure is foregrounded. Those are questions about how the tissue gets built in the first place — questions that the distinction between accumulation and reset cannot answer on its own.
-
----
-
-*Roberto Bisceglie writes and designs for Zotiquest Games. This essay is the first in a four-part systems thinking arc and is part of the Fiction Engine companion essay series. It follows "The Faction and the Fiction" and is a companion to "Fiction Engine: A Design Framework for Tabletop RPGs" (v1.0, May 2026).*

@@ -1,18 +1,15 @@
 # The Threshold as Trajectory
+
+*Part of the Fiction Engine companion essay series. This essay is part of the systems thinking arc of the Fiction Engine companion series, following "Fiction and Memory" and "The Emergence Condition." It reads the transparency threshold concept developed in "The Transparency Threshold: Abstraction, Mediation, and the Limits of Fiction Engine Design" and the paradigm comparisons developed in "Four Designs, One Framework."*
+
+
 ## Designing a System That Changes Its Own Properties Through Use
-
-*Part of the Fiction Engine companion essay series.*
-*Application essay for the systems thinking arc.*
-
----
 
 The transparency threshold essay makes an observation in the middle of its argument that it does not stop to develop: "the same game can sit on different sides of the threshold depending on who is playing it and how long they have been playing it." The essay names three consequences of this — the learning threshold is distinct from a permanent transparency problem; how a game is introduced affects the threshold experience; solo play demands a lower threshold because no facilitation distribution is available — and then moves on to the next argument.
 
 The observation deserved more time. What it describes is not a complication of the threshold concept. It is a fact about what a game design actually is: not a fixed object with stable properties, but a system whose operating conditions change as agents use it. The threshold is player-variable because players internalize procedures over time. That internalization is the system changing its own behavior. And if a design changes as it is used, then the designer is not producing a document with fixed properties. The designer is producing a trajectory — an entry experience, a learning curve, and a stable state — and all three require deliberate design decisions.
 
 The fiction engine framework's central test asks what a rule does. That is the right first question. But it is not the only question. A rule that passes the test on paper may still impose significant attentional costs during early play, before it has been internalized, and those costs are as real as any overhead the test is designed to eliminate. The framework has no vocabulary for this. The trajectory concept is that vocabulary.
-
----
 
 ## What Internalization Is
 
@@ -25,8 +22,6 @@ This is a systems phenomenon in the most straightforward sense: the agents using
 The trajectory concept follows directly. A design that begins above the threshold and internalizes toward it is not accurately described by a single threshold position. It has three positions worth naming separately: where it starts on session one, how quickly and reliably it internalizes, and where it stabilizes once the learning curve is complete. A complete description of a design's relationship to the transparency threshold requires all three.
 
 This reframing changes the design questions. The framework's central test asks what a rule does — whether it produces fictional change, supports the conditions for it, or generates dead overhead. The trajectory framing adds: where does this rule sit in the learning curve, how quickly does it internalize, and what is the experience it produces while still in the foreground? A rule that passes the first test can still fail the second set if it internalizes slowly, activates rarely, or imposes entry costs that drive players away before the stable state is reached.
-
----
 
 ## The Four Designs as Trajectories
 
@@ -56,8 +51,6 @@ Internalization requires repetition. A player who makes a dozen rolls per sessio
 
 The trajectory for PbtA is long, and for many players never reaches completion. PbtA games with large, established communities compensate through facilitation infrastructure that is not part of the design document: session-one advice, experienced players who can carry procedural weight while others are still building habits. A smaller design without that infrastructure has a real problem if its trajectory is equally long.
 
----
-
 ## What Designing a Trajectory Requires
 
 The trajectory concept changes four design questions in ways worth naming directly.
@@ -80,8 +73,6 @@ In group play, an experienced player or referee can absorb procedural weight whi
 
 This has a concrete design implication. Solo designs should aim for a shorter learning curve and a lower entry threshold regardless of their intended stable state position. The Breathless SRD's pressure engine layer is an example of a design commitment whose costs are substantially higher in solo play than the design's group context suggests, which is one reason why the most successful solo Breathless derivatives tend to either simplify the tracking economy or replace the stress track with something that has a faster internalization curve. That is not a failure of the source material. It is a recognition that the trajectory is different for one player working alone.
 
----
-
 ## The Teaching Implication
 
 The threshold essay names a practical observation: a game introduced through its fiction ("here is the situation, here is what your character might attempt, here is what happened") feels different from the same game introduced through its mechanics ("here are the six stats, here are the move categories, here are the roll triggers"). Both introductions eventually arrive at the same system. They produce different experiences of getting there, and those experiences shape how players relate to the design.
@@ -94,8 +85,6 @@ For fiction engines specifically, the choice is not symmetric. Teaching fiction-
 
 A related implication: the design document's structure is itself a teaching choice. A game that opens with the world, the situation, the characters — and introduces mechanics as they become necessary — makes a different decision than a game that opens with a structured rules overview. A fiction engine that opens with a structured rules overview is asking its reader to begin in the mechanics-first mode, and that beginning shapes everything that follows. The design document is the first session.
 
----
-
 ## Where This Leaves the Framework
 
 The fiction engine framework describes its criteria in synchronic terms: a game either is or is not producing fictional change, either does or does not sit below the transparency threshold. The framework's diagnostic — remove a rule and observe whether the fiction still moves — treats the design as a stable object that can be tested in isolation. This framing is analytically useful. It produces real discriminations.
@@ -105,8 +94,6 @@ The trajectory framing adds a dimension the synchronic analysis lacks. A design 
 These are different questions, and they can produce different answers for the same design. A design evaluated by the framework's criteria might look excellent: thin procedures, fictional states, minimal overhead, outcomes as continuations. The same design evaluated as a trajectory might reveal a slow-internalizing rule in a critical position, or an entry experience that does not communicate the design's orientation quickly enough to prevent players from establishing competing attentional habits before the fiction can become primary. Neither evaluation is wrong. They are operating at different scales — the synchronic and the temporal — and designs that hold up well under both deserve more confidence than designs that pass only one.
 
 The framework currently has the tools for the synchronic evaluation. The trajectory evaluation requires additions: the distinction between fast-internalizing and slow-internalizing rules, the entry experience as a separate design problem from the stable state, the question of how the learning curve is completed and what support the design provides for completing it. These additions do not contradict the framework's existing criteria. They extend the analysis into a dimension the framework has left unaddressed.
-
----
 
 ## Designing the Trajectory
 
@@ -119,7 +106,3 @@ The fiction engine paradigm's commitment to thin mediation is partly a commitmen
 Understanding this is what allows a designer to choose thin mediation deliberately rather than by convention, or to choose a longer trajectory deliberately rather than by accumulation. The choice is not between good design and bad design. It is between design that knows what it is building toward and design that discovers its trajectory only after players have already experienced it.
 
 The trajectory framing has revealed something the earlier essays in this arc pointed toward without naming. The fiction engine framework identifies the conditions for a specific kind of play. It does not produce that play directly; only agents using the design over time can do that. But the conditions are real, and knowing that they are conditions rather than guarantees, and that they are experienced by players across a trajectory rather than at a single point, is the beginning of designing them with precision. That distinction — between design properties and the system behaviors they enable — is what the final essay takes as its subject.
-
----
-
-*Roberto Bisceglie writes and designs for Zotiquest Games. This essay is part of the systems thinking arc of the Fiction Engine companion series, following "Fiction and Memory" and "The Emergence Condition." It reads the transparency threshold concept developed in "The Transparency Threshold: Abstraction, Mediation, and the Limits of Fiction Engine Design" and the paradigm comparisons developed in "Four Designs, One Framework."*

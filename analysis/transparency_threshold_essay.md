@@ -1,8 +1,8 @@
 # The Transparency Threshold
 
-## Abstraction, Mediation, and the Limits of Fiction Engine Design
-
 *A companion essay to "Fiction Engine: A Design Framework for Tabletop RPGs." Also readable as a standalone piece following "Fiction Engines, Pressure Engines, and World Engines."*
+
+## Abstraction, Mediation, and the Limits of Fiction Engine Design
 
 The fiction engine framework makes a deliberate choice not to place specific games on a map. It describes a paradigm's commitments, failure modes, and criteria without naming which systems belong inside it and which do not. That restraint is principled. A framework that generates taxonomy risks becoming a ranking, and a ranking is not what the framework is trying to produce.
 
@@ -102,4 +102,3 @@ Conversely, a design that deliberately aims to sit above the threshold should ow
 
 The transparency threshold is not a test that designs pass or fail. It is a location on a continuum, and knowing where your design sits, and why, is the beginning of designing deliberately rather than by accumulation.
 
-*Roberto Bisceglie writes and designs for Zotiquest Games. This essay is a companion to "Fiction Engine: A Design Framework for Tabletop RPGs" (v1.0, May 2026).*

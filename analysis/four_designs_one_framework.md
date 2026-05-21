@@ -1,8 +1,8 @@
 # Four Designs, One Framework
 
-## Applying the Fiction Engine Analysis in Practice
-
 *A follow-up to "The Transparency Threshold: Abstraction, Mediation, and the Limits of Fiction Engine Design"*
+
+## Applying the Fiction Engine Analysis in Practice
 
 The previous essay defined the transparency threshold and placed design paradigms relative to it in broad strokes. This essay works at a finer resolution. It takes four specific games (*Freeform Universal*, *24XX*, *Breathless*, and *Hints and Hijinx*) and applies the fiction engine framework's tools to each one in turn.
 
@@ -128,4 +128,3 @@ What the comparison reveals most clearly is that the fiction engine paradigm is 
 
 Knowing which side of the threshold your design inhabits, and why, is more useful than claiming a generic fiction-forward identity. The four designs in this comparison each know what they are. *Freeform Universal* knows it is a flexible, group-oriented fiction engine with an optional metacurrency dial. *24XX* knows it is the thinnest possible version of that core. *Breathless* knows it is a pressure engine built on fiction engine foundations. *Hints and Hijinx* knows it crosses the threshold at a specific moment because its genre requires it.
 
-*Roberto Bisceglie writes and designs for Zotiquest Games. This essay follows "The Transparency Threshold" and is part of a series of companion pieces to "Fiction Engine: A Design Framework for Tabletop RPGs" (v1.0, May 2026). Freeform Universal is by Nathan Russell / Peril Planet.*

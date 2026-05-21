@@ -1,12 +1,14 @@
 # The Bet
 
+_A note on terms: this collection of essays uses several concepts precisely enough that imprecision creates confusion. Fiction means the shared diegetic situation, not narrative craft. Fictional state means a condition inside the fiction visible to the characters within it, not a note in the game record. Overhead means procedural steps that produce neither fictional change nor the conditions for it — a narrower category than it might appear. These are not terms in their everyday senses. A glossary at the back defines each one; the essays will earn the terms as they use them._
+
 "Narrative game" is too broad to be analytically useful.
 
 Games grouped under that label differ in where they place authority, how they resolve uncertainty, and how much interpretive labor they require. A game where a referee adjudicates outcomes freely against the situation is doing something structurally different from one where codified move triggers govern what the fiction can produce. A game where players hold authorial leverage over their story's shape through a metacurrency is doing something structurally different again from one where all fictional changes emerge from in-world cause and effect. None of these differences is captured by "narrative." The label names a loose family resemblance — these games care about story in some sense — without describing what any of them actually does or how it does it.
 
 A fiction engine is the design family defined by one structural commitment: every rule exists to serve the fiction, and any rule that fails that test is a candidate for removal. That commitment is not stylistic. It applies to every design decision — resolution procedures, character traits, pacing tools, uncertainty mechanisms — and the test applies to each one individually and to the system as a whole. The label is a tool for precision, not a claim that this family is superior to others. It names one design approach, with a specific logic and specific costs, in order to describe that approach clearly enough to reason about it.
 
-The rest of this book is what the commitment means in practice. But two words in it — rules and fiction — are doing more specific work than they appear to, and the argument depends on keeping them precise.
+The rest of this collection is what the commitment means in practice. But two words in it — rules and fiction — are doing more specific work than they appear to, and the argument depends on keeping them precise.
 
 ## What fiction means
 
@@ -14,7 +16,7 @@ In what follows, fiction does not mean literary craft, narrative quality, or sto
 
 This distinction is the load-bearing one. A fictional state is any condition inside the shared situation that the characters can see, respond to, and reason about. A character's exhaustion is a fictional state when it makes her slow, when the other characters notice, when it shapes what she can plausibly attempt. It stops being a fictional state when it is only a number on a sheet that modifies future rolls without changing how the situation reads inside the world. The test is simple: remove the game record and ask whether the condition still exists inside the fiction as something participants can respond to. Fictional states survive that removal. Administrative records do not.
 
-Everything in this book follows from that test.
+Everything in this collection follows from that test.
 
 ## The single structural commitment
 
@@ -74,6 +76,3 @@ A fiction engine accepts, as the direct consequence of minimal overhead, that it
 
 What it offers in return is a procedural layer thin enough to disappear into the fiction — thin enough that the story appears to emerge through play rather than being processed through procedure. That is the bet this book is built around. The chapters that follow are what the bet costs, what it produces, and how far it travels.
 
----
-
-*A note on terms: this book uses several concepts precisely enough that imprecision creates confusion. Fiction means the shared diegetic situation, not narrative craft. Fictional state means a condition inside the fiction visible to the characters within it, not a note in the game record. Overhead means procedural steps that produce neither fictional change nor the conditions for it — a narrower category than it might appear. These are not terms in their everyday senses. A glossary at the back defines each one; the essays will earn the terms as they use them.*
