@@ -28,11 +28,14 @@ jobs:
       - name: Install fonts
         run: |
           mkdir -p ~/.local/share/fonts
-          curl -sL "https://fonts.google.com/download?family=Lora" -o /tmp/lora.zip
-          curl -sL "https://fonts.google.com/download?family=Montserrat" -o /tmp/montserrat.zip
-          unzip -q /tmp/lora.zip -d /tmp/lora
-          unzip -q /tmp/montserrat.zip -d /tmp/montserrat
-          find /tmp/lora /tmp/montserrat -name "*.ttf" -exec cp {} ~/.local/share/fonts/ \;
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/Lora%5Bwght%5D.ttf" \
+            -o ~/.local/share/fonts/Lora.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/Lora%5Bital%2Cwght%5D.ttf" \
+            -o ~/.local/share/fonts/Lora-Italic.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf" \
+            -o ~/.local/share/fonts/Montserrat.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bital%2Cwght%5D.ttf" \
+            -o ~/.local/share/fonts/Montserrat-Italic.ttf
           fc-cache -f
 
       - name: Render PDF
@@ -48,7 +51,7 @@ jobs:
         run: |
           mkdir -p _site/downloads
           cp index.html _site/
-          cp -r foundation analysis comparative system_thinking _site/
+          cp -r foundation analysis comparative system_thinking limits _site/
           cp -r _extensions _site/
           [ -f master.pdf ]  && cp master.pdf  _site/downloads/fiction-engine-framework.pdf  || true
           [ -f master.epub ] && cp master.epub _site/downloads/fiction-engine-framework.epub || true
