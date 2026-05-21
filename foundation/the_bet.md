@@ -72,6 +72,10 @@ Some games intentionally foreground procedure because procedure itself creates t
 
 This is not a claim that all good tabletop RPG design should converge on thin mediation. It is a precise description of one design commitment, its structural logic, and the costs it accepts.
 
+The Fiction Engine Framework does not measure the quality of a game. It measures the degree to which a structure serves fiction as the primary object of play. When a design is trying to produce something else (pressure, strategy, explicit authorship, puzzle-solving, character construction, mastery, ritual tension) the framework must recognize a change of paradigm, not treat the design as a degraded fiction engine.
+
+A rule that foregrounds procedure is not therefore a bad rule. It is a rule buying something with attention. The relevant question is not whether the rule is transparent, but whether the experience it purchases is the one the design actually wants. Fiction-transparency is a commitment, not a universal virtue.
+
 A fiction engine accepts, as the direct consequence of minimal overhead, that it provides less structural scaffolding than paradigms built around dramatic prescription or managed pressure. It provides no move list to generate consistent dramatic rhythm. It provides no metacurrency to give players authorial leverage over story shape. It generates no pressure economy. Those are costs, and they are real. Tables that need the system to provide momentum and structure will find a fiction engine sparse.
 
 What it offers in return is a procedural layer thin enough to disappear into the fiction — thin enough that the story appears to emerge through play rather than being processed through procedure. That is the bet this book is built around. The chapters that follow are what the bet costs, what it produces, and how far it travels.

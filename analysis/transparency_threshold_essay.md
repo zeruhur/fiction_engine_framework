@@ -102,3 +102,5 @@ Conversely, a design that deliberately aims to sit above the threshold should ow
 
 The transparency threshold is not a test that designs pass or fail. It is a location on a continuum, and knowing where your design sits, and why, is the beginning of designing deliberately rather than by accumulation.
 
+The threshold is diagnostic, not evaluative. Crossing it does not make a design worse; it changes what the design is asking players to attend to.
+

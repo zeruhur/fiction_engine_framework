@@ -42,6 +42,10 @@ This framework describes one design paradigm among several. It is not a claim th
 
 Fiction-first design is not identical to the fiction engine paradigm. Many games prioritize fiction while still relying on highly formalized procedural grammars, codified move structures, explicit pacing economies, or persistent mechanical interfaces that remain foregrounded during play. A fiction engine describes the narrower subset of designs that attempt to minimize mediation itself, keeping the procedural layer as transparent as possible while still preserving uncertainty and consequence. That narrowness is a deliberate tradeoff, not a judgment on fiction-oriented systems that sit outside it.
 
+This framework does not measure the quality of a game. It measures the degree to which a design serves fiction as the primary object of play by minimizing the mediation between fictional intent and fictional change. When a design is trying to produce something else (pressure, strategy, explicit authorship, puzzle-solving, character construction, mastery, ritual tension) the framework must recognize a change of paradigm, not treat the design as a degraded fiction engine.
+
+A foregrounded procedure is not therefore a bad procedure. It is a procedure buying something with attention. The relevant question is not whether the procedure is transparent in the abstract, but whether the experience it purchases is the one the design actually wants. Fiction-transparency is a commitment, not a universal virtue.
+
 A fiction engine has no winning condition. The fiction moves because the situation keeps changing (outcomes produce new fictional states that open into further play), not because participants are working toward a predetermined resolution. A fiction engine produces a situation that responds to what participants do, without building toward a predetermined endpoint. This is different from a design that uses fiction as the medium for a competitive or goal-directed experience, where fictional actions accumulate toward a resolution condition that exists outside the fiction itself. Designs of that kind are not worse designs; they are built around a different structural logic. But that logic is not the fiction engine's logic, and evaluating either by the other's criteria produces bad analysis. The distinction is not incidental. It is load-bearing.
 
 What this framework offers is a precise description of a specific approach: its structural commitments, its operational logic, and its tradeoffs. The fiction engine paradigm values thin mediation, fictional momentum, and minimal procedural overhead. It accepts, as a consequence of those values, that it will provide less structural scaffolding than paradigms built around dramatic prescription or managed pressure. That is not a flaw. It is the shape of the tradeoff.
@@ -54,7 +58,7 @@ This framework serves three distinct purposes, and a reader can apply it in any 
 
 **As a design checklist.** When building a game, use the criteria and failure modes sections later in this document to evaluate individual rules and the overall system. The central test — does this rule produce a new fictional state or overhead? — applies to every design decision.
 
-**As an evaluative lens.** When analyzing an existing game, use the definition and criteria sections to determine how fully it belongs to this paradigm. A game that does not meet these criteria is not necessarily a worse game, only a game built around a different engine of play.
+**As an evaluative lens.** When analyzing an existing game, use the definition and criteria sections to determine how fully it belongs to this paradigm. A game that does not meet these criteria is not necessarily a worse game, only a game built around a different engine of play. The lens should be used diagnostically, not as a ranking device. Its purpose is to identify what kind of experience a structure is optimized to produce, and whether its procedures serve that aim.
 
 **As a shared vocabulary.** When discussing design decisions with other designers or players, this framework offers precise terms for concepts that are often discussed imprecisely: fictional intent, the fiction, the diegetic layer, overhead, suspended outcomes, authority drift. All of these are defined in the glossary. Using them consistently makes design conversations more productive by reducing the ambiguity that labels like "narrative" or "story-driven" carry.
 
@@ -158,7 +162,7 @@ The core criteria for a fiction engine are procedural rather than scalar. A game
 
 Several qualities often accompany fiction engine design without being definitional to it. A fiction engine tends to be learnable quickly, requires little setup, and keeps cognitive load low. These are common tendencies that follow from the commitment to thin mediation, not requirements of the paradigm itself. A game with a rich setup procedure that establishes a deep fictional situation before play begins can still be a fiction engine, provided the play procedures themselves serve the fiction once it is running.
 
-A game moves away from this framework when players spend more time talking about the system than about the situation.
+A game moves away from this framework when players spend more time talking about the system than about the situation. Moving away from this framework is not, by itself, a failure. It becomes a failure only when the design claims or requires fiction-transparency while its procedures consistently ask players to attend elsewhere.
 
 ## Glossary
 
