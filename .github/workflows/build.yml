@@ -27,16 +27,15 @@ jobs:
 
       - name: Install fonts
         run: |
-          mkdir -p ~/.local/share/fonts
+          mkdir -p _fonts
           curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/Lora%5Bwght%5D.ttf" \
-            -o ~/.local/share/fonts/Lora.ttf
+            -o _fonts/Lora.ttf
           curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/Lora%5Bital%2Cwght%5D.ttf" \
-            -o ~/.local/share/fonts/Lora-Italic.ttf
+            -o _fonts/Lora-Italic.ttf
           curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf" \
-            -o ~/.local/share/fonts/Montserrat.ttf
+            -o _fonts/Montserrat.ttf
           curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bital%2Cwght%5D.ttf" \
-            -o ~/.local/share/fonts/Montserrat-Italic.ttf
-          fc-cache -f
+            -o _fonts/Montserrat-Italic.ttf
 
       - name: Render PDF
         run: quarto render master.qmd --to typst

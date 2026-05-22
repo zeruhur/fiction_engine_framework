@@ -122,8 +122,8 @@
   ]
 ]
 
-#align(center)[  
-  #v(15em)
+#place(bottom + center)[
+  #set par(justify: false)
   #text(font: font-main, size: 11pt)[
     Version: $version$
   ]
