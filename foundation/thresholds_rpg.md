@@ -23,7 +23,7 @@ You need:
 * two six-sided dice
 * paper or a shared document
 * one referee and one or more players
-* or, for solo/low-referee play, the oracle rules in section 14
+* or, for solo/low-referee play, the oracle rules in section 24
 
 ---
 
@@ -441,12 +441,7 @@ If helping exposes the helper to danger, say so before the roll.
 
 When several characters act together toward one intent, make one roll for the shared attempt.
 
-Before rolling, establish:
-
-* who is most exposed
-* what each character is contributing
-* what success changes
-* what failure threatens
+Before rolling, the fiction should be clear enough to answer: who is most at risk, what each person is actually doing, and what will change if it goes wrong. If it is not clear, describe it first.
 
 The result affects the group according to the fiction.
 
