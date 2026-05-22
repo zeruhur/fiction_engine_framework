@@ -32,13 +32,13 @@ This is the lens I use. You’ll decide if it fits.
 
 Imagine you are driving down a highway at night. When everything is going smoothly, you don’t actually look at your windshield. It is completely transparent. You look through it, focusing entirely on the **Road**: the shared situation: what is happening, what is at stake, and what is about to change.
 
-The **Road** is not a story in the literary sense. It is not a pre-authored plot or a dramatic arc. It is the living diegetic situation: the characters, conditions, and events that all participants hold as real inside the game at this moment. When we talk about the fiction, this is what we mean.
+The **Road** is not a story in the literary sense. It is not a pre-authored plot or a dramatic arc. It is the living situation inside the game: the characters, conditions, and events that all participants hold as real at this moment. When we talk about the fiction, this is what we mean.
 
-The Road includes more than what every participant currently knows. Hidden motives, undiscovered rooms, secret dangers, and private knowledge are also part of the fiction when they are diegetic facts. They become visible to the table when play brings them into contact with the characters.
+The Road includes more than what every participant currently knows. Hidden motives, undiscovered rooms, secret dangers, and private knowledge are also part of the fiction when they exist inside the game world. They become visible to the table when play brings them into contact with the characters.
 
 But the moment a heavy downpour hits, or a large insect splashes right in your line of sight, your focus instantly shifts. You are no longer looking at the road. You are staring directly at the **Windshield**: the rules, the stats, and the procedures. You’re watching the wipers struggle to clear the view.
 
-This is exactly what happens every week at our gaming tables. Every RPG has some mechanism connecting the Windshield to the Road—some way of deciding when the rules step in and how they hand control back to the fiction. A **Fiction Engine** is the specific design paradigm in which that mechanism stays thin, transparent, and fiction-facing: it intervenes only when the situation is uncertain, and it returns a changed fictional state as quickly as possible.
+This is exactly what happens every week at our gaming tables. Every RPG has some mechanism connecting the Windshield to the Road—some way of deciding when the rules step in and how they hand control back to the fiction. A **Fiction Engine** is the specific design approach in which that mechanism stays thin, transparent, and fiction-facing: it intervenes only when the situation is uncertain, and it returns a changed fictional state as quickly as possible.
 
 Let’s look at how this plays out with two different groups trying to achieve the exact same thing: breaking down a locked wooden door to escape a guard patrol.
 
@@ -129,7 +129,7 @@ A fiction engine is a social agreement before it is a mechanical system. The rul
 
 One more thing must be said before we look at specific engines.
 
-This framework measures the relationship between procedure and attention. It treats low overhead as desirable. But low overhead is a means, not an end. An engine that removes all friction while producing vague, weightless, or arbitrary consequences has not solved the problem. It has replaced one failure with another.
+This handbook approaches the framework through attention: where the table looks, when the fiction disappears, and how quickly procedure returns everyone to a changed situation. But attention is the signal, not the final test. The final test is whether the procedure produces fictional change or supports the conditions for it. Low overhead is desirable, but it is a means, not an end. An engine that removes all friction while producing vague, weightless, or arbitrary consequences has not solved the problem. It has replaced one failure with another.
 
 Attention fracture is the symptom. Dead overhead is the diagnosis. Fictional change is the test.
 
@@ -165,11 +165,11 @@ This is a surgical piece of engineering. There are no "Armor Class" numbers or "
 
 ### The Cost of Thinness (Intellectual Honesty)
 
-However, this thinness comes with a heavy price tag: **relative to more scaffolded designs, the engine offers no assistance.**
+However, this thinness comes with a heavy price tag: **relative to more scaffolded designs, the engine offers very little procedural assistance.**
 
 In a more procedural game, a low roll might trigger a specific mechanical penalty that the rules handle for you (e.g., "Take 4 damage"). In 24XX, a low roll only produces the word "setback." It is entirely up to the human beings at the table to decide what that means.
 
-If the fiction runs thin, the engine offers nothing. This can happen when the group is tired, the situation is vague, or no one can think of an interesting consequence. There is no table to roll on, no "GM Move" list to consult. When the group’s creative output flags, the engine doesn't break; it simply offers **total silence**.
+If the fiction runs thin, the engine offers little structural guidance. This can happen when the group is tired, the situation is vague, or no one can think of an interesting consequence. There is no table to roll on, no "GM Move" list to consult. When the group’s creative output flags, the engine doesn’t break; it simply goes quiet.
 
 **Behavioral Portrait**: This engine is for groups who want the rules to act as a silent referee that only speaks when asked to resolve uncertainty. But if you expect the system to provide creative friction or "correct" answers, the absence of scaffolding can feel like falling into an empty room.
 
@@ -194,7 +194,7 @@ Consider a character trying to leap across a gap:
 - **Early Session (d10)**: The GM describes the jump as a feat of athleticism. The character is fresh, their boots have grip.
 - **Late Session (d4)**: The GM frames the exact same jump differently. "You’re gasping for air," the GM says. "Your legs feel like lead. You aren't sure if you have the strength to make the clearing."
 
-The d4 has changed the fiction. It has produced a new **Fictional State**, the character’s physical limit, that everyone at the table can see, respond to, and reason about. The number on the sheet and the situation in the world are the same thing.
+At a well-run Breathless table, the d4 is treated as evidence of a fictional condition: ragged breath, shaking hands, depleted ammunition, panic, or fatigue. The die has not changed the fiction until the table expresses it as something characters can perceive, respond to, and reason about. Once expressed, the mechanical state and the fictional state reinforce each other.
 
 ### The Point of Friction: Drama vs. Administration
 
@@ -216,7 +216,7 @@ But flexibility is not a free gift. It is a trade-off.
 
 ### Mechanics at the Table: Fictional Authority
 
-FU functions by having the table propose **Closed Questions**: *"Do I leap the chasm?"* or *"Do I convince the guard?"*. The engine then resolves these using a resolution grammar: **Yes/No** modified by **And/But**.
+FU functions by having the table propose **Closed Questions**: *"Do I leap the chasm?"* or *"Do I convince the guard?"*. The engine then resolves these using a fixed set of possible answers: **Yes/No** modified by **And/But**.
 
 Imagine the scene in the flooded subterranean temple. You are trying to keep your balance on a slick stone altar while fending off a swarm of leeches.
 
@@ -236,7 +236,7 @@ Compare this to the other case studies:
 
 - In **24XX**, the engine is minimal and gets out of the way. It gives you a moon base and a d10, then stays silent.
 - In **Breathless**, the engine provides pressure. It tells you exactly how tired you are by shrinking your dice.
-- In **FU**, the rules provide a grammar for transformation, but they offer **no content of their own**.
+- In **FU**, the rules provide a grammar for transformation, but they do not provide much content by themselves.
 
 Consider the "Yes, but..." result above. The engine *forced* a transformation, but it didn't *propose* one. It didn't tell the GM about the tilt of the altar or the *Vulnerable* condition. If the GM is tired, or the group’s creative energy runs thin, a result like "No, but..." can feel like a burden. You have to invent the "but" on the spot. If the table goes quiet, the engine offers no structural bridge. 
 
@@ -248,7 +248,7 @@ We have looked at three different engines. We can compare them by asking one que
 
 1.  **24XX**: Minimal help. The engine is a silent referee. It gives you a setting and then gets out of the way. It requires a generative group that can fill the silence when the rules offer none.
 2.  **Breathless**: Active help. The engine is a pressure cooker. It provides a constant, mechanical sense of urgency that forces the fiction to pivot toward desperation, even when the group's creative energy flags.
-3.  **Freeform Universal**: Grammatical help. The engine is a universal solvent. It provides the grammar for how situations transform, but demands that the group supply 100% of the creative friction to fuel those transformations.
+3.  **Freeform Universal**: Grammatical help. The engine is a universal solvent. It provides the grammar for how situations transform, but places most of the creative weight on the table to supply the actual content of those transformations.
 
 None of these are better or worse. They are just different ways of answering the question of how much "scaffolding" you want on your Windshield.
 
@@ -272,22 +272,24 @@ The fix is the same in each case: the authority mechanism must produce fictional
 
 ### Paradigm Boundaries: When Overhead is the Point
 
-There are vast territories of play where the concept of "overhead" as a "tax" is fundamentally incorrect. In these paradigms, the "thick windshield" is not a bug; it is the intended experience.
+There are vast territories of play where the concept of "overhead" as a "tax" is fundamentally incorrect. In these cases, the "thick windshield" is not a bug; it is the intended experience.
 
 #### 1. Heavy Historical Simulation
 If you are playing a game designed to accurately model the ballistics of 19th-century rifles or the logistics of a Roman legion, you *want* to look at the rules. The pleasure of the game comes from the rigor of the procedure. The math is not "getting in the way" of the world; the math *is* the world. In this context, the Fiction Engine lens is useless because it sees complexity as friction, whereas the players see it as fidelity.
 
 #### 2. Competitive and Tactical Wargaming
-In games built around tactical grids, hidden information, and strategic outplaying, the rules are the terrain. Players *must* stare at the Windshield to win. They are looking for mechanical advantages, optimizing action economies, and calculating probabilities. To "measure the attention fracture" in a tactical skirmish game is to misunderstand the game's goal: the players aren't trying to feel the "wind at their backs"; they are trying to solve a mechanical puzzle.
+In games built around tactical grids, hidden information, and strategic outplaying, the rules are the terrain. Players *must* stare at the Windshield to win. They are looking for mechanical advantages, squeezing every useful action from their turn, and calculating probabilities. To "measure the attention fracture" in a tactical skirmish game is to misunderstand the game's goal: the players aren't trying to feel the "wind at their backs"; they are trying to solve a mechanical puzzle.
 
 #### 3. Ritual and Complexity
 Sometimes, the sheer weight of a procedure provides a sense of ritual. A complex downtime phase or a detailed character creation process can be deeply satisfying precisely because it requires you to step out of the fiction and engage with the machine. 
 
 ### Respecting the Edge
 
-If you apply the Fiction Engine lens to a dense, tactical RPG, you will see massive amounts of "overhead" and constant "transparency thresholds" being crossed. But that doesn't make it a bad game. It just means you have moved into a different design paradigm.
+If you apply the Fiction Engine lens to a dense, tactical RPG, you will see massive amounts of "overhead" and constant "transparency thresholds" being crossed. But that doesn't make it a bad game. It just means you have moved into a different kind of design.
 
-This framework is a singular instrument. It measures the connection between human attention and fictional momentum. It is not equipped to analyze tactical balance, mathematical fairness, or simulation accuracy.
+This framework is a singular instrument. It measures the connection between procedure and fictional change. It is not equipped to analyze tactical balance, mathematical fairness, or simulation accuracy.
+
+Not every fiction-first game is a fiction engine. Some games care deeply about fiction while still foregrounding structured move lists, reward tokens, resources that control narrative pacing, or rules for who controls what happens next. Those games may be excellent, but they are optimizing a different relationship between fiction and procedure. The lens does not judge them; it simply does not apply to them in the same way.
 
 If your goal is to lose yourself in the gritty realism of a logistics spreadsheet or the competitive thrill of a tactical map, put this book down. You are already exactly where you want to be. But if you find yourself frustrated that the fiction keeps getting suspended so the "game" can happen, then the edge of this lens is exactly where your work begins.
 
@@ -328,7 +330,7 @@ Before you read the rules, it is worth seeing how the diagnosis we’ve built th
 
 Before reading the rules that follow, or when evaluating any procedure in any game you play or design, hold it against these six questions:
 
-1. **Fictional state.** Does this rule produce a change to the shared situation, or only a change to the game record?
+1. **Fictional state.** Does this rule produce a change inside the fiction, or only a change to the game record?
 2. **Overhead.** Is any procedural weight it generates dead overhead, or does it support the conditions that make fictional play possible?
 3. **Suspended outcomes.** Does the resolution produce a playable result immediately, or does it defer the fiction pending further procedure?
 4. **Authority drift.** Does the authority mechanism (referee, oracle, or shared authorship) deliver fictional facts or administrative prompts?
@@ -339,7 +341,7 @@ A rule that fails question one is a candidate for removal. Rules that fail quest
 
 ### The Test Drive
 
-If the previous chapters were the diagnosis, *Thresholds* is the treatment. It is a tool for practice: a way to experience what happens to your group's attention when the procedural mediation is minimized.
+If the previous chapters were the diagnosis, *Thresholds* is the treatment. It is a tool for practice: a way to experience what happens to your group's attention when the rules step back as much as possible.
 
 The full, verbatim rules follow in the Appendix. Use them as a reference, a starting point for your own experiments, or simply as a final demonstration of the lens in motion.
 
@@ -361,7 +363,7 @@ The rules do not try to model the world exhaustively. They answer one question:
 
 > **When a character tries something uncertain and consequential, what happens in the fiction next?**
 
-There are no hit points, classes, levels, action economies, tactical grids, fate points, or victory conditions. Characters are defined by fictional facts. Harm, advantage, danger, equipment, exhaustion, fear, reputation, trust, and opportunity all matter only insofar as they exist inside the fiction and change what can plausibly happen.
+There are no hit points, classes, levels, turn sequences, tactical grids, fate points, or victory conditions. Characters are defined by fictional facts. Harm, advantage, danger, equipment, exhaustion, fear, reputation, trust, and opportunity all matter only insofar as they exist inside the fiction and change what can plausibly happen.
 
 The referee’s role is to keep the world coherent, responsive, and surprising. The players’ role is to say what their characters attempt from inside the situation.
 
@@ -545,6 +547,12 @@ Bad:
 > “This will fill two boxes on the complication track.”
 
 The player may change their approach after hearing the risk.
+
+If a 7–9 result could mean "No, but" rather than "Yes, but"—because the opposition is strong or the method is unlikely to fully succeed—say so before the roll. The player should know whether a partial result can achieve the intent, achieve it with cost, or only reveal another way forward.
+
+Example:
+
+> "You can try to force the gate, but with only the two of you, a partial will not open it. It will either expose a weakness or buy time before the guards arrive."
 
 ### 8. The roll
 
@@ -1016,7 +1024,7 @@ Examples:
 - the fever will break or kill him before morning
 - the soldiers will arrive after they search two more houses
 
-A non-diegetic clock may be used only as table infrastructure, and only if each step corresponds to a visible or knowable fictional change.
+A clock that exists outside the fiction may be used only as table infrastructure, and only if each step corresponds to a visible or knowable fictional change.
 
 Good clock:
 
