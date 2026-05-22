@@ -1,8 +1,0 @@
----
-title: "The Fiction Engine Handbook"
-subtitle: "A Practical Introduction to the Framework"
-author: "Roberto Bisceglie"
-date: "May 2026"
----
-
-{{< include handbook_body.md >}}
