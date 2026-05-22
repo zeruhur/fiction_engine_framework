@@ -34,9 +34,11 @@ Imagine you are driving down a highway at night. When everything is going smooth
 
 The **Road** is not a story in the literary sense. It is not a pre-authored plot or a dramatic arc. It is the living diegetic situation: the characters, conditions, and events that all participants hold as real inside the game at this moment. When we talk about the fiction, this is what we mean.
 
+The Road includes more than what every participant currently knows. Hidden motives, undiscovered rooms, secret dangers, and private knowledge are also part of the fiction when they are diegetic facts. They become visible to the table when play brings them into contact with the characters.
+
 But the moment a heavy downpour hits, or a large insect splashes right in your line of sight, your focus instantly shifts. You are no longer looking at the road. You are staring directly at the **Windshield**: the rules, the stats, and the procedures. You’re watching the wipers struggle to clear the view.
 
-This is exactly what happens every week at our gaming tables. A Fiction Engine is the specific way a system connects the Windshield to the Road. It’s the mechanism that decides when the rules need to step in, and more importantly, how they hand control back to the fiction.
+This is exactly what happens every week at our gaming tables. Every RPG has some mechanism connecting the Windshield to the Road—some way of deciding when the rules step in and how they hand control back to the fiction. A **Fiction Engine** is the specific design paradigm in which that mechanism stays thin, transparent, and fiction-facing: it intervenes only when the situation is uncertain, and it returns a changed fictional state as quickly as possible.
 
 Let’s look at how this plays out with two different groups trying to achieve the exact same thing: breaking down a locked wooden door to escape a guard patrol.
 
@@ -52,14 +54,14 @@ The windshield remained transparent. The rules stepped in for a heartbeat to pro
 
 ### Case B: The Mechanical Intermission
 
-Now let’s look at Sara’s table. They are facing the exact same locked door, but their engine is built differently.
+Now let’s look at Sara’s table. They are facing the exact same locked door, but their system is built differently.
 
 - **The Road**: Sara says, "I try to force the door open with my shoulder."
 - **The Windshield**: Suddenly, everyone stops looking at the door. The GM says, "Okay, that’s a Feat of Strength. Since it’s reinforced oak, the Difficulty Class is 18. Do you have any gear or help?"
 - **The Flicker**: Sara’s focus is now entirely on the Windshield. She is squinting at her character sheet, scanning her skill list. Another player is flipping through the manual to see if the "Help" action costs a resource. For three minutes, the guard patrol doesn't exist. There is only the manual and the math.
 - **Back to the Road**: Eventually, the die is rolled and the procedure ends. The group has to "re-load" the fiction: "Wait, where were the guards again?"
 
-The group spent three minutes staring at the glass, adjusting the wipers. The Fiction Engine required a heavy procedural detour before it allowed anyone to find out if the door actually opened. Notice that for those three minutes the door was neither open nor shut. The fiction wasn't slowed—it was **suspended**. The situation couldn't change until the procedure finished.
+The group spent three minutes staring at the glass, adjusting the wipers. Sara's system required a heavy procedural detour before it allowed anyone to find out if the door actually opened. Notice that for those three minutes the door was neither open nor shut. The fiction wasn't slowed—it was **suspended**. The situation couldn't change until the procedure finished.
 
 ### Defining the Lens
 
@@ -69,11 +71,13 @@ To understand why these two moments feel different, we need to name what is happ
 2.  **Overhead**: Procedural steps that produce neither fictional change nor the conditions for it. When Sara spends three minutes scanning her skill list, that’s overhead—it buys nothing in fictional terms. But not every non-diegetic element is overhead. Safety agreements, campaign records, and pacing clocks also exist outside the fiction, yet they support the coherence that makes fictional change possible. This framework targets *dead* overhead specifically: procedural weight that purchases no fictional return.
 3.  **The Transparency Threshold**: This is the tipping point where a rule stops being a lens you look *through* and starts becoming an obstacle you look *at*. A rule can briefly enter your field of vision (you glance at the die, you name a consequence) and that is not a problem. The problem is a Windshield that holds your attention without handing you back a changed situation. Below the threshold, a procedure steps in, does its work, and returns you to the Road. Above it, the procedure becomes a thing in itself: the center of the table’s attention, disconnected from whatever was happening in the fiction. In Case A, the engine stayed below the threshold. In Case B, it crossed it, forcing you to stop being a character so you could be a book-keeper.
 
-Neither of these engines is inherently "better." If your group loves the tactical puzzle of optimizing bonuses, Case B is satisfying. But this framework is designed to look at a very specific trade-off: **cognitive load**.
+Neither of these designs is inherently "better." If your group loves the tactical puzzle of optimizing bonuses, Case B is satisfying. But this framework is designed to look at a very specific trade-off: **cognitive load**.
 
 The shift from "What would my character do?" to "What does the manual say?" costs nothing if the rules hand you back a changed situation immediately. It costs something real when they don't. By understanding where your favorite game sits on this spectrum, you can begin to answer the question:
 
 **What is this rule doing to your attention right now?**
+
+A note on vocabulary: throughout this book, **Road** and **Windshield** are table-facing terms for what the framework calls **diegetic fiction** and **procedural layer**. **Attention fracture** names the subjective experience of crossing the **transparency threshold**. **Cognitive load** is what the framework measures as the weight of **procedural overhead**. The handbook uses the experiential vocabulary; the framework uses the structural vocabulary. They refer to the same phenomena.
 
 ## 3. Attention, Pacing, and the Group
 
@@ -127,6 +131,8 @@ One more thing must be said before we look at specific engines.
 
 This framework measures the relationship between procedure and attention. It treats low overhead as desirable. But low overhead is a means, not an end. An engine that removes all friction while producing vague, weightless, or arbitrary consequences has not solved the problem. It has replaced one failure with another.
 
+Attention fracture is the symptom. Dead overhead is the diagnosis. Fictional change is the test.
+
 A fiction engine must stay transparent while still preserving **uncertainty** (the outcome is genuinely in doubt), **agency** (what the player chose affected what happened), and **consequence** (the result changes what is now true in a way that matters to the fiction going forward). These three are what make the Road worth looking at. Without them, clearing the Windshield is just clearing glass with nothing behind it.
 
 Keep this in mind when evaluating the engines below. The question is not only "Is the procedure thin?" It is: "Does the procedure, thin as it is, still produce outcomes that are uncertain, chosen, and consequential?"
@@ -159,7 +165,7 @@ This is a surgical piece of engineering. There are no "Armor Class" numbers or "
 
 ### The Cost of Thinness (Intellectual Honesty)
 
-However, this thinness comes with a heavy price tag: **The engine offers zero assistance.**
+However, this thinness comes with a heavy price tag: **relative to more scaffolded designs, the engine offers no assistance.**
 
 In a more procedural game, a low roll might trigger a specific mechanical penalty that the rules handle for you (e.g., "Take 4 damage"). In 24XX, a low roll only produces the word "setback." It is entirely up to the human beings at the table to decide what that means.
 
@@ -198,7 +204,7 @@ The Breathless engine works best when the degradation forces a character choice.
 - **Active Help (Momentum)**: When a player decides to "Catch their Breath" to reset their dice, the GM is instructed to *look at the scene and introduce a new complication for the group.* This is a vital piece of the engine. It doesn't just let the players "pause" to heal; it forces the **Road** to transform. The engine actively helps the GM keep the pressure high, ensuring that every "breather" is actually a pivot into a new fictional crisis.
 - **Administrative Overhead**: A player spends sixty seconds debating whether they should use the "Catch Your Breath" mechanic purely to optimize their math for a future roll, regardless of whether the character would actually stop to rest. The group is no longer looking at the Road; they are staring at the Windshield, arguing about the wipers.
 
-**An Honest Note**: This engine assumes the group chooses to see the numbers as fictional states. If you treat the degradation as just a math problem to be solved, the engine becomes nothing but bookkeeping. You have to believe in the trembling hands for the engine to work.
+**An Honest Note**: The shrinking die is not fictional by itself. It becomes fiction-engine material only when it is expressed as an observable condition: shaking hands, ragged breath, tunnel vision, frayed nerves, depleted ammunition—some state the characters can perceive and respond to. If the table treats degradation as a math problem to optimize, the engine collapses into bookkeeping. The number has to become the trembling hands, or it stays paint on the Windshield.
 
 ## 6. Freeform Universal: The Flexible Engine
 
@@ -230,7 +236,7 @@ Compare this to the other case studies:
 
 - In **24XX**, the engine is minimal and gets out of the way. It gives you a moon base and a d10, then stays silent.
 - In **Breathless**, the engine provides pressure. It tells you exactly how tired you are by shrinking your dice.
-- In **FU**, the rules provide a grammar for transformation, but they offer **zero content**. 
+- In **FU**, the rules provide a grammar for transformation, but they offer **no content of their own**.
 
 Consider the "Yes, but..." result above. The engine *forced* a transformation, but it didn't *propose* one. It didn't tell the GM about the tilt of the altar or the *Vulnerable* condition. If the GM is tired, or the group’s creative energy runs thin, a result like "No, but..." can feel like a burden. You have to invent the "but" on the spot. If the table goes quiet, the engine offers no structural bridge. 
 
@@ -336,6 +342,8 @@ A rule that fails question one is a candidate for removal. Rules that fail quest
 If the previous chapters were the diagnosis, *Thresholds* is the treatment. It is a tool for practice: a way to experience what happens to your group's attention when the procedural mediation is minimized.
 
 The full, verbatim rules follow in the Appendix. Use them as a reference, a starting point for your own experiments, or simply as a final demonstration of the lens in motion.
+
+One cost should be named honestly. *Thresholds* buys procedural transparency by moving interpretive labor onto the referee and table. Its rules are thin, but the table must be able to produce concrete consequences from fictional context. When the context is vague or the group's creative energy runs low, the engine can still stall—the same cost identified for 24XX and FU. Thin rules require a generative table.
 
 Now, return to the Road.
 
@@ -589,6 +597,10 @@ Every result must answer:
 
 > **What is now true in the fiction?**
 
+Also ask:
+
+> Who in the scene can perceive or respond to it? What is now open, closed, or urgent?
+
 ### 9. How character truths affect play
 
 Character truths never add numbers to the roll.
@@ -666,6 +678,14 @@ Examples:
 Difficulty does not change the number on the dice. It changes the fiction before the roll: whether the action is possible, what preparation is needed, what success can accomplish, and what failure will cost.
 
 A locked door in an empty corridor is different from the same lock while guards climb the stairs. The dice are the same. What the result means—and what it costs—is not.
+
+When fictional advantage or difficulty changes what is possible or what success can accomplish, say so before the roll.
+
+Example:
+
+> "Because you have the high ground, failure will not mean they overwhelm you immediately; it will mean they force you back toward the broken stairs."
+
+Since the dice do not change, the fictional effect of positioning, preparation, and expertise must be stated plainly before anyone picks up the dice. Otherwise players will feel that their choices made no difference.
 
 ### 11. Harm
 
@@ -1180,6 +1200,8 @@ Roll 2d6.
 
 The oracle must answer as a fictional event or fact, not as a prompt that requires another procedure.
 
+After rolling, complete the answer in one concrete sentence before doing anything else. The sentence must name something the characters could observe, discover, suffer, use, or be changed by.
+
 Good:
 
 > “Yes, the door is guarded, and the guard is arguing with someone you know.”
@@ -1196,7 +1218,16 @@ Bad:
 
 > “Generate a theme.”
 
-If the oracle answer is too vague, translate it immediately into something the characters could observe, discover, or be affected by.
+If the result is unclear, choose a direction from this list and complete it as a sentence:
+
+- reveal a person's action or location
+- change the environment
+- expose a danger
+- consume or damage an object
+- alter someone's attitude toward a character
+- advance a visible threat
+- reveal a hidden fact
+- separate, trap, mark, wound, or obligate someone
 
 ### 25. Safety and table agreement
 
