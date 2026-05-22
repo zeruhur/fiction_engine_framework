@@ -28,14 +28,26 @@ jobs:
       - name: Install fonts
         run: |
           mkdir -p _fonts
-          curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/Lora%5Bwght%5D.ttf" \
-            -o _fonts/Lora.ttf
-          curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/Lora%5Bital%2Cwght%5D.ttf" \
+          # Lora — body font (static files: variable fonts don't reliably resolve weights in CI Typst)
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/static/Lora-Regular.ttf" \
+            -o _fonts/Lora-Regular.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/static/Lora-Bold.ttf" \
+            -o _fonts/Lora-Bold.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/static/Lora-Italic.ttf" \
             -o _fonts/Lora-Italic.ttf
-          curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf" \
-            -o _fonts/Montserrat.ttf
-          curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bital%2Cwght%5D.ttf" \
-            -o _fonts/Montserrat-Italic.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/lora/static/Lora-BoldItalic.ttf" \
+            -o _fonts/Lora-BoldItalic.ttf
+          # Montserrat — heading/title font (all weights used by template: 600 h3, 700 h2, 800 h1, 900 title)
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/static/Montserrat-Regular.ttf" \
+            -o _fonts/Montserrat-Regular.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/static/Montserrat-SemiBold.ttf" \
+            -o _fonts/Montserrat-SemiBold.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/static/Montserrat-Bold.ttf" \
+            -o _fonts/Montserrat-Bold.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/static/Montserrat-ExtraBold.ttf" \
+            -o _fonts/Montserrat-ExtraBold.ttf
+          curl -sL "https://github.com/google/fonts/raw/main/ofl/montserrat/static/Montserrat-Black.ttf" \
+            -o _fonts/Montserrat-Black.ttf
 
       - name: Render PDF
         run: quarto render master.qmd --to typst
