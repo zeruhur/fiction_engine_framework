@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiction Engine Framework</title>
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -108,11 +109,24 @@
             margin-bottom: 0;
         }
 
+        .masthead-logo {
+            display: block;
+            height: 80px;
+            width: auto;
+            margin-bottom: 1.8rem;
+            opacity: 0.88;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .masthead-logo { filter: invert(1); opacity: 0.82; }
+        }
+
         .masthead h1 {
             font-family: "Montserrat", sans-serif;
             font-size: 2.8rem;
             line-height: 1.1;
             font-weight: 900;
+            font-style: normal;
             letter-spacing: -0.02em;
         }
 
@@ -621,6 +635,7 @@ function renderIndex() {
     document.getElementById('root').innerHTML = `
         <div class="index-wrap">
             <div class="masthead">
+                <img src="logo.svg" alt="Fiction Engine Framework logo" class="masthead-logo">
                 <h1>Fiction Engine<br>Framework</h1>
                 <p class="meta">Roberto Bisceglie &middot; Version 1.0 &middot; May 2026</p>
                 <p class="intro">A design framework for tabletop RPGs treating play as a system for producing, sustaining, and transforming fiction with minimal friction. One framework document, nine companion essays, and a glossary.</p>

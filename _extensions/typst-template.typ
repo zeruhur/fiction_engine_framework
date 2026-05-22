@@ -106,9 +106,13 @@
 #set page(numbering: none, footer: none)
 
 #align(right)[
-//  #image("logo.png", width: 1in)
+  #v(4em)
+  #image("logo.svg", width: 1.4in)
+]
+
+#align(right)[
   #set par(justify: false)
-  #v(18em)
+  #v(10em)
   #text(font: font-title, size: 22pt, weight: "black", fill: black, hyphenate: false)[
     $title$
   ]
