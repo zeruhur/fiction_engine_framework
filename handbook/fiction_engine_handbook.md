@@ -77,7 +77,15 @@ The shift from "What would my character do?" to "What does the manual say?" cost
 
 **What is this rule doing to your attention right now?**
 
-A note on vocabulary: throughout this book, **Road** and **Windshield** are table-facing terms for what the framework calls **diegetic fiction** and **procedural layer**. **Attention fracture** names the subjective experience of crossing the **transparency threshold**. **Cognitive load** is what the framework measures as the weight of **procedural overhead**. The handbook uses the experiential vocabulary; the framework uses the structural vocabulary. They refer to the same phenomena.
+A note on vocabulary: this handbook uses plain, table-facing language. The framework behind it uses more structural terms. They refer to the same things.
+
+| Handbook term          | Framework term                                        |
+| ---------------------- | ----------------------------------------------------- |
+| Road                   | The fictional situation (shared and hidden)           |
+| Windshield             | The procedural layer                                  |
+| Attention fracture     | The felt experience of crossing the transparency threshold |
+| Cognitive load         | The felt cost of procedural overhead                  |
+| Transparency threshold | The point where procedure becomes the object of attention rather than a tool |
 
 ## 3. Attention, Pacing, and the Group
 
@@ -1084,6 +1092,10 @@ Make investigation dangerous, costly, revealing, or transformative. Do not make 
 
 “The knife goes into your side” is better than “take harm.” “The priest now knows you lied” is better than “mark suspicion.”
 
+#### Calibrate consequences to the fiction
+
+Consequences should follow from the risk that was established before the roll, the character's method, the opposition present, and the character's current position in the fiction. A consequence that ignores any of these feels arbitrary. A consequence that uses all of them feels earned.
+
 ### 21. Player principles
 
 Players should follow these principles.
@@ -1203,8 +1215,10 @@ Roll 2d6.
 |   Roll | Answer                                                        |
 |-------:|---------------------------------------------------------------|
 |    10+ | Yes, and something else is also true.                         |
-|   7–9  | Yes, but there is a complication or cost. / No, but something useful, revealing, or dangerous is present. |
+|   7–9  | Yes, but there is a complication or cost — or — No, but something useful, revealing, or dangerous is present. |
 | 6 or less | No, and the situation worsens.                             |
+
+For a 7–9, choose between "Yes, but" and "No, but" using this rule: if the question is about something the character is actively doing or influencing, lean toward "Yes, but." If the question is about an external fact beyond the character's reach, lean toward "No, but."
 
 The oracle must answer as a fictional event or fact, not as a prompt that requires another procedure.
 
