@@ -277,25 +277,29 @@ But flexibility is not a free gift. It is a trade-off.
 
 FU functions by having the table propose **Closed Questions**: *"Do I leap the chasm?"* or *"Do I convince the guard?"*. The engine then resolves these using a resolution grammar: **Yes/No** modified by **And/But**.
 
-Imagine a scene in a flooded subterranean temple. A character is trying to keep their balance on a slick, tilting stone altar while fending off a swarm of leeches.
+Imagine the scene in the flooded subterranean temple. You are trying to keep your balance on a slick stone altar while fending off a swarm of leeches.
 
 - **The Closed Question**: "Do I clear the leeches from the altar?"
-- **The Windshield (Descriptors & Gear)**: To resolve this, the group must build the mechanics from scratch. The GM identifies **Descriptors** (innate traits like *Nimble*) and **Gear** (items with one adjective like *Heavy Blade*). Every piece of fiction that makes the action easier adds a bonus die; every piece that makes it harder adds a penalty die.
-- **The Result**: The player rolls. The result is a **"No, but..."**
-
-In this moment, the engine doesn't produce a mechanical penalty or a "missed" turn. It produces a prompt for **fictional authority**. The GM and the player look at the Road together. "No, you don't clear the altar," the GM says, "but as you slip, you notice a bronze ring bolted to the stone. If you can grab it, you won't fall into the swarm."
+- **The Windshield Negotiation**: To resolve this, you and the GM must negotiate the physics of the scene. You point out that your character is *Nimble* (+1 bonus die). The GM counters that the altar is *Slick* (-1 penalty die). You then mention your *Heavy Blade* (+1 bonus die). 
+- **The Math**: Using the **Cancelling Out** rule, the bonus and penalty dice negate each other, leaving you with one bonus die. You roll 2d6.
+- **The Result**: You roll a **5** and a **2**. In FU, a 5 is "No, but..." and a 2 is "Yes, but...". Since you are rolling a bonus die, you get to choose the result you prefer. You choose the 2.
+- **The Return to the Road**: "I clear the leeches," you narrate, "but as I swing the blade, the momentum tilts the altar further. I’m sprawling toward the edge." The GM adds a **Condition** to your sheet: *Vulnerable*.
 
 This is a deep design commitment to **fictional continuation**. It is impossible for the resolution to end in a stalemate. The engine’s only job is to ensure the question "What happens next?" always has a transformed answer.
 
 ### The Cost of Flexibility: Total Creative Weight
 
-The weight of this engine is felt in the **creative friction** required by the group. Because there are no pre-set skills, the players and GM are effectively building the "physics" of the world in every scene. They have to decide *right now* if being *Nimble* is more or less important than the altar being *Slick*. 
+The weight of this engine is felt in the **creative friction** required by the group. Because there are no pre-set skills, you are effectively building the "physics" of the world in every scene. In the example above, the GM and the player had to decide *right now* if being *Nimble* was more important than the altar being *Slick*. 
 
-In 24XX, the engine is minimal but usually tied to a specific setting. In Breathless, the engine provides pressure through dice degradation. In FU, the rules provide nothing but the resolution grammar.
+Compare this to the other case studies:
 
-Consider the "No, but..." result above. The engine *forced* a transformation, but it didn't *propose* one. It didn't tell the GM about the leeches or the bronze ring. If the GM is tired, or the group’s creative energy runs thin, a result like "Yes, and..." can feel like a burden rather than a reward. If the table goes quiet because no one knows what the "And" should be, the engine offers no structural bridge. 
+- In **24XX**, the engine is minimal and gets out of the way. It gives you a moon base and a d10, then stays silent.
+- In **Breathless**, the engine provides pressure. It tells you exactly how tired you are by shrinking your dice.
+- In **FU**, the rules provide a grammar for transformation, but they offer **zero content**. 
 
-Because it is designed to work for *any* setting, it cannot provide specific help for *your* setting. It offers a way to move, but it doesn't tell you where to go. You have total freedom, but you carry the total weight of the world.
+Consider the "Yes, but..." result above. The engine *forced* a transformation, but it didn't *propose* one. It didn't tell the GM about the tilt of the altar or the *Vulnerable* condition. If the GM is tired, or the group’s creative energy runs thin, a result like "No, but..." can feel like a burden. You have to invent the "but" on the spot. If the table goes quiet, the engine offers no structural bridge. 
+
+You have total freedom, but you carry the total weight of the world. Every "And" and "But" is a creative tax paid by the humans at the table to keep the Road moving.
 
 ### A Map of the Case Studies
 
