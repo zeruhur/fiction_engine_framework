@@ -129,12 +129,10 @@
   ]
 ]
 
-// Ensure blank page after cover (title page on right, blank on left, TOC starts on right)
-//#pagebreak()
-
 // ============================================
-// 3. TABLE OF CONTENTS (lowercase Roman numerals)
+// 3. TABLE OF CONTENTS (lowercase Roman numerals, only when TOC is enabled)
 // ============================================
+$if(toc)$
 #set page(
   numbering: "i",
   footer: context [
@@ -146,29 +144,15 @@
     ]
   ]
 )
-
 #counter(page).update(1)
-
-$if(toc)$
-// Use a show rule for the outline title for more flexibility
 #show outline: set text(font: font-main, size: 10.5pt)
-
-// Make level 1 entries in the TOC bold
 #show outline.entry.where(level: 1): it => strong(it)
 #outline(title: [$toc-title$], depth: $toc-depth$)
 $endif$
 
-// Create a blank page after TOC (will be in roman numerals)
-//#pagebreak(weak: false, to: "even")
-// Add nearly invisible content to force this page to render with roman numerals
-#text(size: 0.01pt, fill: white)[.]
-// Force another pagebreak to "close" the roman page before format switch
-//#pagebreak()
-
 // ============================================
 // 4. BODY (Arabic numerals, restart at 1)
 // ============================================
-// Switch to arabic numerals starting from page 1
 #set page(
   numbering: "1",
   footer: context [
@@ -180,7 +164,6 @@ $endif$
     ]
   ]
 )
-
-#counter(page).update(0)
+#counter(page).update(1)
 
 $body$
