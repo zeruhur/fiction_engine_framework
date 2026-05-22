@@ -1,1 +1,6 @@
+---
+filters:
+  - _extensions/typst-pagebreak-h2.lua
+---
+
 {{< include handbook/fiction_engine_handbook.md >}}
