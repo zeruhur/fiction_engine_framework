@@ -14,6 +14,7 @@ version: 1.0
 - [3. Attention, Pacing, and the Group](#3-attention-pacing-and-the-group)
   - [Attentional Distribution](#attentional-distribution)
   - [Engine Profiles: Pacing and Momentum](#engine-profiles-pacing-and-momentum)
+  - [The Table's Orientation](#the-tables-orientation)
 - [4. 24XX: The Minimal Engine](#4-24xx-the-minimal-engine)
   - [The Case Study: The Moon Base](#the-case-study-the-moon-base)
   - [The Design Commitment: Maximum Continuity](#the-design-commitment-maximum-continuity)
@@ -26,6 +27,7 @@ version: 1.0
   - [The Cost of Flexibility: Total Creative Weight](#the-cost-of-flexibility-total-creative-weight)
   - [A Map of the Case Studies](#a-map-of-the-case-studies-1)
 - [7. The Limits of the Lens](#7-the-limits-of-the-lens)
+  - [Authority Drift](#authority-drift)
   - [Paradigm Boundaries: When Overhead is the Point](#paradigm-boundaries-when-overhead-is-the-point)
   - [Respecting the Edge](#respecting-the-edge)
 - [8. Thresholds: A Reference Architecture](#8-thresholds-a-reference-architecture)
@@ -146,19 +148,19 @@ Now let’s look at Sara’s table. They are facing the exact same locked door, 
 - **The Flicker**: Sara’s focus is now entirely on the Windshield. She is squinting at her character sheet, scanning her skill list. Another player is flipping through the manual to see if the "Help" action costs a resource. For three minutes, the guard patrol doesn't exist. There is only the manual and the math.
 - **Back to the Road**: Eventually, the die is rolled and the procedure ends. The group has to "re-load" the fiction: "Wait, where were the guards again?"
 
-The group spent three minutes staring at the glass, adjusting the wipers. The Fiction Engine required a heavy procedural detour before it allowed anyone to find out if the door actually opened.
+The group spent three minutes staring at the glass, adjusting the wipers. The Fiction Engine required a heavy procedural detour before it allowed anyone to find out if the door actually opened. Notice that for those three minutes the door was neither open nor shut. The fiction wasn't slowed—it was **suspended**. The situation couldn't change until the procedure finished.
 
 ### Defining the Lens
 
 To understand why these two moments feel different, we need to name what is happening to our attention. We’ll use three terms, defined through the eyes of the player:
 
-1.  **Fictional State**: This is something you can see and respond to on the Road. If your crowbar snaps (Case A), that is a fictional state. You can talk about it, you can feel the loss of the tool. If you have a "+2 Difficulty Modifier" (Case B), that is not a fictional state. You can't "see" a modifier in the world. It’s just paint on the windshield.
-2.  **Overhead**: This is the time you spend staring at the glass without anything happening on the Road. It’s the "paperwork" of the game—scanning lists, looking up page numbers, or debating rules. It’s the mental tax you pay to get a result.
-3.  **The Transparency Threshold**: This is the tipping point where a rule stops being a lens you look *through* and starts being an object you look *at*. It’s the moment the glare on the Windshield becomes so bright that you can no longer see the Road. Below this threshold, the procedure is invisible infrastructure; above it, the procedure is the center of your attention. In Case A, the engine stayed below the threshold. In Case B, it shattered it, forcing you to stop being a character so you could be a book-keeper.
+1.  **Fictional State**: This is something you can see and respond to on the Road. If your crowbar snaps (Case A), that is a fictional state. You can talk about it, you can feel the loss of the tool. If you have a "+2 Difficulty Modifier" (Case B), that is not a fictional state. You can’t "see" a modifier in the world. It’s just paint on the windshield.
+2.  **Overhead**: Procedural steps that produce neither fictional change nor the conditions for it. When Sara spends three minutes scanning her skill list, that’s overhead—it buys nothing in fictional terms. But not every non-diegetic element is overhead. Safety agreements, campaign records, and pacing clocks also exist outside the fiction, yet they support the coherence that makes fictional change possible. This framework targets *dead* overhead specifically: procedural weight that purchases no fictional return.
+3.  **The Transparency Threshold**: This is the tipping point where a rule stops being a lens you look *through* and starts becoming an obstacle you look *at*. A rule can briefly enter your field of vision—you glance at the die, you name a consequence—and that is not a problem. The problem is a Windshield that holds your attention without handing you back a changed situation. Below the threshold, a procedure steps in, does its work, and returns you to the Road. Above it, the procedure becomes a thing in itself: the center of the table’s attention, disconnected from whatever was happening in the fiction. In Case A, the engine stayed below the threshold. In Case B, it crossed it, forcing you to stop being a character so you could be a book-keeper.
 
 Neither of these engines is inherently "better." If your group loves the tactical puzzle of optimizing bonuses, Case B is satisfying. But this framework is designed to look at a very specific trade-off: **cognitive load**.
 
-Every time you have to shift your brain from "What would my character do?" to "What does the manual say?", you lose momentum. By understanding where your favorite game sits on this spectrum, you can begin to answer the question:
+The shift from "What would my character do?" to "What does the manual say?" costs nothing if the rules hand you back a changed situation immediately. It costs something real when they don't. By understanding where your favorite game sits on this spectrum, you can begin to answer the question:
 
 **What is this rule doing to your attention right now?**
 
@@ -195,6 +197,18 @@ Now imagine the same scene. The player describes the attempt. The GM notes that 
 **Is acceleration a cure-all?** Not necessarily. If an engine moves too fast, it can feel "thin." The group might feel like their mechanical choices don't matter, or that they are just telling a story without any "game" to push back against them.
 
 The question isn't which profile is better. The question is: **Is the engine's pace matching the group's intent?**
+
+### The Table's Orientation
+
+There is a failure mode that has nothing to do with the rules themselves.
+
+A fiction engine can be correctly designed—thin mediation, fictional consequences, no dead overhead—and still fail at the table. This happens when participants are not holding the same model of what the game is doing.
+
+One player treats the session as a tactical problem: they want to optimize outcomes and manage consequences efficiently. Another treats it as character study: they want to inhabit the situation and let it change who they are. A third is there for the world, more interested in what the setting reveals than in any single character's arc. None of these orientations is wrong. But when they run simultaneously, without prior agreement, the fiction fragments. The GM delivers a consequence; one player treats it as an obstacle to route around; another carries it as a wound. They are in the same room, rolling the same dice, and playing in different fictions.
+
+This is a social condition, not a mechanical one. Rules cannot solve it. What design can do is make the game's orientation legible from the start—what kind of object this is, what it asks of participants, what it will produce. What the table can do is state expectations before play begins and treat the fiction as a genuinely shared object rather than a stage for individual intent.
+
+A fiction engine is a social agreement before it is a mechanical system. The rules formalize that agreement. They cannot substitute for it.
 
 ## 4. 24XX: The Minimal Engine
 
@@ -316,6 +330,18 @@ None of these are better or worse. They are just different ways of answering the
 To trust a tool, you must know what it cannot measure. Throughout this book, we have prioritized thin mediation, low cognitive load, and a clear view of the Road. But it is time to be the ultimate skeptic of this framework.
 
 Where does the vocabulary of the "Fiction Engine" completely run dry?
+
+### Authority Drift
+
+The fiction engine relies on some mechanism for distributing narrative authority—a referee who mediates between the fiction and the players, a shared authorship structure, an oracle in solo or low-referee play. Any of these can drift.
+
+A referee ruling that should produce a fictional consequence instead generates procedural negotiation. An oracle output that should read as a fictional event instead reads as a task: "introduce a complication," "add tension," "describe something hidden." The players receive an administrative prompt rather than a fact about the world. They must do significant interpretive work before the fiction can advance.
+
+When this happens, the mechanism has become a bottleneck rather than a conduit. The signal is familiar—more time spent on the Windshield than the Road—but the cause is different. The rules may be functioning correctly. The authority mechanism is the thing generating overhead where it should be generating fiction.
+
+In solo play this is particularly easy to miss. An oracle that consistently produces prompts instead of events can feel like the game is working, because you are always generating answers. But if those answers require invention before they become fictional facts, the oracle has crossed into dead overhead—and the engine is stalling at precisely the point it was supposed to sustain the fiction.
+
+The fix is the same in each case: the authority mechanism must produce fictional events, not procedural tasks. "The guard is suspicious" is a fictional fact. "Generate suspicion" is overhead wearing the disguise of an answer.
 
 ### Paradigm Boundaries: When Overhead is the Point
 
