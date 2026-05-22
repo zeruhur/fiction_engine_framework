@@ -39,14 +39,13 @@
 // as top-level raw blocks (show rules cannot contain pagebreaks in Typst).
 #show heading.where(level: 1): it => {
   v(5em)
-  set text(font: font-title, size: 16pt, hyphenate: false, weight: "bold")
+  set text(font: font-title, size: 16pt, hyphenate: false, weight: 800)
   it
   v(2em)
 }
 
-
-#show heading.where(level: 2): set text(font: font-heading, size: 14pt, hyphenate: false, weight: "semibold")
-#show heading.where(level: 3): set text(font: font-heading, size: 12pt, hyphenate: false, weight: "medium")
+#show heading.where(level: 2): set text(font: font-heading, size: 14pt, hyphenate: false, weight: 700)
+#show heading.where(level: 3): set text(font: font-heading, size: 12pt, hyphenate: false, weight: 600)
 
 // Keep list items together with some flexibility
 #show list: it => {
@@ -106,19 +105,20 @@
 #set page(numbering: none, footer: none)
 
 #align(right)[
-  #v(4em)
-  #image("logo.svg", width: 1.4in)
-]
-
-#align(right)[
   #set par(justify: false)
-  #v(10em)
-  #text(font: font-title, size: 22pt, weight: "black", fill: black, hyphenate: false)[
+  #v(8em)
+  #image("logo.svg", width: 1.4in)
+  #v(0.4em)
+  #text(font: font-title, size: 22pt, weight: 900, fill: black, hyphenate: false)[
     $title$
   ]
   #v(-0.7em)
-  #text(font: font-title, size: 12pt, weight: "bold")[
+  #text(font: font-title, size: 12pt, weight: 700)[
     $subtitle$
+  ]
+  #v(1.2em)
+  #text(font: font-main, size: 11pt, style: "italic")[
+    $author$
   ]
 ]
 
