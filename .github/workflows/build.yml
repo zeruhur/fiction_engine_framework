@@ -52,39 +52,39 @@ jobs:
       - name: Prepare handbook body
         run: |
           python3 -c "
-import re, sys
-content = open('handbook/fiction_engine_handbook.md').read()
-body = re.sub(r'^---\n.*?\n---\n', '', content, count=1, flags=re.DOTALL)
-open('handbook_body.md', 'w').write(body)
-"
+          import re, sys
+          content = open('handbook/fiction_engine_handbook.md').read()
+          body = re.sub(r'^---\n.*?\n---\n', '', content, count=1, flags=re.DOTALL)
+          open('handbook_body.md', 'w').write(body)
+          "
 
-      - name: Render Handbook PDF
-        run: quarto render handbook.qmd --to typst
+                - name: Render Handbook PDF
+                  run: quarto render handbook.qmd --to typst
 
-      - name: Render Handbook EPUB
-        run: quarto render handbook.qmd --to epub
+                - name: Render Handbook EPUB
+                  run: quarto render handbook.qmd --to epub
 
-      - name: Render Handbook ODT
-        run: quarto render handbook.qmd --to odt
+                - name: Render Handbook ODT
+                  run: quarto render handbook.qmd --to odt
 
-      - name: Render Handbook MD
-        run: quarto render handbook.qmd --to gfm
+                - name: Render Handbook MD
+                  run: quarto render handbook.qmd --to gfm
 
-      - name: Assemble site
-        run: |
-          mkdir -p _site/downloads
-          cp index.html _site/
-          cp logo.svg _site/
-          cp -r foundation analysis comparative system_thinking limits handbook _site/
-          cp -r _extensions _site/
-          [ -f master.pdf ]  && cp master.pdf  _site/downloads/fiction-engine-framework.pdf  || true
-          [ -f master.epub ] && cp master.epub _site/downloads/fiction-engine-framework.epub || true
-          [ -f master.odt ]  && cp master.odt  _site/downloads/fiction-engine-framework.odt  || true
-          [ -f master.md ]   && cp master.md   _site/downloads/fiction-engine-framework.md   || true
-          [ -f handbook.pdf ]  && cp handbook.pdf  _site/downloads/fiction-engine-handbook.pdf  || true
-          [ -f handbook.epub ] && cp handbook.epub _site/downloads/fiction-engine-handbook.epub || true
-          [ -f handbook.odt ]  && cp handbook.odt  _site/downloads/fiction-engine-handbook.odt  || true
-          [ -f handbook.md ]   && cp handbook.md   _site/downloads/fiction-engine-handbook.md   || true
+                - name: Assemble site
+                  run: |
+                    mkdir -p _site/downloads
+                    cp index.html _site/
+                    cp logo.svg _site/
+                    cp -r foundation analysis comparative system_thinking limits handbook _site/
+                    cp -r _extensions _site/
+                    [ -f master.pdf ]  && cp master.pdf  _site/downloads/fiction-engine-framework.pdf  || true
+                    [ -f master.epub ] && cp master.epub _site/downloads/fiction-engine-framework.epub || true
+                    [ -f master.odt ]  && cp master.odt  _site/downloads/fiction-engine-framework.odt  || true
+                    [ -f master.md ]   && cp master.md   _site/downloads/fiction-engine-framework.md   || true
+                    [ -f handbook.pdf ]  && cp handbook.pdf  _site/downloads/fiction-engine-handbook.pdf  || true
+                    [ -f handbook.epub ] && cp handbook.epub _site/downloads/fiction-engine-handbook.epub || true
+                    [ -f handbook.odt ]  && cp handbook.odt  _site/downloads/fiction-engine-handbook.odt  || true
+                    [ -f handbook.md ]   && cp handbook.md   _site/downloads/fiction-engine-handbook.md   || true
 
       - uses: actions/upload-pages-artifact@v3
         with:
