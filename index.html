@@ -230,6 +230,27 @@
             line-height: 1.58;
         }
 
+        .entry-link {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .essay-entry--has-downloads {
+            cursor: default;
+        }
+
+        .entry-link:hover .entry-title {
+            color: var(--accent);
+        }
+
+        .entry-downloads {
+            display: flex;
+            gap: 1.4rem;
+            flex-wrap: wrap;
+            margin-top: 0.9rem;
+        }
+
         /* ── ESSAY PAGE ──────────────────────────────── */
         .essay-wrap {
             max-width: var(--max-w);
@@ -426,6 +447,21 @@
 <script>
 const ESSAYS = [
     {
+        id: 'handbook',
+        file: 'handbook/fiction_engine_handbook.md',
+        title: 'The Fiction Engine Handbook',
+        subtitle: 'A Practical Introduction to the Framework',
+        desc: 'The accessible entry point. Introduces the framework through case studies — 24XX, Breathless, Freeform Universal — and includes the complete Thresholds reference game as an appendix.',
+        num: '—',
+        arc: null,
+        downloads: [
+            { fmt: 'PDF',  href: 'downloads/fiction-engine-handbook.pdf'  },
+            { fmt: 'EPUB', href: 'downloads/fiction-engine-handbook.epub' },
+            { fmt: 'ODT',  href: 'downloads/fiction-engine-handbook.odt'  },
+            { fmt: 'MD',   href: 'downloads/fiction-engine-handbook.md'   }
+        ]
+    },
+    {
         id: 'framework',
         file: 'foundation/fiction_engine_framework.md',
         title: 'Fiction Engine',
@@ -613,6 +649,27 @@ function renderIndex() {
     const appendix     = ESSAYS.filter(e => e.arc === 'appendix');
 
     function entryHTML(e) {
+        const dlBar = e.downloads ? `
+            <div class="entry-downloads">
+                ${e.downloads.map(d =>
+                    `<a class="download-link" href="${d.href}" download>Download <span class="dl-fmt">${d.fmt}</span></a>`
+                ).join('')}
+            </div>` : '';
+
+        if (e.downloads) {
+            return `<div class="essay-entry essay-entry--has-downloads">
+                <span class="entry-num">${e.num}</span>
+                <div class="entry-body">
+                    <a class="entry-link" href="?page=${e.id}">
+                        <div class="entry-title">${e.title}</div>
+                        <div class="entry-subtitle">${e.subtitle}</div>
+                        <div class="entry-desc">${e.desc}</div>
+                    </a>
+                    ${dlBar}
+                </div>
+            </div>`;
+        }
+
         return `<a class="essay-entry" href="?page=${e.id}">
             <span class="entry-num">${e.num}</span>
             <div class="entry-body">
