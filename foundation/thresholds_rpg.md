@@ -14,8 +14,6 @@ There are no hit points, classes, levels, action economies, tactical grids, fate
 
 The referee’s role is to keep the world coherent, responsive, and surprising. The players’ role is to say what their characters attempt from inside the situation.
 
----
-
 # 2. Materials
 
 You need:
@@ -24,8 +22,6 @@ You need:
 * paper or a shared document
 * one referee and one or more players
 * or, for solo/low-referee play, the oracle rules in section 24
-
----
 
 # 3. The basic cycle of play
 
@@ -41,8 +37,6 @@ Play proceeds in a simple loop.
 8. **Play continues from that changed situation.**
 
 Do not roll to see whether play can continue. Roll only when the result will change the situation.
-
----
 
 # 4. Characters
 
@@ -115,8 +109,6 @@ Examples:
 * a mule named Candle
 * lockpicks hidden in a boot heel
 
----
-
 # 5. The character sheet
 
 A character sheet looks like this:
@@ -155,8 +147,6 @@ Examples:
 
 A state stays on the sheet only while it is true inside the fiction.
 
----
-
 # 6. When to roll
 
 Roll only when all three are true:
@@ -181,8 +171,6 @@ The player always states both:
 “I get past the guard” is incomplete.
 “I flatter the guard by pretending to recognize his military service” is playable.
 
----
-
 # 7. Before the roll
 
 Before rolling, the referee should make the stakes clear enough that the player understands the risk.
@@ -206,8 +194,6 @@ Bad:
 > “This will fill two boxes on the complication track.”
 
 The player may change their approach after hearing the risk.
-
----
 
 # 8. The roll
 
@@ -260,8 +246,6 @@ Every result must answer:
 
 > **What is now true in the fiction?**
 
----
-
 # 9. How character truths affect play
 
 Character truths never add numbers to the roll.
@@ -294,8 +278,6 @@ The rule is simple:
 
 > If a trait is true, let it be true before touching the dice.
 
----
-
 # 10. Advantage and disadvantage
 
 Do not use numerical modifiers.
@@ -322,8 +304,6 @@ Examples:
 * High ground is not “+1.” It means enemies must climb, arrows have clearer lines, and retreat may be easier.
 * Darkness is not “disadvantage.” It means you cannot see the pit, faces are hard to read, and anyone silent may vanish.
 * A fine sword is not a damage bonus. It cuts mail poorly, bites flesh cleanly, impresses duelists, and may be recognized.
-
----
 
 # 11. Harm
 
@@ -372,8 +352,6 @@ A broken reputation may need restitution, proof, sacrifice, or public witness.
 
 Erase or alter a harm state only when something inside the fiction has addressed it.
 
----
-
 # 12. Conflict
 
 There is no separate combat system.
@@ -419,8 +397,6 @@ A warhammer against plate armor is different from a rapier in a duel.
 
 Do not translate weapons into damage numbers. Let them change what is plausible.
 
----
-
 # 13. Groups, help, and opposition
 
 ## Helping
@@ -460,8 +436,6 @@ A player might then say:
 > “I rush the soldiers before the bar drops.”
 
 Now there is a roll.
-
----
 
 # 14. NPCs and creatures
 
@@ -504,8 +478,6 @@ What would change it: Returning the stolen bell-clapper to the grave below.
 ```
 
 If an NPC is injured, persuaded, frightened, trapped, exposed, or killed, write that as a fictional state.
-
----
 
 # 15. Equipment and resources
 
@@ -552,8 +524,6 @@ Examples:
 * rich in land, poor in coin
 * carrying a purse heavy enough to attract thieves
 
----
-
 # 16. Magic, powers, and extraordinary abilities
 
 Magic is treated as part of the fiction, not as a spell list unless the setting demands one.
@@ -597,8 +567,6 @@ Avoid:
 
 A magical result should always create a fictional state.
 
----
-
 # 17. Social play
 
 Social actions are resolved the same way as any other action.
@@ -627,8 +595,6 @@ Examples:
 * They let you pass, but remember your face.
 * They keep your secret, but now you owe them.
 * They are moved, but someone else in the room is offended.
-
----
 
 # 18. Exploration and discovery
 
@@ -661,8 +627,6 @@ A discovery roll should produce discovery, danger, or both.
 > You find the hidden stair because something below opens it first.
 
 Failure should not mean “you learn nothing; try somewhere else” unless that itself changes the situation.
-
----
 
 # 19. Time, travel, and pressure
 
@@ -697,8 +661,6 @@ Danger: 0/6
 ```
 
 Travel should focus on choices, discoveries, costs, and changed circumstances. Do not roll for every day of movement unless each result changes the fiction.
-
----
 
 # 20. Referee principles
 
@@ -741,8 +703,6 @@ Make investigation dangerous, costly, revealing, or transformative. Do not make 
 “The knife goes into your side” is better than “take harm.”
 “The priest now knows you lied” is better than “mark suspicion.”
 
----
-
 # 21. Player principles
 
 Players should follow these principles.
@@ -774,8 +734,6 @@ Useful questions include:
 
 If the fiction wounds, frightens, tempts, exposes, redeems, or transforms your character, write that down.
 
----
-
 # 22. Advancement
 
 Characters do not gain levels.
@@ -801,8 +759,6 @@ Examples:
 * “I know only village medicine” becomes “I have learned the plague-signs of the old empire.”
 
 Advancement is not increased power. It is changed fictional position.
-
----
 
 # 23. Campaign record
 
@@ -845,8 +801,6 @@ Open questions:
 
 The campaign record is not a score sheet. It preserves continuity so the fiction can remain coherent.
 
----
-
 # 24. Optional oracle for solo or low-referee play
 
 When no referee is available, or when the referee wants to disclaim an answer, ask a closed question about the fiction.
@@ -864,7 +818,7 @@ Roll 2d6.
 ## Oracle answer
 
 |      Roll | Answer                                                        |
-| --------: | ------------------------------------------------------------- |
+| --: | - |
 |       10+ | Yes, and something else is also true.                         |
 |       7–9 | Yes, but there is a complication or cost.                     |
 |       4–6 | No, but something useful, revealing, or dangerous is present. |
@@ -890,8 +844,6 @@ Bad:
 
 If the oracle answer is too vague, translate it immediately into something the characters could observe, discover, or be affected by.
 
----
-
 # 25. Safety and table agreement
 
 Before play, agree on material that should be excluded, softened, or handled off-screen.
@@ -906,8 +858,6 @@ Also agree on the game’s orientation:
 > We will make choices from inside the situation.
 > We will let consequences change the world and the characters.
 > We will not treat the rules as a tactical puzzle or a way to win.
-
----
 
 # 26. Running the first session
 
@@ -958,8 +908,6 @@ Start with the characters present and under pressure.
 
 Do not decide how the situation ends.
 
----
-
 # 27. Design compliance summary
 
 This ruleset is built to match the fiction-engine framework in the following ways:
@@ -971,4 +919,3 @@ This ruleset is built to match the fiction-engine framework in the following way
 * **Non-diegetic tools are limited to support infrastructure.** Safety tools, campaign records, and optional clocks exist only to preserve coherence, continuity, or consent.
 * **Authority is explicit.** The referee maintains coherence and consequence; players state intent and method; the oracle can replace or supplement the referee only by producing concrete fictional facts.
 * **Character growth is fictional, not numerical.** Characters change because events change them.
-
