@@ -3,7 +3,7 @@ author: Roberto Bisceglie
 date: 2026-05-22
 license: CC BY-SA 4.0
 title: The Fiction Engine Handbook
-version: 1.0
+version: 1.0.0
 ---
 
 ## 1. Introduction
@@ -14,7 +14,7 @@ I remember looking at the player. She wasn’t looking at me. She was looking at
 
 For five minutes, the character stopped hanging from the ledge. She didn’t fall, and she didn’t climb. She simply vanished. In her place was a group of friends arguing about a paragraph of text. This is **attention fracture**. By the time we found the rule and rolled the die, the sweat had dried. The urgency was gone. We weren't in the mountains anymore; we were in a library, doing research.
 
-I kept noticing this pattern across decades of real, messy play sessions. Sometimes, the rules felt like wind at our backs, propelling the story forward. Other times, the rules felt like a wall we kept hitting—a procedural jam that forced us to stop looking at the fiction so we could look at the system.
+I kept noticing this pattern across decades of real, messy play sessions. Sometimes, the rules felt like wind at our backs, propelling the fiction forward. Other times, the rules felt like a wall we kept hitting—a procedural jam that forced us to stop looking at the fiction so we could look at the system.
 
 I started calling the mechanism that causes this the **Fiction Engine**.
 
@@ -30,11 +30,13 @@ This is the lens I use. You'll decide if it fits.
 
 ## 2. The Engine Under the Table
 
-Imagine you are driving down a highway at night. When everything is going smoothly, you don’t actually look at your windshield. It is completely transparent. You look through it, focusing entirely on the **Road**: the shared story, the curves of the plot, and the immediate danger ahead.
+Imagine you are driving down a highway at night. When everything is going smoothly, you don’t actually look at your windshield. It is completely transparent. You look through it, focusing entirely on the **Road**: the shared situation—what is happening, what is at stake, and what is about to change.
+
+The **Road** is not a story in the literary sense. It is not a pre-authored plot or a dramatic arc. It is the living diegetic situation: the characters, conditions, and events that all participants hold as real inside the game at this moment. When we talk about the fiction, this is what we mean.
 
 But the moment a heavy downpour hits, or a large insect splashes right in your line of sight, your focus instantly shifts. You are no longer looking at the road. You are staring directly at the **Windshield**: the rules, the stats, and the procedures. You’re watching the wipers struggle to clear the view.
 
-This is exactly what happens every week at our gaming tables. A Fiction Engine is the specific way a system connects the Windshield to the Road. It’s the mechanism that decides when the rules need to step in, and more importantly, how they hand control back to the story.
+This is exactly what happens every week at our gaming tables. A Fiction Engine is the specific way a system connects the Windshield to the Road. It’s the mechanism that decides when the rules need to step in, and more importantly, how they hand control back to the fiction.
 
 Let’s look at how this plays out with two different groups trying to achieve the exact same thing: breaking down a locked wooden door to escape a guard patrol.
 
@@ -118,6 +120,16 @@ One player treats the session as a tactical problem: they want to optimize outco
 This is a social condition, not a mechanical one. Rules cannot solve it. What design can do is make the game's orientation legible from the start—what kind of object this is, what it asks of participants, what it will produce. What the table can do is state expectations before play begins and treat the fiction as a genuinely shared object rather than a stage for individual intent.
 
 A fiction engine is a social agreement before it is a mechanical system. The rules formalize that agreement. They cannot substitute for it.
+
+### Transparency Is Not Enough
+
+One more thing must be said before we look at specific engines.
+
+This framework measures the relationship between procedure and attention. It treats low overhead as desirable. But low overhead is a means, not an end. An engine that removes all friction while producing vague, weightless, or arbitrary consequences has not solved the problem. It has replaced one failure with another.
+
+A fiction engine must stay transparent while still preserving **uncertainty** (the outcome is genuinely in doubt), **agency** (what the player chose affected what happened), and **consequence** (the result changes what is now true in a way that matters to the fiction going forward). These three are what make the Road worth looking at. Without them, clearing the Windshield is just clearing glass with nothing behind it.
+
+Keep this in mind when evaluating the engines below. The question is not only "Is the procedure thin?" It is: "Does the procedure, thin as it is, still produce outcomes that are uncertain, chosen, and consequential?"
 
 ## 4. 24XX: The Minimal Engine
 
@@ -226,7 +238,7 @@ You have total freedom, but you carry the total weight of the world. Every "And"
 
 ### A Map of the Case Studies
 
-We have looked at three different engines. We can compare them by asking one question: **"How much help does the group need from the manual to keep the story moving?"**
+We have looked at three different engines. We can compare them by asking one question: **"How much help does the group need from the manual to keep the fiction moving?"**
 
 1.  **24XX**: Minimal help. The engine is a silent referee. It gives you a setting and then gets out of the way. It requires a generative group that can fill the silence when the rules offer none.
 2.  **Breathless**: Active help. The engine is a pressure cooker. It provides a constant, mechanical sense of urgency that forces the fiction to pivot toward desperation, even if the group is flags.
@@ -306,6 +318,18 @@ Before you dive into the rules, it is worth seeing how the diagnosis we’ve bui
 -   **Authority is explicit.** The referee maintains coherence; players state intent and method; the oracle (if used) produces only concrete fictional facts.
 -   **Growth is fictional, not numerical.** Characters change because events change them, not because they’ve accumulated enough points to buy a +1.
 
+### A Diagnostic Checklist
+
+Before reading the rules that follow, or when evaluating any procedure in any game you play or design, hold it against these five questions:
+
+1. **Fictional state.** Does this rule produce a change to the shared situation, or only a change to the game record?
+2. **Overhead.** Is any procedural weight it generates dead overhead, or does it support the conditions that make fictional play possible?
+3. **Suspended outcomes.** Does the resolution produce a playable result immediately, or does it defer the fiction pending further procedure?
+4. **Authority drift.** Does the authority mechanism—referee, oracle, shared authorship—deliver fictional facts, or administrative prompts?
+5. **Table orientation.** Are all participants treating the fiction as the shared object of play before the first die falls?
+
+A rule that fails question one is a candidate for removal. Rules that fail questions two through five may not be broken—but they carry a risk the table should name before it becomes a habit.
+
 ### The Test Drive
 
 If the previous chapters were the diagnosis, *Thresholds* is the treatment. It is a tool for practice—a way to experience what happens to your group's attention when the procedural mediation is minimized.
@@ -331,6 +355,12 @@ The rules do not try to model the world exhaustively. They answer one question:
 There are no hit points, classes, levels, action economies, tactical grids, fate points, or victory conditions. Characters are defined by fictional facts. Harm, advantage, danger, equipment, exhaustion, fear, reputation, trust, and opportunity all matter only insofar as they exist inside the fiction and change what can plausibly happen.
 
 The referee’s role is to keep the world coherent, responsive, and surprising. The players’ role is to say what their characters attempt from inside the situation.
+
+Before play begins, the table should agree on its orientation:
+
+> We are here to treat the fiction as the shared object of play. We will make choices from inside the situation. We will let consequences change the world and the characters. We will not treat the rules as a tactical puzzle or a way to win.
+
+Safety tools and content boundaries are covered in section 25.
 
 ### 2. Materials
 
@@ -463,6 +493,8 @@ Examples:
 
 A state stays on the sheet only while it is true inside the fiction.
 
+Remove a state when it no longer changes what the character can do, what someone wants from them, or what danger they face. Do not let the sheet become an archive. A long list of states that no longer shape choices is dead overhead in a different form.
+
 ### 6. When to roll
 
 Roll only when all three are true:
@@ -587,6 +619,19 @@ A vulnerability is also real. If a character panics underground, then being trap
 The rule is simple:
 
 > If a trait is true, let it be true before touching the dice.
+
+#### When the table disagrees
+
+Because Thresholds relies on fictional judgment rather than numerical lookup, the table will sometimes disagree about whether a truth applies, whether an action is possible, or what consequence is fair. Handle disagreement without negotiation loops.
+
+When the table is uncertain, ask in order:
+
+1. **What is true inside the fiction right now?** Start from the established facts, not from what anyone wants to happen.
+2. **Does the character's truth change what is plausible here?** If yes, in which direction — does it open, narrow, or change the stakes?
+3. **What would the situation produce if no one were arguing?** Let the fiction answer before anyone argues a position.
+4. **If it is still unclear, the referee decides.** State the decision plainly, name the fictional fact it rests on, and move on. Do not revisit it in the same scene.
+
+The goal is a fictional fact in under thirty seconds, not a resolved debate. If a disagreement cannot be settled quickly, default to the option that keeps the fiction moving and revisit the underlying question between sessions.
 
 ### 10. Advantage and disadvantage
 
@@ -1050,7 +1095,7 @@ Use these prompts:
 - What object, title, secret, or responsibility did you gain?
 - What part of your old life is no longer true?
 
-A character may add, remove, or rewrite one truth when play has made the change undeniable.
+A character may add, remove, or rewrite one truth when play has made the change undeniable. The "one truth" limit is a default to keep the sheet legible between sessions, not a claim that the fiction only changed one thing. If play has undeniably changed more, record the overflow in the campaign record and return to it at the next session.
 
 Examples:
 
@@ -1101,6 +1146,8 @@ Open questions:
 ```
 
 The campaign record is not a score sheet. It preserves continuity so the fiction can remain coherent.
+
+Prune it between sessions. Keep only entries that constrain current choices, create current danger, or open current questions. An entry that describes something fully resolved and without ongoing consequence has become dead overhead. Remove it or move it to a separate archive if you want to preserve it as history.
 
 ### 24. Optional oracle for solo or low-referee play
 
