@@ -50,16 +50,16 @@ jobs:
         run: quarto render master.qmd --to gfm
 
       - name: Render Handbook PDF
-        run: quarto render handbook\fiction_engine_handbook.md --to typst
+        run: quarto render handbook.qmd --to typst
 
       - name: Render Handbook EPUB
-        run: quarto render handbook\fiction_engine_handbook.md --to epub
+        run: quarto render handbook.qmd --to epub
 
       - name: Render Handbook ODT
-        run: quarto render handbook\fiction_engine_handbook.md --to odt
+        run: quarto render handbook.qmd --to odt
 
       - name: Render Handbook MD
-        run: quarto render handbook\fiction_engine_handbook.md --to gfm
+        run: quarto render handbook.qmd --to gfm
 
       - name: Assemble site
         run: |
@@ -72,10 +72,10 @@ jobs:
           [ -f master.epub ] && cp master.epub _site/downloads/fiction-engine-framework.epub || true
           [ -f master.odt ]  && cp master.odt  _site/downloads/fiction-engine-framework.odt  || true
           [ -f master.md ]   && cp master.md   _site/downloads/fiction-engine-framework.md   || true
-          [ -f fiction_engine_handbook.pdf ]  && cp fiction_engine_handbook.pdf  _site/downloads/fiction-engine-handbook.pdf  || true
-          [ -f fiction_engine_handbook.epub ] && cp fiction_engine_handbook.epub _site/downloads/fiction-engine-handbook.epub || true
-          [ -f fiction_engine_handbook.odt ]  && cp fiction_engine_handbook.odt  _site/downloads/fiction-engine-handbook.odt  || true
-          [ -f fiction_engine_handbook.md ]   && cp fiction_engine_handbook.md   _site/downloads/fiction-engine-handbook.md   || true
+          [ -f handbook.pdf ]  && cp handbook.pdf  _site/downloads/fiction-engine-handbook.pdf  || true
+          [ -f handbook.epub ] && cp handbook.epub _site/downloads/fiction-engine-handbook.epub || true
+          [ -f handbook.odt ]  && cp handbook.odt  _site/downloads/fiction-engine-handbook.odt  || true
+          [ -f handbook.md ]   && cp handbook.md   _site/downloads/fiction-engine-handbook.md   || true
 
       - uses: actions/upload-pages-artifact@v3
         with:
