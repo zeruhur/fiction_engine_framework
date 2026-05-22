@@ -54,6 +54,7 @@ jobs:
         run: |
           mkdir -p _site/downloads
           cp index.html _site/
+          cp logo.svg _site/
           cp -r foundation analysis comparative system_thinking limits _site/
           cp -r _extensions _site/
           [ -f master.pdf ]  && cp master.pdf  _site/downloads/fiction-engine-framework.pdf  || true
