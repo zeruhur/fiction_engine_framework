@@ -1,6 +1,6 @@
 # Above the Situation
 
-*This essay is the fourth in a series examining what the fiction engine paradigm cannot produce and why. It builds on the limits framing essay "The Bet" and on the companion essays "Four Designs, One Framework" and "Faction and Fiction." It is readable as a standalone following the framework.*
+*This essay is the fourth in a series examining what the fiction engine paradigm cannot produce and why. It builds on the limits framing essay "What the Engine Is For" and on the companion essay "Four Designs, One Framework." It is readable as a standalone following the framework.*
 
 ## What Strategic Depth Requires and Why the Engine Refuses It
 
@@ -44,17 +44,7 @@ The friction the fiction engine is designed to eliminate — the translation ste
 
 This is not a coincidence or an oversight. The preference for fictional descriptors is a choice that optimizes for one kind of play by removing the preconditions for another. A designer who wants strategic depth and reaches for fictional descriptors has removed the tool that strategic depth needs.
 
-## The OSG Architecture Revisited
-
-The OSG companion essay identified OSG as sitting above the transparency threshold deliberately, with a procedural architecture designed to produce the information asymmetry and strategic depth the form requires. The action format — Action, Outcome, Leverage — is worth revisiting here as the clearest available case of a fiction-primary design that is also above the threshold specifically because it needs to serve strategic play.
-
-The action format is a translation mechanism. The player plans above the fiction: they assess the strategic situation, identify the objective, evaluate the leverage available. They then express that plan in fictional terms as a submitted action: what the character attempts, what they expect to result, what established fictional fact supports the attempt. The Leverage requirement grounds the strategic move in the accumulated fiction — the plan must be traceable to prior events, to relationships established in play, to conditions the fiction has made real. Strategic thinking above the fiction; fictional expression within it. The RAT checklist evaluates the submission on the fiction engine's terms: Reasonable given what has been established, Actionable as a coherent attempt, Traceable to prior fictional facts.
-
-This architecture does something the fiction engine paradigm cannot natively do: it maintains two positions simultaneously. The planning phase requires the player above the situation. The submission and adjudication phases require the player inside it. The design holds both by separating them into distinct structural moments — not by asking the player to occupy both simultaneously, but by sequencing them so each phase has its own positional demand.
-
-A pure fiction engine has no concept of a planning phase above the fiction. Every engagement the framework describes is embedded: the player states what their character attempts from inside the fictional situation. There is no prior step where the player models the game state from outside it, evaluates branches, considers optimal moves. The fiction engine assumes that step does not exist and builds accordingly. The OSG architecture assumes it does exist and builds a structure to contain it.
-
-The cost the OSG essay identified — the threshold crossing imposes procedural demands that persist above the fiction throughout play, not only at discrete resolution moments — is also the cost the fiction engine cannot absorb. The planning phase is the overhead. It is exactly the kind of step the fiction engine is designed to eliminate, and it cannot be eliminated here because it is where the strategic engagement lives.
+A pure fiction engine has no concept of a planning phase above the fiction. Every engagement the framework describes is embedded: the player states what their character attempts from inside the fictional situation. There is no prior step where the player models the game state from outside it, evaluates branches, considers optimal moves. The fiction engine assumes that step does not exist and builds accordingly. A planning phase of that kind is exactly the overhead the paradigm is designed to eliminate, and in a strategic design it cannot be eliminated, because it is where the strategic engagement lives.
 
 ## Strategy-as-Fiction and Strategy-as-Optimization
 
@@ -72,6 +62,4 @@ At the far end of this territory are wargames and 4X designs where the fiction h
 
 The colonization runs in both directions. The fiction engine's logic shapes whatever it touches toward embedded, responsive, fictional engagement — toward a player inside the situation, responding to what is present. Strategic optimization's logic shapes whatever it touches toward legible, calculable, plannable state — toward a player above the situation, modeling what is possible. When these two logics meet in a single design, one tends to dominate. Which one depends on which commitment is more fundamental to what the design is for.
 
-OSG holds both by building an explicit architectural seam: a planning phase above the fiction, a submission phase inside it, an adjudication phase that evaluates the submission on fictional terms. The seam is visible and deliberate. It does not eliminate the tension between the two positional demands; it manages that tension by giving each demand its own structural moment.
-
-A designer who wants strategic depth inside a fictional frame is working against both logics simultaneously, and will need to make the same kind of explicit decision: which phase of play is above the situation, which is inside it, and how does the design mark the boundary. Neither the pure fiction engine nor the pure strategy game provides the hybrid. The hybrid requires designing the seam with the same care brought to everything else — because the seam is where the incompatibility lives, and a seam ignored is a seam that breaks.
+A designer who wants strategic depth inside a fictional frame is working against both logics simultaneously, and will need to make an explicit decision: which phase of play is above the situation, which is inside it, and how does the design mark the boundary. Neither the pure fiction engine nor the pure strategy game provides the hybrid. The hybrid requires designing the seam with the same care brought to everything else — because the seam is where the incompatibility lives, and a seam ignored is a seam that breaks.
