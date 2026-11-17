@@ -1,10 +1,8 @@
 # Four Designs, One Framework
 
-*A follow-up to "The Transparency Threshold: Abstraction, Mediation, and the Limits of Fiction Engine Design"*
-
 ## Applying the Fiction Engine Analysis in Practice
 
-The previous essay defined the transparency threshold and placed design paradigms relative to it in broad strokes. This essay works at a finer resolution. It takes four specific games (*Freeform Universal*, *24XX*, *Breathless*, and *Hints and Hijinx*) and applies the fiction engine framework's tools to each one in turn.
+"The Transparency Threshold" defined the transparency threshold and placed design paradigms relative to it in broad strokes. This chapter works at a finer resolution. It takes four specific games (*Freeform Universal*, *24XX*, *Breathless*, and *Hints and Hijinx*) and applies the fiction engine framework's tools to each one in turn.
 
 The four were not chosen arbitrarily. They share enough surface properties to be grouped together under any conventional label: all four are rules-light, three are solo-capable, and all four sit closer to the fiction end of the design spectrum than PbtA, FitD, or Fate. A reader encountering all four for the first time might reasonably treat them as a family.
 
@@ -34,7 +32,7 @@ The GM instructions reinforce the orientation throughout. "Describe characters i
 
 One friction point exists: advancement. After a job, each character increases a skill. The trigger ("after a job") is an administrative boundary rather than a fictional event. The advancement itself, a die step increase, is non-diegetic tracking. This is minor, and common to almost every design with any progression system, but it is the clearest point where *24XX* generates a small amount of overhead that does not immediately produce a fictional state.
 
-What *24XX* gives up to stay below the threshold is worth naming. It provides minimal genre texture beyond what the setting supplement adds. It offers no pacing structure beyond the fictional situation itself. It generates no pressure economy. Tables that need the system to provide momentum and structure will find it sparse. These are not flaws. They are the costs of the tradeoff, and the design accepts them fully and without apology.
+What *24XX* gives up to stay below the threshold is worth naming. It provides minimal genre texture beyond what the setting supplement adds. It offers no pacing structure beyond the fictional situation itself. It generates no pressure economy. Tables that need the system to provide momentum and structure will find it sparse. They are the costs of the tradeoff, and the design accepts them fully.
 
 ## Freeform Universal: The Ancestral Case
 
@@ -74,7 +72,7 @@ For designers using the Breathless SRD as a base, including for solo adaptations
 
 ## Hints and Hijinx: When Genre Requires the Crossing
 
-*Hints and Hijinx* is the most instructive case in this comparison because its departure from fiction engine principles is not a design failure. It is a genre requirement, deliberately implemented, and understanding why it is necessary clarifies something the framework cannot say on its own: some genres resist fiction engine treatment at the structural level.
+*Hints and Hijinx* is the most instructive case in this comparison because its departure from fiction engine principles is not a design failure. It is a genre requirement, deliberately implemented, and understanding why it is necessary clarifies something the framework's criteria alone do not show: some genres resist fiction engine treatment at the structural level.
 
 The Breathless core that the design inherits functions cleanly. The two-skill system, Introvert and Extrovert, is minimal and fictionally legible. The check procedure follows the established pattern: roll the skill die, interpret the result as a fictional outcome, the die degrades. The Refill Your Cup reset is the catch your breath equivalent, triggering a narrative event rather than a free administrative action. This section of the design sits below the transparency threshold.
 
@@ -118,4 +116,3 @@ The evaluative lens does not produce rankings. *24XX* is not better than *Breath
 What the comparison reveals most clearly is that the fiction engine paradigm is a specific design commitment with specific costs, not a generic virtue that all good design shares. A design that stays below the transparency threshold accepts structural looseness, minimal genre texture, and limited pacing support in exchange for a fiction that remains primary throughout play. A design that crosses the threshold gains structural support, genre texture, and pacing economy, but at the cost of a procedural layer that demands the player's conscious attention.
 
 Knowing which side of the threshold a design inhabits, and why, is more useful than claiming a generic fiction-forward identity. Each of the four designs makes that choice clearly, and each pays for it in a different currency.
-

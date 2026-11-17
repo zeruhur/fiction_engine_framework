@@ -1,14 +1,12 @@
 # The Transparency Threshold
 
-*A companion essay to "Fiction Engine: A Design Framework for Tabletop RPGs." Also readable as a standalone piece following "Fiction Engines, Pressure Engines, and World Engines."*
-
 ## Abstraction, Mediation, and the Limits of Fiction Engine Design
 
 The fiction engine framework makes a deliberate choice not to place specific games on a map. It describes a paradigm's commitments, failure modes, and criteria without naming which systems belong inside it and which do not. That restraint is principled. A framework that generates taxonomy risks becoming a ranking, and a ranking is not what the framework is trying to produce.
 
 But the framework does raise a question it does not answer: how much abstraction can exist in a design before the system stops being fiction-transparent? The framework says that a rule can be non-diegetic in form while still being fiction-supporting in function. It says that the distinction between dead overhead and load-bearing infrastructure is one of function rather than form. What it does not say is where the boundary lies: at what point the accumulation of non-diegetic elements, however individually justifiable, crosses into a different kind of design.
 
-This essay is an attempt to answer that question. It is comparative in ways the framework is not, and it names specific paradigms and their characteristic behaviors. The goal is not to rank those paradigms but to locate the boundary more precisely: to describe what happens when a design crosses it, and why that matters for both designers and players.
+This chapter is an attempt to answer that question. It is comparative in ways the framework is not, and it names specific paradigms and their characteristic behaviors. The goal is not to rank those paradigms but to locate the boundary more precisely: to describe what happens when a design crosses it, and why that matters for both designers and players.
 
 ## Two Kinds of Abstraction
 
@@ -30,7 +28,7 @@ Below the threshold, procedure operates as background infrastructure. The player
 
 Above the threshold, procedure moves to the foreground. The player must engage the system as an object in order to produce any fictional output at all. The fiction and the system are both objects of attention, and the player must manage their relationship.
 
-Neither position is wrong. They produce different kinds of play. But they are genuinely different, and the difference is not simply about how many rules a game has.
+They produce different kinds of play. But they are different, and the difference is not simply about how many rules a game has.
 
 ## Where Paradigms Sit
 
@@ -64,7 +62,7 @@ The third consequence is for solo play, where no one else at the table can absor
 
 ## Load-Bearing Abstraction and Its Limits
 
-The framework distinguishes dead overhead from fiction-supporting infrastructure, and that distinction does real analytical work. But the essay needs to press it further, because the category of fiction-supporting infrastructure can expand to absorb almost anything if it is not bounded.
+The framework distinguishes dead overhead from fiction-supporting infrastructure, and that distinction does real analytical work. But the distinction needs to be pressed further, because the category of fiction-supporting infrastructure can expand to absorb almost anything if it is not bounded.
 
 Consider Blades in the Dark clocks. A clock is a non-diegetic element: it is a pie chart divided into segments that tracks progress toward an event. It is not something characters can see or touch inside the fiction. But clocks reliably produce fictional pressure. When the clock for the city watch response fills another segment, something changes inside the fiction even if no character has noticed it yet. The clock is doing fictional work while remaining non-diegetic in form. By the framework's definition of fiction-supporting infrastructure, it qualifies.
 
@@ -72,7 +70,7 @@ But clocks in Blades are also persistent objects of attention. A player managing
 
 This reveals the limit of the fiction-supporting infrastructure category: a rule can be simultaneously fiction-supporting in function and procedurally foregrounded in use. These are not mutually exclusive. The distinction between dead overhead and load-bearing infrastructure tells you whether a rule is worth having. The transparency threshold tells you what kind of experience it produces while you have it.
 
-Both questions matter. The fiction engine framework answers the first. The threshold answers the second. A design that sits below the threshold will tend to contain only background infrastructure: mechanics that do their work without demanding conscious attention. A design that sits above the threshold may contain deeply fiction-supporting mechanics that nevertheless require active management. Blades is a system full of the latter. It is not dead overhead. It is high-cost fiction-supporting infrastructure, and whether that cost is worth paying is a question each designer and each table answers for themselves.
+Both questions matter. The fiction engine framework answers the first. The threshold answers the second. A design that sits below the threshold will tend to contain only background infrastructure: mechanics that do their work without demanding conscious attention. A design that sits above the threshold may contain deeply fiction-supporting mechanics that nevertheless require active management. Blades is a system full of the latter. It is high-cost fiction-supporting infrastructure, not dead overhead, and whether that cost is worth paying is a question each designer and each table answers for themselves.
 
 ## What Lives Above the Threshold
 
@@ -88,9 +86,8 @@ This is the design failure that the fiction engine framework's overhead accumula
 
 The diagnostic for this is not whether each rule is load-bearing (they may all be). It is "what is the combined attentional cost of all the load-bearing rules together, and is that cost consistent with the kind of play this design is trying to produce?" A design aiming for fiction-transparency cannot answer that question rule by rule. It has to answer it for the system as a whole.
 
-Conversely, a design that deliberately aims to sit above the threshold should own that position fully rather than claiming fiction-first virtue while building procedural foreground into every resolution step. The most coherent designs in any paradigm are the ones that know what they are and build toward it without apology.
+Conversely, a design that deliberately aims to sit above the threshold should own that position fully rather than claiming fiction-first virtue while building procedural foreground into every resolution step. The most coherent designs in any paradigm are the ones that know what they are and build toward it.
 
-The transparency threshold is not a test that designs pass or fail. It is a location on a continuum, and knowing where your design sits, and why, is the beginning of designing deliberately rather than by accumulation.
+The transparency threshold is not a test that designs pass or fail. It is a location on a continuum, and knowing where your design sits, and why, is what lets a designer choose that position instead of drifting into it.
 
 The threshold is diagnostic, not evaluative. Crossing it does not make a design worse; it changes what the design is asking players to attend to.
-

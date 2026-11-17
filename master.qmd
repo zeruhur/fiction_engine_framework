@@ -1,9 +1,9 @@
 ---
 title: "Fiction Engine Framework"
-subtitle: "A Complete Collection"
+subtitle: "A Design Framework for Tabletop RPGs"
 author: "Roberto Bisceglie"
-date: "May 2026"
-version: "1.0"
+date: "November 2026"
+version: "2.0"
 ---
 
 ```{=typst}
