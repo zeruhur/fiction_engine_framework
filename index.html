@@ -451,7 +451,7 @@ const ESSAYS = [
         file: 'handbook/fiction_engine_handbook.md',
         title: 'The Fiction Engine Handbook',
         subtitle: 'A Practical Introduction to the Framework',
-        desc: 'The accessible entry point. Introduces the framework through case studies — 24XX, Breathless, Freeform Universal — and includes the complete Thresholds reference game as an appendix.',
+        desc: 'The accessible entry point. Introduces the framework through case studies (24XX, Breathless, Freeform Universal) and includes the complete Thresholds reference game as an appendix.',
         num: '—',
         arc: null,
         downloads: [
@@ -475,7 +475,7 @@ const ESSAYS = [
         file: 'analysis/transparency_threshold_essay.md',
         title: 'The Transparency Threshold',
         subtitle: 'Abstraction, Mediation, and the Limits of Fiction Engine Design',
-        desc: 'Where fiction engine design reaches its edges — and what kinds of abstraction threaten or preserve the fiction.',
+        desc: 'Where fiction engine design reaches its edges, and what kinds of abstraction threaten or preserve the fiction.',
         num: '01',
         arc: 'analysis'
     },
@@ -528,8 +528,8 @@ const ESSAYS = [
         id: 'properties-behaviors',
         file: 'system_thinking/properties_behaviors.md',
         title: 'Properties and Behaviors',
-        subtitle: 'What the Fiction Engine Framework Gets Right, and What It Can\'t Say',
-        desc: 'A self-critical examination of the framework\'s explanatory limits — what it captures and what escapes it.',
+        subtitle: 'What a Design Can Guarantee, and What It Cannot',
+        desc: 'Separates what a design controls (conditions) from what play produces (behaviors), and what that changes for designers.',
         num: '07',
         arc: 'systems'
     },
@@ -556,7 +556,7 @@ const ESSAYS = [
         file: 'limits/limits_essay1_powerlessness.md',
         title: 'Powerlessness',
         subtitle: 'The Experience the Engine Cannot Produce',
-        desc: 'Examines why the fiction engine cannot produce dread — the sensation of narrowing agency — even when running horror content.',
+        desc: 'Examines why the fiction engine cannot produce dread (the sensation of narrowing agency) even when running horror content.',
         num: '10',
         arc: 'limits'
     },
@@ -600,8 +600,8 @@ const ESSAYS = [
         id: 'glossary',
         file: 'foundation/glossary.md',
         title: 'Glossary',
-        subtitle: 'Terms as Used in This Series',
-        desc: 'Precise definitions for the terms the essays use technically: fiction, fictional state, overhead, diegetic, and others.',
+        subtitle: 'Terms as Used in This Book',
+        desc: 'Precise definitions for the terms the book uses technically: fiction, fictional state, overhead, diegetic, and others.',
         num: '—',
         arc: 'appendix'
     }
@@ -678,7 +678,7 @@ function renderIndex() {
             <div class="masthead">
                 <img src="logo.svg" alt="Fiction Engine Framework logo" class="masthead-logo">
                 <h1>Fiction Engine<br>Framework</h1>
-                <p class="meta">Roberto Bisceglie &middot; Version 1.0 &middot; May 2026</p>
+                <p class="meta">Roberto Bisceglie &middot; Version 2.0 &middot; November 2026</p>
                 <p class="intro">A design framework for tabletop RPGs treating play as a system for producing, sustaining, and transforming fiction with minimal friction. The framework, fourteen chapters in five parts, and a glossary.</p>
                 <div class="downloads">
                     <a class="download-link" href="downloads/fiction-engine-framework.pdf" download>Download <span class="dl-fmt">PDF</span></a>
@@ -705,7 +705,7 @@ async function renderEssay(id) {
     const prev  = idx > 0              ? ESSAYS[idx - 1] : null;
     const next  = idx < ESSAYS.length - 1 ? ESSAYS[idx + 1] : null;
 
-    document.title = `${essay.title} — Fiction Engine Framework`;
+    document.title = `${essay.title} | Fiction Engine Framework`;
     document.getElementById('back-slot').innerHTML =
         `<a href="?" class="back-link">&#8592; All essays</a>`;
 
