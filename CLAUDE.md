@@ -4,10 +4,12 @@
 
 | folder           | contents                                      |
 |------------------|-----------------------------------------------|
-| `foundation/`    | framework doc, The Bet intro, Glossary        |
-| `analysis/`      | Analysis Arc essays (01–03)                   |
+| `foundation/`    | framework doc, Glossary, Thresholds ruleset   |
+| `analysis/`      | Analysis Arc essays (01–02)                   |
+| `limits/`        | Limits sub-series                             |
+| `handbook/`      | The Fiction Engine Handbook (EN, IT)          |
 | `comparative/`   | Comparative essays (standalone, unnumbered)   |
-| `system_thinking/` | Systems Thinking Arc essays (04–08)         |
+| `system_thinking/` | Systems Thinking Arc essays (03–07)         |
 
 New essays go in the folder that matches their arc. Drop the `.md` file there, then register it in `index.html`.
 
@@ -35,29 +37,37 @@ All navigation is driven by the `ESSAYS` array in `index.html`. To add an essay:
 
 ## Current essay order and arcs
 
-| num | id                    | arc         | file                                              |
-|-----|-----------------------|-------------|---------------------------------------------------|
-| —   | framework             | null        | foundation/fiction_engine_framework.md            |
-| —   | the-bet               | null        | foundation/the_bet.md                             |
-| 01  | transparency-threshold | analysis   | analysis/transparency_threshold_essay.md          |
-| 02  | four-designs          | analysis    | analysis/four_designs_one_framework.md            |
-| 03  | faction-fiction       | analysis    | analysis/faction_and_fiction_essay.md             |
-| —   | same-thinness         | comparative | comparative/same_thinness_different_purposes.md   |
-| 04  | fiction-memory        | systems     | system_thinking/fiction_and_memory.md             |
-| 05  | emergence-condition   | systems     | system_thinking/emergence_condition.md            |
-| 06  | threshold-trajectory  | systems     | system_thinking/threshold_trajectory.md           |
-| 07  | properties-behaviors  | systems     | system_thinking/properties_behaviors.md           |
-| 08  | one-agent-loop        | systems     | system_thinking/one_agent_one_loop.md             |
-| —   | glossary              | appendix    | foundation/glossary.md                            |
+| num | id                     | arc         | file                                              |
+|-----|------------------------|-------------|---------------------------------------------------|
+| —   | handbook               | null        | handbook/fiction_engine_handbook.md               |
+| —   | framework              | null        | foundation/fiction_engine_framework.md            |
+| 01  | transparency-threshold | analysis    | analysis/transparency_threshold_essay.md          |
+| 02  | four-designs           | analysis    | analysis/four_designs_one_framework.md            |
+| —   | same-thinness          | comparative | comparative/same_thinness_different_purposes.md   |
+| 03  | fiction-memory         | systems     | system_thinking/fiction_and_memory.md             |
+| 04  | emergence-condition    | systems     | system_thinking/emergence_condition.md            |
+| 05  | threshold-trajectory   | systems     | system_thinking/threshold_trajectory.md           |
+| 06  | properties-behaviors   | systems     | system_thinking/properties_behaviors.md           |
+| 07  | one-agent-loop         | systems     | system_thinking/one_agent_one_loop.md             |
+| —   | limits-framing         | limits      | limits/essay_limits_framing.md                    |
+| 08  | limits-powerlessness   | limits      | limits/limits_essay1_powerlessness.md             |
+| 09  | limits-fixed-answer    | limits      | limits/limits_essay2_the_fixed_answer.md          |
+| 10  | limits-weight-system   | limits      | limits/limits_essay3_weight_of_system.md          |
+| 11  | limits-above-situation | limits      | limits/limits_essay4_above_the_situation.md       |
+| 12  | limits-building-nothing| limits      | limits/limits_essay5_building_into_nothing.md     |
+| —   | glossary               | appendix    | foundation/glossary.md                            |
+
+The Bet was merged into the framework chapter, and the Open Strategy Games essay was removed (2026-11-17): it was only a comparison, not part of the theory.
 
 ## Arc values
 
 | arc value     | label in index       | section                  |
 |---------------|----------------------|--------------------------|
 | `null`        | Foundation           | Framework + intro docs   |
-| `'analysis'`  | Analysis Arc         | Essays 01–03             |
+| `'analysis'`  | Analysis Arc         | Essays 01–02             |
 | `'comparative'` | Comparative        | Standalone comparisons   |
-| `'systems'`   | Systems Thinking Arc | Essays 04–08             |
+| `'systems'`   | Systems Thinking Arc | Essays 03–07             |
+| `'limits'`    | Limits               | Framing + essays 08–12   |
 | `'appendix'`  | Appendix             | Glossary and reference   |
 
 Unnumbered documents (`num: '—'`) belong to Foundation, Comparative, or Appendix. Sequential numbers belong to Analysis and Systems arcs only.

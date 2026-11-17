@@ -6,13 +6,11 @@ date: "May 2026"
 version: "1.0"
 ---
 
-{{< include foundation/the_bet.md >}}
+{{< include foundation/fiction_engine_framework.md >}}
 
 {{< include analysis/transparency_threshold_essay.md >}}
 
 {{< include analysis/four_designs_one_framework.md >}}
-
-{{< include analysis/faction_and_fiction_essay.md >}}
 
 {{< include comparative/same_thinness_different_purposes.md >}}
 
@@ -37,10 +35,6 @@ version: "1.0"
 {{< include limits/limits_essay4_above_the_situation.md >}}
 
 {{< include limits/limits_essay5_building_into_nothing.md >}}
-
-# Appendix {.unnumbered}
-
-{{< include foundation/fiction_engine_framework.md >}}
 
 {{< include foundation/glossary.md >}}
 
