@@ -48,15 +48,13 @@ This is not a problem the engine can fix by running differently. The continuatio
 
 ## What Dread-Capable Designs Use Instead
 
-Two designs that produce dread successfully use mechanisms that the fiction engine's transparency commitment would dissolve.
+_Dread_, the game, produces the experience with a mechanism that the fiction engine's transparency commitment would dissolve.
 
-_Dread_ (Tiltfactor, 2005) resolves action through a Jenga tower. The tower is the procedure, and the procedure is visible, accumulating, and irreversible. Each pull makes the tower less stable. The player can see the current state of the system. Each action has an immediate, physical cost that outlasts the action itself. When the tower falls, the character is gone. The dread is not produced by what is happening inside the fiction. It is produced by what is happening to a physical object that the player is degrading in real time.
+_Dread_ (Epidiah Ravachol and Nathaniel Barmore, The Impossible Dream, 2005) resolves action through a Jenga tower. The tower is the procedure, and the procedure is visible, accumulating, and irreversible. Each pull makes the tower less stable. The player can see the current state of the system. Each action has an immediate, physical cost that outlasts the action itself. When the tower falls, the character is gone. The dread is not produced by what is happening inside the fiction. It is produced by what is happening to a physical object that the player is degrading in real time.
 
 This sits above the transparency threshold by necessity. The dread requires the player's attention to be on the procedure: to see the tower, feel the resistance, know the cumulative effect of every prior pull. A fiction engine that absorbed the tower mechanic into background infrastructure, that made it a roll rather than a physical act, would eliminate the experience. The foreground procedure is not in service of the dread. It is the dread.
 
-_Ten Candles_ (Cavalry Games, 2015) produces dread through explicit, literal irreversibility. Candles go out; they do not come back. Traits are burned; they are gone. The player's resources are visibly, irrecoverably depleting across the session. The design makes foreclosure mechanical and legible. The player is not inferring that things are getting worse. They can count the candles. The shrinking resource is not a fictional state the player must reason about; it is a number they can see moving in one direction.
-
-Both designs confirm the same structural requirement: dread needs procedure the player can see, feel, and lose to. Not procedure that produces fictional states describing loss, but procedure that is itself the loss: immediate, accumulating, and impossible to reverse through clever play. Transparency dissolves it because transparency removes the visible, foregrounded cost. The fiction engine's commitment to thin, fast-internalizing procedure is its commitment to the player's attention staying in the fiction. Dread needs attention on the procedure.
+The design shows the structural requirement: dread needs procedure the player can see, feel, and lose to. Not procedure that produces fictional states describing loss, but procedure that is itself the loss: immediate, accumulating, and impossible to reverse through clever play. Transparency dissolves it because transparency removes the visible, foregrounded cost. The fiction engine's commitment to thin, fast-internalizing procedure is its commitment to the player's attention staying in the fiction. Dread needs attention on the procedure.
 
 ---
 
