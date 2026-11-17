@@ -4,7 +4,7 @@ _This essay is the third in the Fiction Engine limits sub-series. It follows "Po
 
 ## When Procedure Is the Experience
 
-The limits sub-series has been careful to distinguish between two kinds of mismatch. In the first, a fiction engine that attempts horror content still produces atmosphere, darkness, terrible events — it fails to produce dread because its continuation logic works against foreclosure, but something horror-adjacent can emerge. In the second, a fiction engine that attempts investigation still produces the texture and character relationships of inquiry — it fails at epistemic stakes, but the fiction can read like a mystery in feel if not in structure.
+The two previous chapters describe failures that still allow partial compensation: a fiction engine running horror content produces something horror-adjacent, and one running an investigation produces the texture of inquiry if not its structure.
 
 This essay is about a third kind, and the distinction is not subtle. The previous cases are failures that permit partial compensation. This one is a success that eliminates the target experience entirely.
 
@@ -44,7 +44,7 @@ Tension foregrounds the procedure throughout play. Ritual foregrounds it at sele
 
 This distinction matters for what a fiction engine can and cannot incorporate. A design below the transparency threshold can include moments of ritual procedure without abandoning the paradigm: a formal declaration before a significant action, a physical token placed on the table to mark a shift in the fiction's stakes, a specific verbal formula that changes what follows. The procedure steps forward, does its work, and recedes. The experience of the foregrounded moment is real — deliberately so — without requiring the continuous attentional presence that tension demands.
 
-The deduction phase in Hints and Hijinx is the sharpest available example. It runs above the threshold by design, but briefly and at a structurally marked moment. The four-designs essay identified this as the cost that may be correct: the seam is load-bearing, and the deliberateness of performing it is part of what the phase produces. A fiction engine designer who wants weighted moments has this option. The moments cannot be distributed across the session as continuous procedural management without the design ceasing to be a fiction engine in any functionally meaningful sense.
+The deduction phase in Hints and Hijinx is the sharpest example: above the threshold by design, but briefly and at a structurally marked moment. A fiction engine designer who wants weighted moments has this option. The moments cannot be spread across the session as continuous procedural management without the design ceasing to be a fiction engine in any meaningful sense.
 
 ## Resource Economies and the Felt-Cost Problem
 

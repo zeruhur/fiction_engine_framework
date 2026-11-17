@@ -36,8 +36,6 @@ None of these are failures of the rules. They are expressions of the logic. The 
 
 ## What This Sub-Series Is Doing
 
-The companion essays to this point have moved outward: from the framework's core commitments, to the transparency threshold that marks its boundary, to specific designs within and adjacent to the paradigm, to edge cases where the paradigm ends and adjacent territory begins. The systems thinking arc then moved inward, examining the structural mechanisms behind the paradigm's commitments.
-
 This sub-series moves in a different direction: toward the paradigm's limits as a logic, not as a position on a continuum.
 
 The transparency threshold is a measure of how much procedural mediation a design allows before the player's attention shifts from fiction to system. It describes where designs sit relative to each other on a single dimension. The limit question is different: not how much mediation, but what the mediation is for — what experiential assumption the logic is built around — and what happens to experiences that require a different assumption.

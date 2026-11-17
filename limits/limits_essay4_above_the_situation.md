@@ -4,11 +4,9 @@
 
 ## What Strategic Depth Requires and Why the Engine Refuses It
 
-The first three essays in this sub-series have described three mechanisms of mismatch. The fiction engine *inverts* dread's structural requirements: where dread needs foreclosure, the engine produces continuation. It is *structurally incompatible* with mystery: where investigation needs convergence toward a fixed answer, the engine produces open succession. It *actively prevents* procedural tension by succeeding at its own core commitment: where tension needs a visible, costly system, the engine makes the system disappear.
+Dread, mystery, and procedural tension all clash with what the fiction engine produces: continuation where dread needs foreclosure, open succession where mystery needs convergence, a vanishing system where tension needs a visible one.
 
-Each of those mismatches involves the fiction engine's outputs. What it produces — outcomes as continuations, procedures that recede, fiction that stays moving — is wrong for those experiences in different ways. The mismatch with strategic optimization is different in kind. It does not concern what the fiction engine produces. It concerns where the player is positioned relative to the fiction.
-
-A fiction engine embeds the player in the current situation. Strategic depth requires the player above it. The incompatibility is positional, and positional incompatibility cannot be addressed by revising procedures.
+The mismatch with strategic optimization is different in kind. It does not concern what the engine produces but where the player stands. A fiction engine embeds the player in the current situation. Strategic depth requires the player above it. The incompatibility is positional, and positional incompatibility cannot be addressed by revising procedures.
 
 ## The Positional Distinction
 

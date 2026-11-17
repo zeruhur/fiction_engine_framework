@@ -6,13 +6,31 @@ date: "May 2026"
 version: "1.0"
 ---
 
+```{=typst}
+#pagebreak(weak: true)
+#align(center + horizon)[#text(size: 14pt, weight: 600)[Part I] #v(0.6em) #text(size: 26pt, weight: 800)[The Framework]]
+#pagebreak()
+```
+
 {{< include foundation/fiction_engine_framework.md >}}
+
+```{=typst}
+#pagebreak(weak: true)
+#align(center + horizon)[#text(size: 14pt, weight: 600)[Part II] #v(0.6em) #text(size: 26pt, weight: 800)[Reading a Design]]
+#pagebreak()
+```
 
 {{< include analysis/transparency_threshold_essay.md >}}
 
 {{< include analysis/four_designs_one_framework.md >}}
 
 {{< include comparative/same_thinness_different_purposes.md >}}
+
+```{=typst}
+#pagebreak(weak: true)
+#align(center + horizon)[#text(size: 14pt, weight: 600)[Part III] #v(0.6em) #text(size: 26pt, weight: 800)[Why It Works]]
+#pagebreak()
+```
 
 {{< include system_thinking/fiction_and_memory.md >}}
 
@@ -22,7 +40,19 @@ version: "1.0"
 
 {{< include system_thinking/properties_behaviors.md >}}
 
+```{=typst}
+#pagebreak(weak: true)
+#align(center + horizon)[#text(size: 14pt, weight: 600)[Part IV] #v(0.6em) #text(size: 26pt, weight: 800)[One Player]]
+#pagebreak()
+```
+
 {{< include system_thinking/one_agent_one_loop.md >}}
+
+```{=typst}
+#pagebreak(weak: true)
+#align(center + horizon)[#text(size: 14pt, weight: 600)[Part V] #v(0.6em) #text(size: 26pt, weight: 800)[Where the Engine Stops]]
+#pagebreak()
+```
 
 {{< include limits/essay_limits_framing.md >}}
 

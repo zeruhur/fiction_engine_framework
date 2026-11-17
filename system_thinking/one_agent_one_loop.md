@@ -4,7 +4,7 @@ _This essay is part of the Fiction Engine companion essay series, following the 
 
 ## The Solo Fiction Engine as a Distinct Design Problem
 
-The solo dimension has appeared three times in this series without becoming its subject. The transparency threshold essay noted that the threshold is effectively lower for solo design because no facilitation distribution is available. The four-designs essay observed that three of its four designs are solo-capable and that Breathless's tracking load carries different costs in solo play than its group context suggests. The systems thinking arc established the feedback loop conditions that emergent fiction requires and noted, without developing the point, that those conditions change when there is only one player.
+Solo play has come up several times in the earlier chapters: the threshold is effectively lower without facilitation distribution, Breathless's tracking load costs more in solo play than its group context suggests, and the feedback loop conditions change when there is only one player.
 
 What has been deferred is this: solo fiction engine design is not group fiction engine design with one player. The structural conditions are different, not diminished. The feedback network has a different shape. The internalization problem has a different character. The contribution of accumulated fiction has a different source. Each of these differences produces specific design decisions that a theory of group fiction engine design cannot fully anticipate. This essay makes those differences precise.
 
@@ -66,15 +66,13 @@ This is a different design priority than oracle quality as the framework defines
 
 ## The Distinct Design Problem
 
-The three structural differences named above — the feedback loop with one agent, the internalization curve without assistance, the accumulated fiction with one generative source — produce a specific design profile for solo fiction engines. Stated plainly:
+The three structural differences produce a specific design profile for solo fiction engines:
 
-A solo fiction engine requires an oracle that functions as a second agent in the feedback loop. This is not optional in the way that oracles are optional in group play, where a referee can fill the role. In solo play, if nothing produces outputs independent of the player's intent, the conditions for emergent fiction are absent. The oracle is load-bearing at the structural level, not as a convenience feature.
+1. **An oracle that works as a second agent.** In group play a referee can fill the role; in solo play, if nothing produces outputs independent of the player's intent, the conditions for emergent fiction are absent. The oracle is load-bearing, not a convenience.
+2. **Fast-internalizing rules at the entry phase.** With no facilitation available, every moment spent managing procedure is a moment not spent attending to the fiction and to the oracle, which are the materials the loop needs. In solo play, procedural overhead is not only friction; it reduces the loop's operating conditions.
+3. **Oracles that generate lasting fictional facts.** The player supplies the expected side of the causal tissue; the oracle supplies the unexpected side. An oracle used only to resolve uncertainty builds a fiction that accumulates within the player's expectations. The tissue forms, but it does not surprise.
 
-A solo fiction engine requires fast-internalizing rules at the entry phase, because there is no facilitation available to smooth the learning curve. The threshold is effectively lower not because cognitive load is undistributed — though it is — but because the feedback loop conditions are more fragile with one agent. A solo player spending significant attention on procedural management is a player not attending to the fiction and not attending to oracle outputs. Both of those are the materials the feedback loop needs. Procedural overhead in solo play is not just friction. It is reduction of the loop's operating conditions.
-
-A solo fiction engine requires oracles designed to generate accumulated fictional facts, not only to resolve uncertainty in the moment. The player generates the player's contributions to the causal tissue. The oracle generates the unexpected side. A solo design that treats the oracle as a resolution tool rather than a generative agent is building a fiction that accumulates largely within the player's expectations. The causal tissue forms, but it does not surprise.
-
-None of these is a revision of the fiction engine paradigm's core commitments. All three follow directly from applying the systems thinking arc's arguments to the structural conditions solo play creates. The feedback loop argument explains why the oracle is load-bearing. The internalization argument explains why the entry threshold must be lower. The accumulated state argument explains why oracle generativity is more important than the framework's existing oracle guidance addresses.
+None of these revises the paradigm's core commitments. Each follows from applying the arguments of Part III to the conditions solo play creates.
 
 ## What This Means for How the Oracle Is Positioned
 
@@ -88,14 +86,6 @@ There is a practical consequence for how oracle systems are presented in solo de
 
 ## The Solo Fiction Engine as Its Own Object
 
-The series has applied the fiction engine framework to group designs, to specific games within and adjacent to the paradigm, to edge cases at the paradigm's boundary, and now to the structural conditions solo play creates. Each application has revealed something about the paradigm that the framework alone does not say.
+Solo fiction engine design is not a simplified version of group design, nor group design with an oracle in the referee's chair. A designer adapting a group fiction engine for solo play is changing its shape: the loop that ran between agents now runs between one player and an oracle, the curve that facilitation smoothed must be smoothed by the design, and the variety that several contributors brought must come from oracle generativity.
 
-This application reveals that solo fiction engine design is its own design problem. Not a simplified version of group design. Not group design with one player and an oracle substituted for a referee. A different configuration with different structural conditions that require deliberate design decisions at the level of the oracle, the learning curve, and the accumulation of fictional state.
-
-A designer adapting a group fiction engine for solo play is not reducing the design. They are changing its shape. The feedback loop that ran between agents must now run between one player and an oracle that is doing structural work the framework does not fully account for. The internalization curve that was smoothed by facilitation distribution must now be smoothed by the design itself. The accumulated fiction that was enriched by multiple agents' contributions must now be enriched by oracle generativity rather than group generation.
-
-Each of these is a design decision, and each requires knowing what it is for. A solo oracle designed as a second agent produces different design decisions than a solo oracle designed as a resolution tool. The distinction is not about which tables are included or how questions are phrased. It is about what the oracle is being asked to do in the feedback loop, and whether the design is built to let it do that work.
-
-The fiction engine framework offers a test for every rule: does this rule produce a new fictional state, support the conditions for fictional play, or generate dead overhead? In solo design, the oracle test is a version of this question applied to the mechanism that makes the paradigm's conditions possible for one player. Does this oracle produce independent fictional content that accumulates into the causal tissue? Does it close the feedback loop over material the player did not generate? Does it do this reliably enough to sustain the conditions for emergent play across a session, across sessions, across the arc of a campaign?
-
-A solo oracle that passes those tests is doing what a second agent does. A solo fiction engine built around such an oracle is building the conditions the paradigm requires, under the structural conditions solo play creates. That is the design problem precisely stated. The rest is design.
+The framework's test for every rule therefore has a solo form, applied to the mechanism that makes the paradigm's conditions possible for one player. Does this oracle produce independent fictional content that accumulates into the causal tissue? Does it close the loop over material the player did not generate? Does it do so reliably enough to sustain emergent play across a session, across sessions, across a campaign? An oracle that passes those tests is doing what a second agent does, and a design built around it is building the conditions the paradigm requires.
