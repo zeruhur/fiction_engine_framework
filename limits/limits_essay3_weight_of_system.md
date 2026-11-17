@@ -36,7 +36,7 @@ Foregrounded procedure takes more than one form, and separating them prevents a 
 
 Procedural tension requires continuous management of visible system state. The player is tracking, spending, and responding to procedural information throughout the session. The stress track is never fully background. The clock is always somewhere between empty and full. The player's attention to the procedure is not punctuated: it is sustained.
 
-Procedural ritual makes a moment weighty through deliberateness and formality at a specific structural point. The first pull of the Dread tower. The Ten Candles player's description of their character's death as the last candle goes out. The formal statement of a hypothesis before the deduction roll in Hints and Hijinx. Each of these requires the procedure to step into the foreground and be consciously performed. None requires the continuous, sustained attentional foreground that tension demands.
+Procedural ritual makes a moment weighty through deliberateness and formality at a specific structural point. The first pull of the Dread tower. The formal statement of a hypothesis before the deduction roll in Hints and Hijinx. Each of these requires the procedure to step into the foreground and be consciously performed. None requires the continuous, sustained attentional foreground that tension demands.
 
 Tension foregrounds the procedure throughout play. Ritual foregrounds it at selected moments to invest those moments with significance. Both sit above the transparency threshold. But ritual sits above it briefly, at specific structural punctuation points, rather than continuously.
 
