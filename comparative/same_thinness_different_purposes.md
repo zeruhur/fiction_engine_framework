@@ -78,14 +78,6 @@ This is where the distinction is most practically useful: not to adjudicate whic
 
 ## Two Traditions, One Solution, Different Problems
 
-The convergence at the procedural level is not a coincidence and not an error. Both traditions arrived at thinness because thinness solves a real problem: heavy procedure is an obstacle. They diagnosed the same problem and drew the same procedural conclusion. What differs is what the procedure was obstructing in each case.
+Both traditions arrived at thinness because heavy procedure is an obstacle. In OSR/FKR it stood between the player and the world, and removing it gave the world back its legibility as a problem space. In fiction engine design it stood between the player and the fiction's momentum, and removing it gave the fiction back its capacity to keep changing.
 
-In OSR/FKR, the procedure was getting between the player and the world. Removing it gave the world back its legibility as a coherent problem space. In fiction engine design, the procedure was getting between the player and the fiction's momentum. Removing it gave the fiction back its capacity to keep changing. The solution worked in both cases, for different reasons.
-
-A designer who knows which problem their thinness is solving can make deliberate decisions when the two traditions pull toward different rulings: when the world's logic suggests stopping and the fiction's momentum suggests continuing, when description serves as information-for-problem-solving versus information-as-fictional-state, when failure should close options versus open complications.
-
-These are not questions a design document can answer in advance for every situation. They are orientation questions — the kind that get answered in the moment of the ruling, and that get answered consistently only when the person making the ruling knows which tradition they are working inside.
-
-Knowing which problem your thinness is for is the beginning of knowing what to do with it.
-
-
+A designer who knows which problem their thinness solves can decide deliberately when the two pull apart: when the world's logic suggests stopping and the fiction's momentum suggests continuing, when description is information for solving a problem or the fictional state itself, when failure should close options or open complications. No design document can settle these in advance. They are settled in the moment of the ruling, and settled consistently only by someone who knows which tradition they are working inside.

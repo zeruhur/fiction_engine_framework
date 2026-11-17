@@ -468,7 +468,7 @@ const ESSAYS = [
         subtitle: 'A Design Framework for Tabletop RPGs',
         desc: 'The core document. Defines the paradigm, its structural commitments, failure modes, and design criteria.',
         num: '—',
-        arc: null
+        arc: 'framework'
     },
     {
         id: 'transparency-threshold',
@@ -494,8 +494,8 @@ const ESSAYS = [
         title: 'The Same Thinness, Different Purposes',
         subtitle: 'Why OSR/FKR and Fiction Engine Designs Converge Procedurally and Diverge Structurally',
         desc: 'Examines why two design families that look similar procedurally are doing fundamentally different things.',
-        num: '—',
-        arc: 'comparative'
+        num: '03',
+        arc: 'analysis'
     },
     {
         id: 'fiction-memory',
@@ -503,7 +503,7 @@ const ESSAYS = [
         title: 'Fiction and Memory',
         subtitle: 'The Structural Difference Between Accumulation and Reset',
         desc: 'Foundation essay for the systems arc. Examines how fiction accumulates or resets across time and what that implies for design.',
-        num: '03',
+        num: '04',
         arc: 'systems'
     },
     {
@@ -512,7 +512,7 @@ const ESSAYS = [
         title: 'The Emergence Condition',
         subtitle: 'Why Thin Mediation Enables What Thick Procedure Suppresses',
         desc: 'Argues that the fiction engine\'s structural thinness is the condition for emergence, not a concession to it.',
-        num: '04',
+        num: '05',
         arc: 'systems'
     },
     {
@@ -521,7 +521,7 @@ const ESSAYS = [
         title: 'The Threshold as Trajectory',
         subtitle: 'Designing a System That Changes Its Own Properties Through Use',
         desc: 'Application essay. Asks what it means for a game system to evolve through play itself.',
-        num: '05',
+        num: '06',
         arc: 'systems'
     },
     {
@@ -530,7 +530,7 @@ const ESSAYS = [
         title: 'Properties and Behaviors',
         subtitle: 'What the Fiction Engine Framework Gets Right, and What It Can\'t Say',
         desc: 'A self-critical examination of the framework\'s explanatory limits — what it captures and what escapes it.',
-        num: '06',
+        num: '07',
         arc: 'systems'
     },
     {
@@ -539,8 +539,8 @@ const ESSAYS = [
         title: 'One Agent, One Loop',
         subtitle: 'The Solo Fiction Engine as a Distinct Design Problem',
         desc: 'Examines what changes when the fiction engine runs with a single player and no referee.',
-        num: '07',
-        arc: 'systems'
+        num: '08',
+        arc: 'solo'
     },
     {
         id: 'limits-framing',
@@ -548,7 +548,7 @@ const ESSAYS = [
         title: 'What the Engine Is For',
         subtitle: 'On the Limits of the Fiction Engine Paradigm',
         desc: 'Opens the limits sub-series. Names the structural logic of the fiction engine and identifies the experiences it reshapes or forecloses.',
-        num: '—',
+        num: '09',
         arc: 'limits'
     },
     {
@@ -557,7 +557,7 @@ const ESSAYS = [
         title: 'Powerlessness',
         subtitle: 'The Experience the Engine Cannot Produce',
         desc: 'Examines why the fiction engine cannot produce dread — the sensation of narrowing agency — even when running horror content.',
-        num: '08',
+        num: '10',
         arc: 'limits'
     },
     {
@@ -566,7 +566,7 @@ const ESSAYS = [
         title: 'The Fixed Answer',
         subtitle: 'Convergence, Closure, and What Mystery Requires',
         desc: 'Examines why the fiction engine cannot produce mystery\'s epistemic structure: convergence toward an answer that exists independently of play.',
-        num: '09',
+        num: '11',
         arc: 'limits'
     },
     {
@@ -575,7 +575,7 @@ const ESSAYS = [
         title: 'The Weight of the System',
         subtitle: 'When Procedure Is the Experience',
         desc: 'Examines why a fiction engine that succeeds at its own goal makes procedural tension structurally impossible.',
-        num: '10',
+        num: '12',
         arc: 'limits'
     },
     {
@@ -584,7 +584,7 @@ const ESSAYS = [
         title: 'Above the Situation',
         subtitle: 'What Strategic Depth Requires and Why the Engine Refuses It',
         desc: 'Examines why strategic depth requires a positional relationship to the fiction that the fiction engine structurally refuses.',
-        num: '11',
+        num: '13',
         arc: 'limits'
     },
     {
@@ -593,7 +593,7 @@ const ESSAYS = [
         title: 'Building Into Nothing',
         subtitle: 'Character Construction and the Object Thin Procedure Dissolves',
         desc: 'Examines why the fiction engine dissolves character-as-system, the structural object that character construction as a primary engagement requires.',
-        num: '12',
+        num: '14',
         arc: 'limits'
     },
     {
@@ -608,10 +608,11 @@ const ESSAYS = [
 ];
 
 const ARC_LABELS = {
-    analysis:    'Analysis Arc',
-    comparative: 'Comparative',
-    systems:     'Systems Thinking Arc',
-    limits:      'Limits Arc',
+    framework:   'Part I. The Framework',
+    analysis:    'Part II. Reading a Design',
+    systems:     'Part III. Why It Works',
+    solo:        'Part IV. One Player',
+    limits:      'Part V. Where the Engine Stops',
     appendix:    'Appendix'
 };
 
@@ -623,10 +624,11 @@ function renderIndex() {
     document.title = 'Fiction Engine Framework';
     document.getElementById('back-slot').innerHTML = '';
 
-    const foundation   = ESSAYS.filter(e => !e.arc);
+    const handbook     = ESSAYS.filter(e => !e.arc);
+    const framework    = ESSAYS.filter(e => e.arc === 'framework');
     const analysis     = ESSAYS.filter(e => e.arc === 'analysis');
-    const comparative  = ESSAYS.filter(e => e.arc === 'comparative');
     const systems      = ESSAYS.filter(e => e.arc === 'systems');
+    const solo         = ESSAYS.filter(e => e.arc === 'solo');
     const limits       = ESSAYS.filter(e => e.arc === 'limits');
     const appendix     = ESSAYS.filter(e => e.arc === 'appendix');
 
@@ -677,7 +679,7 @@ function renderIndex() {
                 <img src="logo.svg" alt="Fiction Engine Framework logo" class="masthead-logo">
                 <h1>Fiction Engine<br>Framework</h1>
                 <p class="meta">Roberto Bisceglie &middot; Version 1.0 &middot; May 2026</p>
-                <p class="intro">A design framework for tabletop RPGs treating play as a system for producing, sustaining, and transforming fiction with minimal friction. One framework document, nine companion essays, and a glossary.</p>
+                <p class="intro">A design framework for tabletop RPGs treating play as a system for producing, sustaining, and transforming fiction with minimal friction. The framework, fourteen chapters in five parts, and a glossary.</p>
                 <div class="downloads">
                     <a class="download-link" href="downloads/fiction-engine-framework.pdf" download>Download <span class="dl-fmt">PDF</span></a>
                     <a class="download-link" href="downloads/fiction-engine-framework.epub" download>Download <span class="dl-fmt">EPUB</span></a>
@@ -686,10 +688,11 @@ function renderIndex() {
                 </div>
             </div>
 
-            ${arcSection('Foundation', foundation)}
+            ${arcSection('Handbook', handbook)}
+            ${arcSection(ARC_LABELS.framework, framework)}
             ${arcSection(ARC_LABELS.analysis, analysis)}
-            ${arcSection(ARC_LABELS.comparative, comparative)}
             ${arcSection(ARC_LABELS.systems, systems)}
+            ${arcSection(ARC_LABELS.solo, solo)}
             ${arcSection(ARC_LABELS.limits, limits)}
             ${arcSection(ARC_LABELS.appendix, appendix)}
         </div>`;

@@ -90,15 +90,14 @@ The design raises a question for the framework: can mystery investigation be ser
 
 ## What the Comparison Reveals
 
-Placing all four designs on the map the framework provides:
+Placed on the map the framework provides:
 
-*Freeform Universal* sits below the threshold, with a variable margin determined by how the table uses FU Points. Without FU Points the design is as clean a fiction engine as this comparison contains. With FU Points active, a light metacurrency foreground is introduced (manageable, fiction-oriented in its generation, but present). The design presents this as a dial rather than a fixed position, which is itself a design philosophy worth naming.
-
-*24XX* sits clearly below the threshold. Its procedural layer is thin enough to operate as background infrastructure almost immediately, and it achieves this partly by removing the FU Points economy entirely in favor of a pure risk-resolution cycle. It pays for this with minimal structural support and genre texture.
-
-*Breathless* sits just above the threshold by design. Its die degradation and reset mechanics are exemplary fiction engine design. Its stress track and combined tracking load produce the pressure engine experience the game is optimized for. The crossing is deliberate and serves the design's goals.
-
-*Hints and Hijinx* crosses the threshold at a specific structural moment, the transition to the deduction phase, because the mystery genre requires it. Below the threshold during investigation, above it during deduction. The crossing is architecturally contained rather than diffuse.
+| Design | Position | What puts it there |
+| --- | --- | --- |
+| *Freeform Universal* | Below the threshold, with a variable margin | FU Points add a light, fiction-generated metacurrency foreground; without them the design is as clean as any here. The margin is a dial, by design. |
+| *24XX* | Clearly below | A pure risk-resolution cycle with no FU Points economy, paid for with minimal structural support and genre texture. |
+| *Breathless* | Just above, by design | Die degradation and reset are fiction engine design; the stress track and combined tracking load produce the pressure the game wants. |
+| *Hints and Hijinx* | Crosses at one moment | Below the threshold during investigation, above it at deduction, because the genre requires it. The crossing is contained, not diffuse. |
 
 The genealogy reading adds something the paradigm reading alone cannot. *FU* arrives from the narrative indie tradition and establishes the fiction engine paradigm through fictional descriptors, fiction-driven outcomes, and an optional metacurrency. *24XX* arrives from a different direction entirely (OSR and FKR design values) and crosses into fiction engine territory by stripping mediation to its minimum in service of situational consequence. *Breathless* is a direct hack of *24XX*, taking its resolution core and adding a degradation economy that shifts the design toward pressure engine territory. *Hints and Hijinx* inherits that Breathless core and adds a clue economy on top, crossing the threshold at a specific structural moment. Three different genealogies, converging in the same design neighborhood while making meaningfully different choices about what stays and what goes.
 
@@ -108,15 +107,7 @@ The comparison also reveals something the framework states abstractly: fiction e
 
 ## The Solo Dimension
 
-Three of the four designs in this comparison are solo-capable; *Freeform Universal* is the exception, being designed for a group with a Narrator. This asymmetry is itself analytically useful.
-
-A solo player has no facilitation distribution available. In group play, an experienced referee absorbs procedural weight: holds the result table in mind, manages the fiction's continuity, smooths attentional transitions. Other players contribute to this distribution: someone at the table who understands the system intuitively can carry load that allows others to stay inside the fiction. None of this is available to a solo player. Every procedural step is the solo player's sole responsibility.
-
-This means the transparency threshold is effectively lower for solo design. A procedural foreground that a group of four distributes across multiple participants becomes a full cognitive load for one person. A tracking system that feels lightweight in a group game can feel heavy in solo play simply because there is no one to share it with.
-
-FU's group design context is worth noting here precisely because its descendants were often adapted for solo play. The FU Points economy, already a light metacurrency in group play, becomes a different kind of cognitive demand when managed alone. This is one reason why *24XX*, which removes that economy, handles solo play more cleanly than FU does without adaptation. *Breathless*'s combined tracking load is more significant in solo play than the design's group context might suggest; most of its 200+ derivatives are solo designs, which makes the stress track's overhead more consequential than it might appear. *Hints and Hijinx* partially solves the problem by concentrating its above-threshold mechanics in a single structural phase rather than distributing them across the whole session.
-
-The design question for solo fiction engines is whether the design is thin enough for one player to carry alone, without the experience becoming procedurally dominant. FU answers that question for groups. Its descendants answer it, differently, for one player at a time.
+Three of the four designs are solo-capable; *Freeform Universal*, built for a group with a Narrator, is the exception. The difference matters because a solo player carries every procedural step alone, so the same tracking load weighs more. *24XX*, without FU Points, handles solo play more cleanly than FU does unadapted. *Breathless* has spawned mostly solo derivatives, which makes its stress track costlier than its group context suggests. *Hints and Hijinx* contains the cost by concentrating its above-threshold mechanics in one phase. Part IV develops why solo design is a distinct problem.
 
 ## Conclusion: The Framework as a Diagnostic Tool
 
@@ -126,5 +117,5 @@ The evaluative lens does not produce rankings. *24XX* is not better than *Breath
 
 What the comparison reveals most clearly is that the fiction engine paradigm is a specific design commitment with specific costs, not a generic virtue that all good design shares. A design that stays below the transparency threshold accepts structural looseness, minimal genre texture, and limited pacing support in exchange for a fiction that remains primary throughout play. A design that crosses the threshold gains structural support, genre texture, and pacing economy, but at the cost of a procedural layer that demands the player's conscious attention.
 
-Knowing which side of the threshold your design inhabits, and why, is more useful than claiming a generic fiction-forward identity. The four designs in this comparison each know what they are. *Freeform Universal* knows it is a flexible, group-oriented fiction engine with an optional metacurrency dial. *24XX* knows it is the thinnest possible version of that core. *Breathless* knows it is a pressure engine built on fiction engine foundations. *Hints and Hijinx* knows it crosses the threshold at a specific moment because its genre requires it.
+Knowing which side of the threshold a design inhabits, and why, is more useful than claiming a generic fiction-forward identity. Each of the four designs makes that choice clearly, and each pays for it in a different currency.
 

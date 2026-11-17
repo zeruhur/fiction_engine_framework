@@ -36,8 +36,6 @@ Neither position is wrong. They produce different kinds of play. But they are ge
 
 With the threshold defined, it becomes possible to place different design paradigms relative to it, not as a ranking but as a map of where each paradigm's primary attention demands fall.
 
-*A note on what follows: if you are arriving at this essay through the Zotiquest newsletter article "Fiction Engines, Pressure Engines, and World Engines," the paradigm descriptions below will be familiar territory. Read them as anchors for the threshold argument rather than as new material. The placement of each paradigm relative to the threshold is the point, not the paradigm descriptions themselves. If you are arriving through the design framework, what follows is a brief map of the design landscape the framework sits inside.*
-
 **FU and Loner** sit clearly below the threshold. The procedure is: describe what you attempt, roll, interpret the result as a fictional outcome, continue. There is no classification step. There is no taxonomy of action types. The resolution procedure is thin enough to become habitual almost immediately, which means it operates in the background after very little play. The player's attention stays on the fiction because the rules do not require it elsewhere.
 
 **PbtA** sits at the threshold, and this is worth being precise about. PbtA games are fiction-first in their input structure: the fiction triggers mechanics rather than mechanics triggering fiction. That is an important design commitment. But the move structure introduces a procedural foreground at the moment of resolution. The player must identify which move applies, or whether any move applies, before the fiction can advance. That identification is a classification step, and it requires the player to hold the system's taxonomy in mind while reading the fiction. Experienced PbtA players internalize this quickly and the step becomes nearly invisible. But it is structurally always there, which is why PbtA sits at the threshold rather than clearly below it. Fiction-first in input. Procedurally mediated in output.
@@ -62,7 +60,7 @@ The second consequence is for how games are introduced. If the transparency thre
 
 This has a practical implication that goes beyond advice about running games. It suggests that the transparency threshold is a property of the design-in-use, not of the design alone. A fiction engine that is poorly introduced can feel procedurally heavy. A PbtA game that is masterfully run can feel nearly frictionless. The threshold is real, but it is not solely determined by the rules.
 
-The third consequence is for solo play specifically, and it is one the framework document acknowledges indirectly. A solo player has no external facilitator to absorb procedural weight. In group play, a skilled referee or experienced player can smooth the attentional transitions: can hold the taxonomy in mind so others do not have to, can manage the pressure economy in the background while other players stay in the fiction. In solo play, every procedural step is the player's responsibility, which means the threshold is effectively lower for solo design. A procedural foreground that a group can distribute becomes a full cognitive load for one person. This is one reason why fiction engine designs, with their thin procedural layers, are particularly well-suited to solo play: they minimize the load that the solo player has to carry alone.
+The third consequence is for solo play, where no one else at the table can absorb procedural weight. Part IV treats that case on its own terms.
 
 ## Load-Bearing Abstraction and Its Limits
 
@@ -78,17 +76,9 @@ Both questions matter. The fiction engine framework answers the first. The thres
 
 ## What Lives Above the Threshold
 
-The essay would be dishonest if it implied that fiction-transparency is the only legitimate design goal, or that everything above the threshold is a lesser achievement.
+Foregrounded procedure produces experiences a fiction engine cannot. Blades in the Dark gets the tension of managed risk from a pressure economy that is visible and actively managed; if the stress track became invisible infrastructure, spending stress would lose its weight. PbtA's moment of move identification sorts the fiction into meaning and produces dramatic rhythm; for players who want consistent dramatic coherence, that structure is the engine, not overhead. Fate's negotiation over aspects and fate points is a form of collaborative authorship that cannot happen without the metacurrency layer; thin mediation would not make a better Fate, only a different game.
 
-Foregrounded procedure produces experiences that a fiction engine cannot. Blades in the Dark generates the tension of managed risk, calibrated expenditure, and strategic decision-making under pressure, a tension that emerges precisely because the pressure economy is visible and actively managed. If the stress track became invisible infrastructure, the experience of spending stress would lose its weight. The foreground is the point.
-
-PbtA's move structure produces dramatic rhythm. The moment of move identification is the moment where the fiction is sorted into meaning, where the game says: this is the kind of thing that is happening, and here is what that kind of thing costs and produces. That sorting is a form of interpretation, and the game performs it structurally rather than leaving it entirely to the table. For players who want consistent dramatic coherence, that structure is not overhead. It is the engine.
-
-Fate produces authorial satisfaction. The explicit negotiation over aspects and fate points is a form of collaborative dramatic authorship that cannot happen without the metacurrency layer. Removing it in favor of thin mediation would not produce a better Fate. It would produce a different game that no longer does what Fate is trying to do.
-
-These are genuine design achievements. The transparency threshold marks a boundary, not a hierarchy. Below the threshold, fiction engines produce a specific kind of play: responsive, situational, lightly framed, with the mechanics receding into the background and the fiction remaining primary. Above the threshold, other paradigms produce other kinds of play: structured, rhythmic, pressurized, explicitly authored. Neither set of properties is superior. They serve different aims, appeal to different players, and reward different kinds of engagement.
-
-What matters is knowing which side of the threshold your design inhabits, and inhabiting it deliberately.
+The threshold marks a boundary, not a hierarchy. Below it, fiction engines produce responsive, situational, lightly framed play in which the mechanics recede. Above it, other paradigms produce structured, rhythmic, pressurized, or explicitly authored play. What matters is knowing which side a design inhabits, and inhabiting it deliberately.
 
 ## The Threshold as a Design Decision
 
